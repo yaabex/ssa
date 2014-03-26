@@ -9,11 +9,7 @@
    -->
   
   <!-- Compiler options -->
-  
-  <property name="compiler.debug" value="on"/>
-  <property name="compiler.generate.no.warnings" value="off"/>
   <property name="compiler.args" value=""/>
-  <property name="compiler.max.memory" value="128m"/>
   <patternset id="ignored.files">
     <exclude name="**/CVS/**"/>
     <exclude name="**/SCCS/**"/>
@@ -64,18 +60,6 @@
       <patternset refid="library.patterns"/>
     </fileset>
   </path>
-  <!-- Register Custom Compiler Taskdefs -->
-  <property name="javac2.home" value="${idea.home}/lib"/>
-  <path id="javac2.classpath">
-    <pathelement location="${javac2.home}/javac2.jar"/>
-    <pathelement location="${javac2.home}/jdom.jar"/>
-    <pathelement location="${javac2.home}/asm4-all.jar"/>
-    <pathelement location="${javac2.home}/jgoodies-forms.jar"/>
-  </path>
-  <target name="register.custom.compilers">
-    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
-    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
-  </target>
   
   <!-- Modules -->
   
@@ -83,10 +67,9 @@
   <!-- Module Script-SubtitleAlignment -->
   
   <dirname property="module.script-subtitlealignment.basedir" file="${ant.file}"/>
-  
-  
-  
-  <property name="compiler.args.script-subtitlealignment" value="-encoding ISO-8859-1 -source 1.7 ${compiler.args}"/>
+
+
+  <property name="compiler.args.script-subtitlealignment" value="${compiler.args}"/>
   
   <property name="script-subtitlealignment.output.dir" value="${module.script-subtitlealignment.basedir}/out/production/Script-SubtitleAlignment"/>
   <property name="script-subtitlealignment.testoutput.dir" value="${module.script-subtitlealignment.basedir}/out/test/Script-SubtitleAlignment"/>
@@ -133,15 +116,15 @@
   
   <target name="compile.module.script-subtitlealignment" depends="compile.module.script-subtitlealignment.production,compile.module.script-subtitlealignment.tests" description="Compile module Script-SubtitleAlignment"/>
   
-  <target name="compile.module.script-subtitlealignment.production" depends="register.custom.compilers" description="Compile module Script-SubtitleAlignment; production classes">
+  <target name="compile.module.script-subtitlealignment.production" description="Compile module Script-SubtitleAlignment; production classes">
     <mkdir dir="${script-subtitlealignment.output.dir}"/>
-    <javac2 destdir="${script-subtitlealignment.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true">
+    <javac destdir="${script-subtitlealignment.output.dir}" fork="true">
       <compilerarg line="${compiler.args.script-subtitlealignment}"/>
       <bootclasspath refid="script-subtitlealignment.module.bootclasspath"/>
       <classpath refid="script-subtitlealignment.module.production.classpath"/>
       <src refid="script-subtitlealignment.module.sourcepath"/>
       <patternset refid="excluded.from.compilation.script-subtitlealignment"/>
-    </javac2>
+    </javac>
     
     <copy todir="${script-subtitlealignment.output.dir}">
       <fileset dir="${module.script-subtitlealignment.basedir}/src">
@@ -151,7 +134,7 @@
     </copy>
   </target>
   
-  <target name="compile.module.script-subtitlealignment.tests" depends="register.custom.compilers,compile.module.script-subtitlealignment.production" description="compile module Script-SubtitleAlignment; test classes" unless="skip.tests"/>
+  <target name="compile.module.script-subtitlealignment.tests" depends="compile.module.script-subtitlealignment.production" description="compile module Script-SubtitleAlignment; test classes" unless="skip.tests"/>
   
   <target name="clean.module.script-subtitlealignment" description="cleanup module">
     <delete dir="${script-subtitlealignment.output.dir}"/>
