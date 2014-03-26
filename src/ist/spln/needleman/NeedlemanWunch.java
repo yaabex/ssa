@@ -75,8 +75,6 @@ public class NeedlemanWunch {
                 j--;
             }
 		}
-		System.out.println(newS1.toString());
-		System.out.println(newS2.toString());
 	}
 
 	private void printMatrix(Val[][] needleman) {

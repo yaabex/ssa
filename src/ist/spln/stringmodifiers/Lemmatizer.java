@@ -24,7 +24,10 @@ public class Lemmatizer {
                 for (CoreLabel token : sentences.get(0).get(CoreAnnotations.TokensAnnotation.class)) {
                     String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
                     String word = token.get(CoreAnnotations.TextAnnotation.class);
-                    valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(word, i));
+                    if (lemma.length() == 1 && !Character.isLetterOrDigit(lemma.charAt(0))) {
+                        continue;
+                    }
+                    valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(lemma, i));
                 }
             }
         }
