@@ -32,7 +32,7 @@
   
   <target name="compile" depends="prepare" description="Compiles the source code" >
 	<javac srcdir="${src.dir}" destdir="${build.dir}" classpathref="project.classpath"
-	       target="1.7" debug="on" includeantruntime="false"/>
+           source="1.7" target="1.7" debug="on" includeantruntime="false"/>
   </target>
 	
   <target name="create-jar" depends="clean,compile" description="Generates the jar with the project classes">
