@@ -39,7 +39,7 @@
 	<jar destfile="${jar.filename}" basedir="${build.dir}">
 		<!--fileset dir="." includes="resources/** results/** config/** lib/*"/-->
 		<manifest>
-			<attribute name="Main-Class" value="l2f.ClassifierApp"/>
+			<attribute name="Main-Class" value="ist.spln.Main"/>
 			<attribute name="Class-Path" value=". ${lib.list} ${properties.list}"/>
 		</manifest>
   	</jar>
