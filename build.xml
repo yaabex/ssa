@@ -9,11 +9,7 @@
    -->
   
   <!-- Compiler options -->
-  
-  <property name="compiler.debug" value="on"/>
-  <property name="compiler.generate.no.warnings" value="off"/>
   <property name="compiler.args" value=""/>
-  <property name="compiler.max.memory" value="128m"/>
   <patternset id="ignored.files">
     <exclude name="**/CVS/**"/>
     <exclude name="**/SCCS/**"/>
@@ -71,10 +67,9 @@
   <!-- Module Script-SubtitleAlignment -->
   
   <dirname property="module.script-subtitlealignment.basedir" file="${ant.file}"/>
-  
-  
-  
-  <property name="compiler.args.script-subtitlealignment" value="-encoding ISO-8859-1 -source 1.7 ${compiler.args}"/>
+
+
+  <property name="compiler.args.script-subtitlealignment" value="${compiler.args}"/>
   
   <property name="script-subtitlealignment.output.dir" value="${module.script-subtitlealignment.basedir}/out/production/Script-SubtitleAlignment"/>
   <property name="script-subtitlealignment.testoutput.dir" value="${module.script-subtitlealignment.basedir}/out/test/Script-SubtitleAlignment"/>
