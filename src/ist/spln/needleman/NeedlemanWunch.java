@@ -57,11 +57,14 @@ public class NeedlemanWunch {
 	}
 
 	private void calcOptimalAlignment(Val[][] needleman, NeedlemanArrayValueObject[] sequence1, NeedlemanArrayValueObject[] sequence2) {
+        int matches = 0;
+        int total = 0;
 		int i = sequence1.length;
 		int j = sequence2.length;
 		String newS1 = new String();
 		String newS2 = new String();
 		while (!(i == 0 && j == 0)) {
+            total++;
 			Dir dir = needleman[i][j].getDir();
 			String[] strings = dir.getStrings(sequence1, sequence2, i-1, j-1);
 			newS1 += strings[0] + " ";
@@ -73,9 +76,11 @@ public class NeedlemanWunch {
             } else if(dir.isCorner()) {
                 i--;
                 j--;
+                matches++;
             }
 		}
-	}
+        System.out.println("Matches/Total = " + matches/(float)total);
+    }
 
 	private void printMatrix(Val[][] needleman) {
 		for(int i = 0; i < needleman.length; i++) {
