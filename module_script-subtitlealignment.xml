@@ -2,10 +2,6 @@
 <project name="module_script-subtitlealignment" default="compile.module.script-subtitlealignment">
   <dirname property="module.script-subtitlealignment.basedir" file="${ant.file.module_script-subtitlealignment}"/>
   
-  <property name="module.jdk.home.script-subtitlealignment" value="${project.jdk.home}"/>
-  <property name="module.jdk.bin.script-subtitlealignment" value="${project.jdk.bin}"/>
-  <property name="module.jdk.classpath.script-subtitlealignment" value="${project.jdk.classpath}"/>
-  
   <property name="compiler.args.script-subtitlealignment" value="-encoding ISO-8859-1 -source 1.7 ${compiler.args}"/>
   
   <property name="script-subtitlealignment.output.dir" value="${module.script-subtitlealignment.basedir}/out/production/Script-SubtitleAlignment"/>
@@ -16,7 +12,6 @@
   </path>
   
   <path id="script-subtitlealignment.module.production.classpath">
-    <path refid="${module.jdk.classpath.script-subtitlealignment}"/>
     <path refid="library.stanford-corenlp-full-2014-01-04.classpath"/>
   </path>
   
@@ -26,7 +21,6 @@
   </path>
   
   <path id="script-subtitlealignment.module.classpath">
-    <path refid="${module.jdk.classpath.script-subtitlealignment}"/>
     <pathelement location="${script-subtitlealignment.output.dir}"/>
     <path refid="library.stanford-corenlp-full-2014-01-04.classpath"/>
   </path>
@@ -57,7 +51,7 @@
   
   <target name="compile.module.script-subtitlealignment.production" description="Compile module Script-SubtitleAlignment; production classes">
     <mkdir dir="${script-subtitlealignment.output.dir}"/>
-    <javac destdir="${script-subtitlealignment.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.script-subtitlealignment}/javac">
+    <javac destdir="${script-subtitlealignment.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true">
       <compilerarg line="${compiler.args.script-subtitlealignment}"/>
       <bootclasspath refid="script-subtitlealignment.module.bootclasspath"/>
       <classpath refid="script-subtitlealignment.module.production.classpath"/>
