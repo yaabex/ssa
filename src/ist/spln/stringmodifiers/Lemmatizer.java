@@ -21,7 +21,7 @@ public class Lemmatizer {
             for (CoreMap sentence : sentences) {
                 // traversing the words in the current sentence
                 // a CoreLabel is a CoreMap with additional token-specific methods
-                for (CoreLabel token : sentences.get(0).get(CoreAnnotations.TokensAnnotation.class)) {
+                for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                     String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
                     String word = token.get(CoreAnnotations.TextAnnotation.class);
                     if (lemma.length() == 1 && !Character.isLetterOrDigit(lemma.charAt(0))) {
