@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_script-subtitlealignment" default="compile.module.script-subtitlealignment">
+  <dirname property="module.script-subtitlealignment.basedir" file="${ant.file.module_script-subtitlealignment}"/>
+  
+  <property name="module.jdk.home.script-subtitlealignment" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.script-subtitlealignment" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.script-subtitlealignment" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.script-subtitlealignment" value="-encoding ISO-8859-1 -source 1.7 ${compiler.args}"/>
+  
+  <property name="script-subtitlealignment.output.dir" value="${module.script-subtitlealignment.basedir}/out/production/Script-SubtitleAlignment"/>
+  <property name="script-subtitlealignment.testoutput.dir" value="${module.script-subtitlealignment.basedir}/out/test/Script-SubtitleAlignment"/>
+  
+  <path id="script-subtitlealignment.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="script-subtitlealignment.module.production.classpath">
+    <path refid="${module.jdk.classpath.script-subtitlealignment}"/>
+    <path refid="library.stanford-corenlp-full-2014-01-04.classpath"/>
+  </path>
+  
+  <path id="script-subtitlealignment.runtime.production.module.classpath">
+    <pathelement location="${script-subtitlealignment.output.dir}"/>
+    <path refid="library.stanford-corenlp-full-2014-01-04.classpath"/>
+  </path>
+  
+  <path id="script-subtitlealignment.module.classpath">
+    <path refid="${module.jdk.classpath.script-subtitlealignment}"/>
+    <pathelement location="${script-subtitlealignment.output.dir}"/>
+    <path refid="library.stanford-corenlp-full-2014-01-04.classpath"/>
+  </path>
+  
+  <path id="script-subtitlealignment.runtime.module.classpath">
+    <pathelement location="${script-subtitlealignment.testoutput.dir}"/>
+    <pathelement location="${script-subtitlealignment.output.dir}"/>
+    <path refid="library.stanford-corenlp-full-2014-01-04.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.script-subtitlealignment">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.script-subtitlealignment">
+    <patternset refid="excluded.from.module.script-subtitlealignment"/>
+  </patternset>
+  
+  <path id="script-subtitlealignment.module.sourcepath">
+    <dirset dir="${module.script-subtitlealignment.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.script-subtitlealignment" depends="compile.module.script-subtitlealignment.production,compile.module.script-subtitlealignment.tests" description="Compile module Script-SubtitleAlignment"/>
+  
+  <target name="compile.module.script-subtitlealignment.production" description="Compile module Script-SubtitleAlignment; production classes">
+    <mkdir dir="${script-subtitlealignment.output.dir}"/>
+    <javac destdir="${script-subtitlealignment.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.script-subtitlealignment}/javac">
+      <compilerarg line="${compiler.args.script-subtitlealignment}"/>
+      <bootclasspath refid="script-subtitlealignment.module.bootclasspath"/>
+      <classpath refid="script-subtitlealignment.module.production.classpath"/>
+      <src refid="script-subtitlealignment.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.script-subtitlealignment"/>
+    </javac>
+    
+    <copy todir="${script-subtitlealignment.output.dir}">
+      <fileset dir="${module.script-subtitlealignment.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.script-subtitlealignment.tests" depends="compile.module.script-subtitlealignment.production" description="compile module Script-SubtitleAlignment; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.script-subtitlealignment" description="cleanup module">
+    <delete dir="${script-subtitlealignment.output.dir}"/>
+    <delete dir="${script-subtitlealignment.testoutput.dir}"/>
+  </target>
+</project>
