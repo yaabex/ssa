@@ -4,6 +4,7 @@ import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.util.CoreMap;
 import ist.spln.Main;
+import ist.spln.needleman.valueobject.NeedlemanArrayValueObject;
 import ist.spln.needleman.valueobject.NeedlemanArrayValueObjectWithMoreInfo;
 import ist.spln.textanalysis.TextAnalyzer;
 
@@ -12,11 +13,11 @@ import java.util.List;
 
 public class Lemmatizer {
 
-    public NeedlemanArrayValueObjectWithMoreInfo[] modify(List<String> text) { //should not have needleman stuff, but its faster this way... i think...
+    public NeedlemanArrayValueObject[] modify(List<String> text) { //should not have needleman stuff, but its faster this way... i think...
         TextAnalyzer textAnalyzer = new TextAnalyzer(Main.ANALYZER_PROPERTIES);
 
-        List<NeedlemanArrayValueObjectWithMoreInfo> valueObjects = new ArrayList<>();
-        for (int i = 0; i < text.size(); i++) {
+        List<NeedlemanArrayValueObject> valueObjects = new ArrayList<>();
+        /*for (int i = 0; i < text.size(); i++) {
             List<CoreMap> sentences = textAnalyzer.analyze(text.get(i));
             for (CoreMap sentence : sentences) {
                 // traversing the words in the current sentence
@@ -30,8 +31,14 @@ public class Lemmatizer {
                     valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(lemma, i));
                 }
             }
+        }*/
+        for (String s : text) {
+            String[] strings = s.split("\\s+");
+            for (String s1 : strings) {
+                valueObjects.add(new NeedlemanArrayValueObject(s1));
+            }
         }
-        NeedlemanArrayValueObjectWithMoreInfo[] valueObjectsArray = new NeedlemanArrayValueObjectWithMoreInfo[valueObjects.size()];
+        NeedlemanArrayValueObject[] valueObjectsArray = new NeedlemanArrayValueObject[valueObjects.size()];
         return valueObjects.toArray(valueObjectsArray);
     }
 }
