@@ -61,22 +61,17 @@ public class NeedlemanWunch {
         int total = 0;
 		int i = sequence1.length;
 		int j = sequence2.length;
-		String newS1 = new String();
-		String newS2 = new String();
 		while (!(i == 0 && j == 0)) {
             total++;
 			Dir dir = needleman[i][j].getDir();
-			String[] strings = dir.getStrings(sequence1, sequence2, i-1, j-1);
-			newS1 += strings[0] + " ";
-			newS2 += strings[1] + " ";
-            if(dir.isUp()) {
-                i--;
-            } else if(dir.isLeft()) {
-                j--;
-            } else if(dir.isCorner()) {
+            if(dir.isCorner()) {
                 i--;
                 j--;
                 matches++;
+            } else if(dir.isLeft()) {
+                j--;
+            } else if(dir.isUp()) {
+                i--;
             }
 		}
         System.out.println("Matches/Total = " + matches/(float)total);
