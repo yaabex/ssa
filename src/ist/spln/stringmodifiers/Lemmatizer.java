@@ -23,7 +23,8 @@ public class Lemmatizer {
                 // a CoreLabel is a CoreMap with additional token-specific methods
                 for (CoreLabel token : sentences.get(0).get(CoreAnnotations.TokensAnnotation.class)) {
                     String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
-                    valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(lemma, i));
+                    String word = token.get(CoreAnnotations.TextAnnotation.class);
+                    valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(word, i));
                 }
             }
         }
