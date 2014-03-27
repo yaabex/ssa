@@ -17,17 +17,17 @@ public class Lemmatizer {
 
         List<NeedlemanArrayValueObjectWithMoreInfo> valueObjects = new ArrayList<>();
         for (int i = 0; i < text.size(); i++) {
-            List<CoreMap> sentences = textAnalyzer.analyze(text.get(i));
+            List<CoreMap> sentences = textAnalyzer.analyze(text.get(i));//Optimal score: -1805     Matches/Total = 0.92081535
             for (CoreMap sentence : sentences) {
                 // traversing the words in the current sentence
                 // a CoreLabel is a CoreMap with additional token-specific methods
                 for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                     String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
                     String word = token.get(CoreAnnotations.TextAnnotation.class);
-                    if (word.length() == 1 && !Character.isLetterOrDigit(word.charAt(0))) {
+                    if (lemma.length() == 1 && !Character.isLetterOrDigit(lemma.charAt(0))) {
                         continue;
                     }
-                    valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(word, i));
+                    valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(lemma, i));
                 }
             }
         }

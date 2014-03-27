@@ -22,8 +22,6 @@ public class Main {
         }
         Lemmatizer lemmatizer = new Lemmatizer();
         NeedlemanWunch needlemanWunch = new NeedlemanWunch();
-        System.out.println(lemmatizer.modify(scriptReader.getTextList()).length);
-        System.out.println(lemmatizer.modify(subtitleReader.getTextList()).length);
         needlemanWunch.run(lemmatizer.modify(scriptReader.getTextList()), lemmatizer.modify(subtitleReader.getTextList()));
     }
 }
