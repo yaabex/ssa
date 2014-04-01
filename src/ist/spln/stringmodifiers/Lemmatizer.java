@@ -20,14 +20,13 @@ public class Lemmatizer {
     public NeedlemanArrayValueObjectWithMoreInfo[] modify(List<String> text) { //should not have needleman stuff, but its faster this way... i think...
         List<NeedlemanArrayValueObjectWithMoreInfo> valueObjects = new ArrayList<>();
         for (int i = 0; i < text.size(); i++) {
-            List<CoreMap> sentences = this.textAnalyzer.analyze(text.get(i));//Optimal score: -1805     Matches/Total = 0.92081535
+            List<CoreMap> sentences = this.textAnalyzer.analyze(text.get(i));
             for (CoreMap sentence : sentences) {
                 // traversing the words in the current sentence
                 // a CoreLabel is a CoreMap with additional token-specific methods
                 for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                     String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
-                    String word = token.get(CoreAnnotations.TextAnnotation.class);
-                    if (!lemma.matches("[\\p{L}]+")) { //\p{L} = any letter
+                    if (!lemma.matches(".*[\\p{L}].*")) { //\p{L} = any letter
                         continue;
                     }
                     valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(lemma, i));

@@ -42,12 +42,14 @@ public class SimpleSubtitleReader implements Reader {
                 while (scanner.hasNext() && line.trim().isEmpty()) {
                     scanner.nextLine();
                 }
+                String utterance = "";
                 //while it is not a blank line
                 while (scanner.hasNext() && !(line = scanner.nextLine()).trim().isEmpty()) {
-                    System.out.println(line);
-                    textList.add(line);
-                    subtitleLines.add(new SubtitleLine(line, new TimeInfo(startTime, endTime)));
+                    utterance += line + " ";
                 }
+                System.out.println(utterance);
+                textList.add(utterance.trim());
+                subtitleLines.add(new SubtitleLine(utterance.trim(), new TimeInfo(startTime, endTime)));
             }
         }
         this.textList = textList;
