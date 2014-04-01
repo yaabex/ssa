@@ -16,6 +16,7 @@ import java.util.Scanner;
 public class SimpleSubtitleReader implements Reader {
     private String subtitleLocation;
     private List textList;
+    private List<SubtitleLine> subtitleLines;
 
     public SimpleSubtitleReader() {
         XmlParser xmlParser = new XmlParser();
@@ -26,15 +27,18 @@ public class SimpleSubtitleReader implements Reader {
     @Override
     public void read() throws IOException {
         List<String> textList = new ArrayList<>();
-        Charset encoding = StandardCharsets.UTF_8;
-        Path path = Paths.get(subtitleLocation);
+        List<SubtitleLine> subtitleLines = new ArrayList<>();
+        Charset encoding = Charset.defaultCharset();
+        Path path = Paths.get(this.subtitleLocation);
         try (Scanner scanner = new Scanner(path, encoding.name())) {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 if (line.trim().isEmpty()) {
                     continue;
                 }
-                scanner.nextLine();
+                String[] times = scanner.nextLine().split("-->");
+                String startTime = times[0];
+                String endTime = times[1];
                 while (scanner.hasNext() && line.trim().isEmpty()) {
                     scanner.nextLine();
                 }
@@ -42,14 +46,20 @@ public class SimpleSubtitleReader implements Reader {
                 while (scanner.hasNext() && !(line = scanner.nextLine()).trim().isEmpty()) {
                     System.out.println(line);
                     textList.add(line);
+                    subtitleLines.add(new SubtitleLine(line, new TimeInfo(startTime, endTime)));
                 }
             }
         }
         this.textList = textList;
+        this.subtitleLines = subtitleLines;
     }
 
     @Override
     public List getTextList() {
         return textList;
+    }
+
+    public List<SubtitleLine> getSubtitleLines() {
+        return subtitleLines;
     }
 }

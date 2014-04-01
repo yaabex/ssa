@@ -1,4 +1,4 @@
 <config>
-    <subLocation>./src/ist/spln/sub.srt</subLocation>
-    <scriptLocation>./src/ist/spln/script.txt</scriptLocation>
+    <subLocation>./data/sub.srt</subLocation>
+    <scriptLocation>./data/script.txt</scriptLocation>
 </config>

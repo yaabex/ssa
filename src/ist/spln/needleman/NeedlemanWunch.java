@@ -2,12 +2,17 @@ package ist.spln.needleman;
 
 import ist.spln.needleman.valueobject.NeedlemanArrayValueObject;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
 public class NeedlemanWunch {
     private final static int GAP = 1;
     private final static int MATCH = -1;
     private final static int MISMATCH = 1;
 
-	public void run(NeedlemanArrayValueObject[] sequence1, NeedlemanArrayValueObject[] sequence2) {
+	public List<ValueObjectPair> run(NeedlemanArrayValueObject[] sequence1, NeedlemanArrayValueObject[] sequence2) {
 		
 		Val[][] needleman = new Val[sequence1.length+1][sequence2.length+1];
 		needleman[0][0] = new Val(0, new Dir(false, false, true));
@@ -46,7 +51,7 @@ public class NeedlemanWunch {
 		}
 		
 		System.out.println("Optimal score: " + needleman[sequence1.length][sequence2.length].getValue());
-		calcOptimalAlignment(needleman, sequence1, sequence2);
+		return returnOptimalAlignment(needleman, sequence1, sequence2);
 	}
 
 	private int calcMatch(NeedlemanArrayValueObject value1, NeedlemanArrayValueObject value2) {
@@ -56,12 +61,14 @@ public class NeedlemanWunch {
 		return MISMATCH;
 	}
 
-	private void calcOptimalAlignment(Val[][] needleman, NeedlemanArrayValueObject[] sequence1, NeedlemanArrayValueObject[] sequence2) {
+	private List<ValueObjectPair> returnOptimalAlignment(Val[][] needleman, NeedlemanArrayValueObject[] sequence1, NeedlemanArrayValueObject[] sequence2) {
         int matches = 0;
         int total = 0;
 		int i = sequence1.length;
 		int j = sequence2.length;
+        List<ValueObjectPair> valueObjects = new LinkedList<>();
 		while (!(i == 0 && j == 0)) {
+            valueObjects.add(new ValueObjectPair((i != 0) ? sequence1[i-1] : null, (j != 0) ? sequence2[j-1] : null));
             total++;
 			Dir dir = needleman[i][j].getDir();
             if(dir.isCorner()) {
@@ -75,6 +82,8 @@ public class NeedlemanWunch {
             }
 		}
         System.out.println("Matches/Total = " + matches/(float)total);
+        Collections.reverse(valueObjects);
+        return valueObjects;
     }
 
 	private void printMatrix(Val[][] needleman) {
