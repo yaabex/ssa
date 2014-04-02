@@ -55,7 +55,7 @@ public class NeedlemanWunch {
 	}
 
 	private int calcMatch(NeedlemanArrayValueObject value1, NeedlemanArrayValueObject value2) {
-		if(value1.equals(value2)) {
+		if(value1.isEquivalentTo(value2)) {
 			return MATCH;
 		}
 		return MISMATCH;
@@ -66,12 +66,12 @@ public class NeedlemanWunch {
         int total = 0;
 		int i = sequence1.length;
 		int j = sequence2.length;
-        List<ValueObjectPair> valueObjects = new LinkedList<>();
+        List<ValueObjectPair> valueObjects = new ArrayList<>();
 		while (!(i == 0 && j == 0)) {
-            valueObjects.add(new ValueObjectPair((i != 0) ? sequence1[i-1] : null, (j != 0) ? sequence2[j-1] : null));
             total++;
-			Dir dir = needleman[i][j].getDir();
+            Dir dir = needleman[i][j].getDir();
             if(dir.isCorner()) {
+                valueObjects.add(new ValueObjectPair((i != 0) ? sequence1[i-1] : null, (j != 0) ? sequence2[j-1] : null));
                 i--;
                 j--;
                 matches++;

@@ -1,5 +1,7 @@
 package ist.spln.needleman.valueobject;
 
+import ist.spln.stringmodifiers.SimpleNormalizer;
+
 public class NeedlemanArrayValueObject {
     private String string;
 
@@ -11,16 +13,9 @@ public class NeedlemanArrayValueObject {
         return string;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        NeedlemanArrayValueObject that = (NeedlemanArrayValueObject) o;
-
-        if (string != null ? !string.equals(that.string) : that.string != null) return false;
-
-        return true;
+    public boolean isEquivalentTo(NeedlemanArrayValueObject valueObject) {
+        SimpleNormalizer normalizer = new SimpleNormalizer();
+        return normalizer.normPunctLCaseDMarks(this.string).equals(normalizer.normPunctLCaseDMarks(valueObject.getString()));
     }
 
     @Override

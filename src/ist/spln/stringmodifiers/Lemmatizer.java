@@ -26,7 +26,7 @@ public class Lemmatizer {
                 // a CoreLabel is a CoreMap with additional token-specific methods
                 for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                     String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
-                    if (!lemma.matches(".*[\\p{L}].*")) { //\p{L} = any letter
+                    if (!lemma.matches(".*\\p{L}.*")) { //\p{L} = any letter
                         continue;
                     }
                     valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(lemma, i));

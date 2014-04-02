@@ -1,25 +1,25 @@
 package ist.spln.readers.script;
 
-import ist.spln.readers.subtitle.TimeInfo;
-
 public class ScriptLine {
     private String line;
     private int lineNumber;
+    private String characterName;
 
-    public ScriptLine(String line, int lineNumber) {
+    public ScriptLine(String line, int lineNumber, String characterName) {
         this.line = line;
         this.lineNumber = lineNumber;
+        this.characterName = characterName;
     }
 
     public String getLine() {
         return line;
     }
 
-    public void addTimeInfoToLine(TimeInfo timeInfo) {
-        this.line = timeInfo.getStartTime() + this.line + timeInfo.getEndTime();
-    }
-
     public int getLineNumber() {
         return lineNumber;
+    }
+
+    public String getCharacterName() {
+        return characterName;
     }
 }

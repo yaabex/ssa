@@ -34,6 +34,7 @@ public class SimpleScriptReader implements Reader {
             boolean previousLineIsEmpty = false;
             boolean dialogue = false;
             String wholeLine = "";
+            String characterName = "";
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 if(line.trim().isEmpty()) {
@@ -43,7 +44,7 @@ public class SimpleScriptReader implements Reader {
                         String trimmedWholeLine = wholeLine.trim();
                         wholeScript.add(trimmedWholeLine);
                         textList.add(trimmedWholeLine);
-                        scriptLines.add(new ScriptLine(trimmedWholeLine, wholeScript.size()-1));
+                        scriptLines.add(new ScriptLine(trimmedWholeLine, wholeScript.size()-1, characterName));
                         wholeLine = "";
                     } else {
                         wholeScript.add(line); //adds empty lines. probably useless
@@ -51,10 +52,10 @@ public class SimpleScriptReader implements Reader {
                     continue;
                 } else {
                     if(dialogue) {
-                        System.out.println(line);
                         wholeLine += line.trim() + " ";
                     } else {
                         if(previousLineIsEmpty && nameOfCharacter(line)) {
+                            characterName = line.trim();
                             dialogue = true;
                             wholeScript.add(line);
                         } else {
@@ -62,6 +63,12 @@ public class SimpleScriptReader implements Reader {
                         }
                     }
                 }
+            }
+            String trimmedWholeLine = wholeLine.trim();
+            if (!trimmedWholeLine.isEmpty()) {
+                wholeScript.add(trimmedWholeLine);
+                textList.add(trimmedWholeLine);
+                scriptLines.add(new ScriptLine(trimmedWholeLine, wholeScript.size() - 1, characterName));
             }
         }
         this.textList = textList;
@@ -71,6 +78,10 @@ public class SimpleScriptReader implements Reader {
 
     private boolean nameOfCharacter(String line) {
         return line.matches("^\\s+[\\p{Lu}]{2,}.*");
+    }
+
+    public String getContextFromLineNumberOfWord(int i) {
+        return this.getWholeScript().get(this.getScriptLines().get(i).getLineNumber());
     }
 
     public List<String> getWholeScript() {
@@ -84,5 +95,11 @@ public class SimpleScriptReader implements Reader {
 
     public List<ScriptLine> getScriptLines() {
         return scriptLines;
+    }
+
+    public void printWholeScript() {
+        for (String line : getWholeScript()) {
+            System.out.println(line);
+        }
     }
 }
