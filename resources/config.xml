@@ -1,4 +1,5 @@
 <config>
     <subLocation>./data/sub.srt</subLocation>
     <scriptLocation>./data/script.txt</scriptLocation>
+    <newFilesLocation>./data/new/</newFilesLocation>
 </config>

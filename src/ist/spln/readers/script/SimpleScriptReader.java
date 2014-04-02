@@ -2,7 +2,9 @@ package ist.spln.readers.script;
 
 import ist.spln.config.XmlParser;
 import ist.spln.readers.Reader;
+import org.apache.commons.io.FileUtils;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -17,10 +19,8 @@ public class SimpleScriptReader implements Reader {
     private List textList;
     private List<ScriptLine> scriptLines;
 
-    public SimpleScriptReader() {
-        XmlParser xmlParser = new XmlParser();
-        xmlParser.parse(Reader.configLocation);
-        this.scriptLocation = xmlParser.getScriptLocation();
+    public SimpleScriptReader(String scriptLocation) {
+        this.scriptLocation = scriptLocation;
     }
 
     @Override
@@ -101,5 +101,12 @@ public class SimpleScriptReader implements Reader {
         for (String line : getWholeScript()) {
             System.out.println(line);
         }
+    }
+
+    public void writeWholeScript(String newFilesLocation) throws IOException {
+        File file = new File(newFilesLocation);
+        file.mkdirs();
+        file = new File(newFilesLocation + "/script.txt");
+        FileUtils.writeLines(file, this.getWholeScript());
     }
 }

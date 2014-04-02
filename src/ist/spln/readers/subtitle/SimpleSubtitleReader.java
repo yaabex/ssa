@@ -2,8 +2,10 @@ package ist.spln.readers.subtitle;
 
 import ist.spln.config.XmlParser;
 import ist.spln.readers.Reader;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Path;
@@ -20,10 +22,8 @@ public class SimpleSubtitleReader implements Reader {
     private List<String> textList;
     private List<SubtitleLine> subtitleLines;
 
-    public SimpleSubtitleReader() {
-        XmlParser xmlParser = new XmlParser();
-        xmlParser.parse(Reader.configLocation);
-        this.subtitleLocation = xmlParser.getSubtitleLocation();
+    public SimpleSubtitleReader(String subtitleLocation) {
+        this.subtitleLocation = subtitleLocation;
     }
 
     @Override
@@ -109,5 +109,12 @@ public class SimpleSubtitleReader implements Reader {
         for (String line : getWholeSubtitleFile()) {
             System.out.println(line);
         }
+    }
+
+    public void writeWholeSubtitleFile(String newFilesLocation) throws IOException {
+        File file = new File(newFilesLocation);
+        file.mkdirs();
+        file = new File(newFilesLocation + "/sub.srt");
+        FileUtils.writeLines(file, this.wholeSubtitleFile);
     }
 }

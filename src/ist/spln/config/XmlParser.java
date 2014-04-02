@@ -12,6 +12,7 @@ public class XmlParser {
 
     private String subtitleLocation;
     private String scriptLocation;
+    private String newFilesLocation;
 
     public void parse(String filePath) {
         try {
@@ -30,6 +31,9 @@ public class XmlParser {
             nodeList = doc.getElementsByTagName("scriptLocation");
             scriptLocation = nodeList.item(0).getTextContent();
 
+            nodeList = doc.getElementsByTagName("newFilesLocation");
+            newFilesLocation = nodeList.item(0).getTextContent();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -41,5 +45,9 @@ public class XmlParser {
 
     public String getScriptLocation() {
         return scriptLocation;
+    }
+
+    public String getNewFilesLocation() {
+        return newFilesLocation;
     }
 }

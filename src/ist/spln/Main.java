@@ -1,5 +1,6 @@
 package ist.spln;
 
+import ist.spln.config.XmlParser;
 import ist.spln.needleman.NeedlemanWunch;
 import ist.spln.needleman.ValueObjectPair;
 import ist.spln.needleman.valueobject.NeedlemanArrayValueObjectWithMoreInfo;
@@ -15,9 +16,11 @@ import java.util.List;
 public class Main {
     public static final String ANALYZER_PROPERTIES = "tokenize, ssplit, pos, lemma";
 
-    public static void main(String[] args) {
-        SimpleScriptReader scriptReader = new SimpleScriptReader(); //TODO make a Script and a Subtitle object
-        SimpleSubtitleReader subtitleReader = new SimpleSubtitleReader();
+    public static void main(String[] args) throws IOException {
+        XmlParser xmlParser = new XmlParser();
+        xmlParser.parse(Reader.configLocation);
+        SimpleScriptReader scriptReader = new SimpleScriptReader(xmlParser.getScriptLocation()); //TODO make a Script and a Subtitle object
+        SimpleSubtitleReader subtitleReader = new SimpleSubtitleReader(xmlParser.getSubtitleLocation());
         try {
             scriptReader.read();
             subtitleReader.read();
@@ -34,7 +37,7 @@ public class Main {
         alignment.enhanceScript(scriptReader, subtitleReader);
         alignment.enhanceSubtitles(scriptReader, subtitleReader);
 
-        scriptReader.printWholeScript();
-        subtitleReader.printWholeSubtitleFile();
+        scriptReader.writeWholeScript(xmlParser.getNewFilesLocation());
+        subtitleReader.writeWholeSubtitleFile(xmlParser.getNewFilesLocation());
     }
 }
