@@ -103,12 +103,13 @@ public class Alignment {
         assert this.scriptAlign != null;
         assert this.subAlign.size() == this.scriptAlign.size();
 
-        System.out.println("Line Matches/Total Lines = " + subAlign.size()/(float)scriptReader.getScriptLines().size());
+        int lineMatches = 0;
 
         for (int i = 0; i < subAlign.size(); i++) {
             List<Integer> subLines = subAlign.get(i);
             List<Integer> scriptLines = scriptAlign.get(i);
             for (Integer line : scriptLines) {
+                lineMatches++;
                 String startTime = subtitleReader.getSubtitleLines().get(subLines.get(0)).getTimeInfo().getStartTime();
                 String endTime = subtitleReader.getSubtitleLines().get(subLines.get(subLines.size() - 1)).getTimeInfo().getEndTime();
                 scriptReader.getWholeScript().set(scriptReader.getScriptLines().get(line).getLineNumber(),
@@ -117,6 +118,7 @@ public class Alignment {
                                 "<" + endTime + ">");
             }
         }
+        System.out.println("Line Matches/Total Lines = " + lineMatches/(float)scriptReader.getScriptLines().size());
     }
 
     public void enhanceSubtitles(SimpleScriptReader scriptReader, SimpleSubtitleReader subtitleReader) {
