@@ -118,7 +118,7 @@ public class Alignment {
                                 "<" + endTime + ">");
             }
         }
-        System.out.println("Line Matches/Total Lines = " + lineMatches/(float)scriptReader.getScriptLines().size());
+        System.out.println("Script Line Matches/Total Lines = " + lineMatches/(float)scriptReader.getScriptLines().size());
     }
 
     public void enhanceSubtitles(SimpleScriptReader scriptReader, SimpleSubtitleReader subtitleReader) {
@@ -126,15 +126,19 @@ public class Alignment {
         assert this.scriptAlign != null;
         assert this.subAlign.size() == this.scriptAlign.size();
 
+        int lineMatches = 0;
+
         for (int i = 0; i < subAlign.size(); i++) {
             List<Integer> subLines = subAlign.get(i);
             List<Integer> scriptLines = scriptAlign.get(i);
             for (Integer line : subLines) {
+                lineMatches++;
                 String characterName = scriptReader.getScriptLines().get(scriptLines.get(0)).getCharacterName();
                 int realLineNumber = subtitleReader.getSubtitleLines().get(line).getLineNumber();
                 subtitleReader.getWholeSubtitleFile().set(realLineNumber,
                         characterName + ":" + subtitleReader.getContextFromLineNumberOfWord(line));
             }
         }
+        System.out.println("Sub Line Matches/Total Lines = " + lineMatches/(float)subtitleReader.getSubtitleLines().size());
     }
 }
