@@ -17,6 +17,23 @@ public class Lemmatizer {
         this.textAnalyzer = new TextAnalyzer(Main.ANALYZER_PROPERTIES);
     }
 
+    public List<String> lemmatize(String text) {
+        List<String> lemmas = new ArrayList<>();
+        List<CoreMap> sentences = this.textAnalyzer.analyze(text);
+        for (CoreMap sentence : sentences) {
+            // traversing the words in the current sentence
+            // a CoreLabel is a CoreMap with additional token-specific methods
+            for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
+                if (!lemma.matches(".*\\p{L}.*")) { //\p{L} = any letter
+                    continue;
+                }
+                lemmas.add(lemma.toLowerCase());
+            }
+        }
+        return lemmas;
+    }
+
     public NeedlemanArrayValueObjectWithMoreInfo[] modify(List<String> text) { //should not have needleman stuff, but its faster this way... i think...
         List<NeedlemanArrayValueObjectWithMoreInfo> valueObjects = new ArrayList<>();
         for (int i = 0; i < text.size(); i++) {
@@ -29,7 +46,7 @@ public class Lemmatizer {
                     if (!lemma.matches(".*\\p{L}.*")) { //\p{L} = any letter
                         continue;
                     }
-                    valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(lemma, i));
+                    valueObjects.add(new NeedlemanArrayValueObjectWithMoreInfo(lemma.toLowerCase(), i));
                 }
             }
         }

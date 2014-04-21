@@ -33,7 +33,7 @@ public class Main {
                 lemmatizer.modify(subtitleReader.getTextList()));
 
         Alignment alignment = new Alignment();
-        alignment.align(valueObjectPairs);
+        alignment.align(valueObjectPairs, lemmatizer, scriptReader, subtitleReader);
         alignment.enhanceScript(scriptReader, subtitleReader);
         alignment.enhanceSubtitles(scriptReader, subtitleReader);
 
