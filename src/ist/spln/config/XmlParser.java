@@ -13,6 +13,7 @@ public class XmlParser {
     private String subtitleLocation;
     private String scriptLocation;
     private String newFilesLocation;
+    private String subtitleOtherLanguageLocation;
 
     public void parse(String filePath) {
         try {
@@ -27,6 +28,9 @@ public class XmlParser {
 
             NodeList nodeList = doc.getElementsByTagName("subLocation");
             subtitleLocation = nodeList.item(0).getTextContent();
+
+            nodeList = doc.getElementsByTagName("subOtherLanguageLocation");
+            subtitleOtherLanguageLocation = nodeList.item(0).getTextContent();
 
             nodeList = doc.getElementsByTagName("scriptLocation");
             scriptLocation = nodeList.item(0).getTextContent();
@@ -50,4 +54,9 @@ public class XmlParser {
     public String getNewFilesLocation() {
         return newFilesLocation;
     }
+
+    public String getSubtitleOtherLanguageLocation() {
+        return subtitleOtherLanguageLocation;
+    }
+
 }

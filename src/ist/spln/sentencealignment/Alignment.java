@@ -1,10 +1,15 @@
 package ist.spln.sentencealignment;
 
 import ist.spln.needleman.ValueObjectPair;
+import ist.spln.needleman.valueobject.MEDValueObject;
 import ist.spln.needleman.valueobject.NeedlemanArrayValueObjectWithMoreInfo;
+import ist.spln.needleman.valueobject.TimeValueObject;
 import ist.spln.readers.script.SimpleScriptReader;
 import ist.spln.readers.subtitle.SimpleSubtitleReader;
+import ist.spln.readers.subtitle.SubtitleLine;
+import ist.spln.readers.subtitle.TimeInfo;
 import ist.spln.stringmodifiers.Lemmatizer;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +17,8 @@ import java.util.List;
 public class Alignment {
     private List<List<Integer>> subAlign;
     private List<List<Integer>> scriptAlign;
+    private List<List<Integer>> subAlignTime;
+    private List<Integer> scriptAlignTime;
     private final static int THRESHOLD = 50;
 
     public void align(List<ValueObjectPair> valueObjectPairs, Lemmatizer lemmatizer, SimpleScriptReader scriptReader, SimpleSubtitleReader subtitleReader) {
@@ -75,6 +82,51 @@ public class Alignment {
         this.subAlign = subStuff;
     }
 
+    public void align(List<ValueObjectPair> valueObjectPairs) {
+        List<List<Integer>> subStuff = new ArrayList<>();
+        List<Integer> scriptStuff = new ArrayList<>();
+
+        for (int i = 0; i < valueObjectPairs.size(); i++) {
+            ValueObjectPair pair = valueObjectPairs.get(i);
+
+            TimeValueObject n1 = (TimeValueObject) pair.getValueObject1();
+            TimeValueObject n2 = (TimeValueObject) pair.getValueObject2();
+
+            List<Integer> subLines = new ArrayList<>();
+            int scriptLine = n1.getLineWhereItCameFrom();
+            int subLine = n2.getLineWhereItCameFrom();
+            subLines.add(subLine);
+
+            while (true) {
+                i++;
+                if (i < valueObjectPairs.size()) {
+                    ValueObjectPair newPair = valueObjectPairs.get(i);
+
+                    TimeValueObject newN1 = (TimeValueObject) newPair.getValueObject1();
+                    TimeValueObject newN2 = (TimeValueObject) newPair.getValueObject2();
+
+                    int newSubLine = newN2.getLineWhereItCameFrom();
+                    int newScriptLine = newN1.getLineWhereItCameFrom();
+
+                    if (newScriptLine == scriptLine) {
+                        subLines.add(newSubLine);
+                    } else {
+                        subStuff.add(subLines);
+                        scriptStuff.add(scriptLine);
+                        i--;
+                        break;
+                    }
+                } else {
+                    subStuff.add(subLines);
+                    scriptStuff.add(scriptLine);
+                    break;
+                }
+            }
+        }
+        this.scriptAlignTime = scriptStuff;
+        this.subAlignTime = subStuff;
+    }
+
     private boolean linesDoNotMatch(List<Integer> subLines, List<Integer> scriptLines, int matchedWords, Lemmatizer lemmatizer, SimpleScriptReader scriptReader, SimpleSubtitleReader subtitleReader) {
         List<String> subLinesLemmatized = lemmatizer.lemmatize(getTextFromLineNumber(subLines, subtitleReader));
         List<String> scriptLinesLemmatized = lemmatizer.lemmatize(getTextFromLineNumber(scriptLines, scriptReader));
@@ -110,12 +162,16 @@ public class Alignment {
             List<Integer> scriptLines = scriptAlign.get(i);
             for (Integer line : scriptLines) {
                 lineMatches++;
+                for (Integer lineNumber : subLines) {
+                    SubtitleLine subtitleLine = subtitleReader.getSubtitleLines().get(lineNumber);
+                    scriptReader.getScriptLines().get(line).addTimeInfo(subtitleLine.getTimeInfo());
+                }
                 String startTime = subtitleReader.getSubtitleLines().get(subLines.get(0)).getTimeInfo().getStartTime();
                 String endTime = subtitleReader.getSubtitleLines().get(subLines.get(subLines.size() - 1)).getTimeInfo().getEndTime();
                 scriptReader.getWholeScript().set(scriptReader.getScriptLines().get(line).getLineNumber(),
-                        "<" + startTime + ">" +
-                                scriptReader.getContextFromLineNumberOfWord(line) +
-                                "<" + endTime + ">");
+                        "<" + startTime + ">" + " --> " + "<" + endTime + ">" + "\n" +
+                                scriptReader.getContextFromLineNumberOfWord(line));
+
             }
         }
         System.out.println("Script Line Matches/Total Lines = " + lineMatches/(float)scriptReader.getScriptLines().size());
@@ -140,5 +196,21 @@ public class Alignment {
             }
         }
         System.out.println("Sub Line Matches/Total Lines = " + lineMatches/(float)subtitleReader.getSubtitleLines().size());
+    }
+
+    public void translateScript(SimpleScriptReader scriptReader, SimpleSubtitleReader subtitleReader) {
+        assert this.subAlignTime != null;
+        assert this.scriptAlignTime != null;
+        assert this.subAlignTime.size() == this.scriptAlignTime.size();
+
+        for (int i = 0; i < subAlignTime.size(); i++) {
+            List<String> strings = new ArrayList<>();
+            for (Integer integer : subAlignTime.get(i)) {
+                strings.add(subtitleReader.getSubtitleLines().get(integer).getLine());
+            }
+            int scriptLine = scriptAlignTime.get(i);
+            scriptReader.getWholeScript().set(scriptReader.getScriptLines().get(scriptLine).getLineNumber(),
+                    StringUtils.join(strings, "\n").trim());
+        }
     }
 }

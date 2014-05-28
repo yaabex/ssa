@@ -1,6 +1,5 @@
 package ist.spln.readers.subtitle;
 
-import ist.spln.config.XmlParser;
 import ist.spln.readers.Reader;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;

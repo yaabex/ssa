@@ -4,6 +4,8 @@ import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.util.CoreMap;
 import ist.spln.Main;
+import ist.spln.needleman.valueobject.MEDValueObject;
+import ist.spln.needleman.valueobject.NeedlemanArrayValueObject;
 import ist.spln.needleman.valueobject.NeedlemanArrayValueObjectWithMoreInfo;
 import ist.spln.textanalysis.TextAnalyzer;
 
@@ -34,8 +36,8 @@ public class Lemmatizer {
         return lemmas;
     }
 
-    public NeedlemanArrayValueObjectWithMoreInfo[] modify(List<String> text) { //should not have needleman stuff, but its faster this way... i think...
-        List<NeedlemanArrayValueObjectWithMoreInfo> valueObjects = new ArrayList<>();
+    public NeedlemanArrayValueObject[] modify(List<String> text) { //should not have needleman stuff, but its faster this way... i think...
+        List<NeedlemanArrayValueObject> valueObjects = new ArrayList<>();
         for (int i = 0; i < text.size(); i++) {
             List<CoreMap> sentences = this.textAnalyzer.analyze(text.get(i));
             for (CoreMap sentence : sentences) {
@@ -50,7 +52,7 @@ public class Lemmatizer {
                 }
             }
         }
-        NeedlemanArrayValueObjectWithMoreInfo[] valueObjectsArray = new NeedlemanArrayValueObjectWithMoreInfo[valueObjects.size()];
+        NeedlemanArrayValueObject[] valueObjectsArray = new NeedlemanArrayValueObject[valueObjects.size()];
         return valueObjects.toArray(valueObjectsArray);
     }
 }

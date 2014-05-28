@@ -1,1375 +1,1465 @@
 1
-00:00:09,400 --> 00:00:12,900
-Season 5
-Episode 8
-
-2
-00:00:13,500 --> 00:00:18,500
+00:00:07,213 --> 00:00:09,408
 The Why of Fry
 
+2
+00:00:35,373 --> 00:00:38,126
+Delivery boy Philip J. Fry,
+reporting for duty.
+
 3
-00:00:24,600 --> 00:00:29,100
-by Joke0
-
-4
-00:00:38,500 --> 00:00:41,500
-Delivery boy, Phillip J. Fry, reporting for duty.
-
-5
-00:00:41,700 --> 00:00:44,700
+00:00:38,333 --> 00:00:40,767
 Dr. Zoidberg, soaking in brine.
 
+4
+00:00:40,933 --> 00:00:42,571
+Ah. . . .
+
+5
+00:00:46,133 --> 00:00:49,250
+What is the meaning of this?
+We've got a delivery. Let's move!
+
 6
-00:00:49,500 --> 00:00:53,500
-What's the meaning of this, we've got to
-delivery people. Let's move, let's move.
+00:00:50,373 --> 00:00:52,409
+Amy, mission profile.
 
 7
-00:00:54,300 --> 00:00:56,700
-Amy, mission fore file.
+00:00:54,133 --> 00:00:57,170
+Interesting. Interesting.
 
 8
-00:00:58,100 --> 00:01:01,100
-Interesting
+00:00:57,373 --> 00:01:01,002
+-Dr. Zoidberg, mission bag?
+-Packed and ready, sir.
 
 9
-00:01:01,400 --> 00:01:05,000
-- Dr Zoidberg, mission bag.
-- Packed and ready, sir.
+00:01:01,173 --> 00:01:04,802
+What's this? This is the same
+toy surprise I got last time.
 
 10
-00:01:05,700 --> 00:01:08,400
-What this? This is the same toy
-surprising at last time!
+00:01:05,133 --> 00:01:08,728
+I can't work under these conditions.
+And without me, there is no mission.
 
 11
-00:01:09,900 --> 00:01:13,300
-I can't work under these conditions,
-without me there is no mission.
+00:01:08,933 --> 00:01:11,493
+-I am the mission.
+-We're back from the mission.
 
 12
-00:01:13,400 --> 00:01:14,700
-I AM the mission!
+00:01:11,693 --> 00:01:13,524
+What? You went without me?
 
 13
-00:01:14,800 --> 00:01:16,200
-We're back from the mission.
+00:01:13,733 --> 00:01:16,088
+You were looking up curse words
+in the dictionary.
 
 14
-00:01:16,300 --> 00:01:18,500
-Wha, what? You went without me?
+00:01:16,253 --> 00:01:20,883
+-It seemed like a better use of your time.
+-But I'm the delivery boy.
 
 15
-00:01:18,600 --> 00:01:23,100
-You were looking up cursewords in the
-dictionary, it seemed like a better
-use of your time.
+00:01:21,093 --> 00:01:24,165
+-Don't worry, everything went fine.
+-Better than usual.
 
 16
-00:01:23,500 --> 00:01:25,850
-But...But, I'm the delivery boy!
-
-17
-00:01:26,100 --> 00:01:28,400
-Don't worry, everything went fine.
-
-18
-00:01:28,500 --> 00:01:29,700
-Better than usual.
-
-19
-00:01:29,800 --> 00:01:31,300
+00:01:24,333 --> 00:01:26,210
 We got medals.
 
-20
-00:01:31,700 --> 00:01:35,700
-Good work team! We've really
+17
+00:01:26,413 --> 00:01:29,211
+Good work, team. We really
 pulled together on this one.
 
-21
-00:01:37,800 --> 00:01:39,100
+18
+00:01:29,373 --> 00:01:31,284
+Whoo-hoo!
+
+19
+00:01:32,013 --> 00:01:33,890
 They got medals.
 
+20
+00:01:42,333 --> 00:01:44,210
+I'm real sorry I missed the mission.
+
+21
+00:01:44,373 --> 00:01:46,967
+-You might have needed me.
+-Nope.
+
 22
-00:01:48,300 --> 00:01:50,400
-I'm really sorry I missed the mission.
+00:01:47,133 --> 00:01:49,044
+-But if I'd been there, l--
+-Nope!
 
 23
-00:01:50,500 --> 00:01:53,300
-- I wasn't there, you might have needed me.
-- Nope.
+00:01:49,213 --> 00:01:50,248
+-Look--
+-Nope.
 
 24
-00:01:53,600 --> 00:01:55,350
-- But if I'd been there, I...
-- Nope.
+00:01:50,413 --> 00:01:52,369
+-Bender's great.
+-Nope.
 
 25
-00:01:55,600 --> 00:01:56,800
-- Look ...
-- Nope.
+00:01:52,573 --> 00:01:55,770
+Leela, let me make it up
+by taking you out for dinner tonight.
 
 26
-00:01:56,900 --> 00:01:58,850
-- Bender is great.
-- Nope.
+00:01:55,933 --> 00:01:59,403
+-Nope, I've got a date with Chaz.
+-Chaz?
 
 27
-00:01:59,100 --> 00:02:02,500
-Listen, Leela. Let me make it up by
-taking you out for dinner tonight.
+00:01:59,613 --> 00:02:03,128
+I met him at that charity cockfight
+last week. He's the mayor's aide.
 
 28
-00:02:02,600 --> 00:02:03,600
-No.
+00:02:03,333 --> 00:02:05,608
+-Oh, you go, mutant girl.
+-Oh.
 
 29
-00:02:03,700 --> 00:02:05,100
-I got a date with Chaz.
+00:02:05,813 --> 00:02:10,204
+-I do go. He's a very important man.
+-So? I'm just as important as him.
 
 30
-00:02:05,200 --> 00:02:06,100
-Chaz!?
+00:02:12,493 --> 00:02:17,169
+It's just that the kind of importance
+I have, it doesn't matter if I don't do it.
 
 31
-00:02:06,200 --> 00:02:08,600
-I met him at that charity
-cock-fight last week.
+00:02:22,133 --> 00:02:24,203
+[PURRING]
 
 32
-00:02:08,700 --> 00:02:10,400
-He's the major's aide.
+00:02:24,773 --> 00:02:26,491
+Oh, I'm nobody.
 
 33
-00:02:10,500 --> 00:02:12,800
-You go, mutant girl!
+00:02:26,653 --> 00:02:29,213
+There are guys in the background
+of "Mary Worth" comics. . .
 
 34
-00:02:12,900 --> 00:02:15,200
-I do go, he's a very important man.
+00:02:29,373 --> 00:02:30,965
+. . .who are more important than me.
 
 35
-00:02:15,300 --> 00:02:18,800
-So? I'm just as important as him.
+00:02:31,133 --> 00:02:34,125
+Buck up, meat loaf. Bender
+will take you out and cheer you up.
 
 36
-00:02:19,600 --> 00:02:25,100
-It's just that, the kind of importance I have...
-it doesn't matter if I ... don't do it.
+00:02:34,333 --> 00:02:37,325
+What do you want to do? And I mean
+anything. You have the power.
 
 37
-00:02:33,600 --> 00:02:34,800
-I'm nobody.
+00:02:37,493 --> 00:02:40,007
+Name it and I'm there. You the man.
 
 38
-00:02:34,900 --> 00:02:38,700
-There are guys in the background of Mary
-Worth comics who are more important than me.
+00:02:40,213 --> 00:02:43,922
+-Well, okay. Let's go bowling.
+-Nah.
 
 39
-00:02:38,800 --> 00:02:42,400
-Buck up meat loaf, Bender will take you
-out tonight and cheer you up.
-
-40
-00:02:42,500 --> 00:02:44,600
-What do you want to do?
-And I mean anything!
-
-41
-00:02:44,700 --> 00:02:47,400
-You have the power.
-Name it and I'm there.
-
-42
-00:02:47,500 --> 00:02:48,600
-You're the man.
-
-43
-00:02:48,700 --> 00:02:51,300
-Well...OK. Let's go bowling.
-
-44
-00:02:51,400 --> 00:02:53,400
-No.
-
-45
-00:02:58,800 --> 00:03:00,700
+00:02:49,813 --> 00:02:51,724
 Table for two? Step right this way.
 
+40
+00:02:51,893 --> 00:02:54,885
+I'm afraid we don't have a reservation,
+but as you can see. . .
+
+41
+00:02:55,093 --> 00:02:58,085
+. . .I'm the mayor's aide.
+Table for two, please.
+
+42
+00:02:58,653 --> 00:03:00,325
+Okay, then.
+
+43
+00:03:08,373 --> 00:03:10,728
+-Hey!
+-It's okay, my man. . .
+
+44
+00:03:10,893 --> 00:03:13,453
+. . .I got you covered on your next
+health inspection.
+
+45
+00:03:13,613 --> 00:03:17,765
+Oh, I really appreciate that,
+Mr. Mayor's Aide. Here you go.
+
 46
-00:03:00,800 --> 00:03:03,100
-I'm afraid we don't have a reservation, but...
+00:03:17,933 --> 00:03:19,730
+Compliments of the house.
 
 47
-00:03:03,200 --> 00:03:04,500
-as you can see,
+00:03:19,893 --> 00:03:24,091
+Wow! Free bread at a restaurant!
+ls there anything you can't do?
 
 48
-00:03:04,600 --> 00:03:07,100
-I'm the mayor's aide!
-Table for two, please!
+00:03:24,293 --> 00:03:29,048
+-I can't fail the mayor. Not ever.
+-Oh.
 
 49
-00:03:08,100 --> 00:03:10,100
-Okay, then...
+00:03:36,213 --> 00:03:37,202
+[BELL RINGS]
 
 50
-00:03:19,600 --> 00:03:23,500
-It's OK my man, I've got you covered on
-your next health inspection.
+00:03:38,493 --> 00:03:42,008
+-Oh, jeez, I better not let Leela see me.
+-Hey, I hear Fry.
 
 51
-00:03:23,800 --> 00:03:26,300
-I really appreciate that mister mayor's aide.
+00:03:42,693 --> 00:03:44,524
+-Boy, am I glad you're here.
+-You are?
 
 52
-00:03:26,500 --> 00:03:27,850
-Here you go.
-
-53
-00:03:28,100 --> 00:03:30,650
-Compliments on the house.
-
-54
-00:03:30,900 --> 00:03:34,450
-Free bread of the restaurant! Is there
-anything you can't do?
-
-55
-00:03:34,700 --> 00:03:36,600
-I can't fail the mayor.
-
-56
-00:03:36,700 --> 00:03:38,700
-Not ever.
-
-57
-00:03:49,400 --> 00:03:51,100
-Jeez! Better not let Leela see me.
-
-58
-00:03:51,200 --> 00:03:53,200
-Hey, I hear Fry!
-
-59
-00:03:54,000 --> 00:03:55,350
-Boy, I'm glad you here.
-
-60
-00:03:55,600 --> 00:03:58,150
-You are? So things aren't working out
+00:03:44,693 --> 00:03:46,809
+Things aren't working out
 with what's-his-name?
 
-61
-00:03:58,300 --> 00:04:00,750
-Actually...they are...
+53
+00:03:46,973 --> 00:03:48,929
+Actually, they are.
 
-62
-00:04:00,800 --> 00:04:03,550
-Confidentally I might not make it
-back at my appartement tonight.
+54
+00:03:49,133 --> 00:03:52,125
+Confidentially, I might not make it back
+to my apartment tonight.
 
-63
-00:04:03,800 --> 00:04:07,600
-Could you up Nibbler for me?
+55
+00:03:52,293 --> 00:03:55,842
+-Could you walk Nibbler for me?
+-Ah. . . .
 
-64
-00:04:07,700 --> 00:04:10,300
-And bring a baggie in case he
-drops a steamer.
+56
+00:03:56,093 --> 00:03:59,642
+And bring a baggie, in case
+he drops a steamer. Have a great night.
 
-65
-00:04:10,400 --> 00:04:12,000
-Have a great night!
+57
+00:04:02,973 --> 00:04:04,725
+[MUMBLING]
 
-66
-00:04:17,100 --> 00:04:19,100
-Oh no! Please no!
+58
+00:04:04,893 --> 00:04:07,043
+Oh, no. Please, no!
 
-67
-00:04:20,800 --> 00:04:22,100
+59
+00:04:08,373 --> 00:04:09,886
 Perfect.
 
+60
+00:04:13,213 --> 00:04:14,566
+[GROANING]
+
+61
+00:04:15,573 --> 00:04:16,767
+[SIREN WAILING]
+
+62
+00:04:18,133 --> 00:04:21,250
+Whoa. Smells like a 289 in progress.
+
+63
+00:04:21,453 --> 00:04:25,605
+Failure to scoop. Oh, yeah.
+
+64
+00:04:25,813 --> 00:04:29,806
+Wait, I'm trying.
+It weighs as much as 1 000 suns.
+
+65
+00:04:33,573 --> 00:04:37,452
+Don't worry. I'll pull some strings,
+see if I can't get you tried as a juvenile.
+
+66
+00:04:37,613 --> 00:04:40,332
+Oh, Chaz.
+
+67
+00:04:42,573 --> 00:04:44,962
+[SIGHS]
+
 68
-00:04:32,000 --> 00:04:34,300
-Smells like a 289 in progress.
+00:04:47,613 --> 00:04:50,844
+I'm as worthless as this trashcan.
 
 69
-00:04:34,400 --> 00:04:37,400
-Failure to scoop...Oh yeah!
-
-70
-00:04:38,700 --> 00:04:41,700
-Wait! I'm trying. It weight as much
-as a thousand suns.
-
-71
-00:04:46,900 --> 00:04:50,900
-Don't worry Fry, I'll pull some strings and
-see if I can get you trialed as juvenile.
-
-72
-00:04:51,200 --> 00:04:52,200
-Oh Chaz!
-
-73
-00:05:01,600 --> 00:05:05,600
-I'm as worthless as this trash can.
-
-74
-00:05:05,700 --> 00:05:08,000
+00:04:51,413 --> 00:04:53,643
 You think I'm as worthless as you?
 
+70
+00:04:53,813 --> 00:04:58,807
+Try catching garbage in your head
+and raising six kids, you dumb townie.
+
+71
+00:05:03,013 --> 00:05:05,732
+Oh, Nibbler, at least
+I'm important to you. . .
+
+72
+00:05:05,893 --> 00:05:08,202
+. . .even if it's only
+because I clean up your poop.
+
+73
+00:05:08,413 --> 00:05:11,928
+The poop eradication
+is but one aspect of your importance.
+
+74
+00:05:14,013 --> 00:05:15,844
+[SCREAMS]
+
 75
-00:05:08,100 --> 00:05:12,100
-Try catching garbage in your head and
-raising six kids, you dumb townie!
+00:05:16,013 --> 00:05:18,402
+-Did you just talk?
+-Indeed. . .
 
 76
-00:05:19,100 --> 00:05:23,100
-At least I'm important to you, even if it's
-only because I clean up your poop.
+00:05:18,573 --> 00:05:20,962
+. . .and I have other
+amazing powers as well.
 
 77
-00:05:23,300 --> 00:05:27,300
-The poop eradication is but one
-aspect of your importance!
-
-78
-00:05:32,100 --> 00:05:33,700
-- Did you just talk?
-- Indeed.
-
-79
-00:05:33,800 --> 00:05:36,400
-And I have other amazing powers as well.
-
-80
-00:05:36,600 --> 00:05:38,600
+00:05:21,133 --> 00:05:22,885
 Like what?
 
+78
+00:05:34,293 --> 00:05:36,488
+-Are you my mommy?
+-Negative.
+
+79
+00:05:36,653 --> 00:05:38,723
+[GROANING]
+
+80
+00:05:55,453 --> 00:05:58,126
+-Welcome, Lord Nibbler.
+-Welcome acknowledged.
+
 81
-00:05:50,500 --> 00:05:51,700
-Are you my mommy?
+00:05:58,293 --> 00:06:00,853
+I bring with me The Mighty One.
 
 82
-00:05:51,800 --> 00:05:53,300
-Negative.
+00:06:02,093 --> 00:06:03,082
+Uh?
 
 83
-00:06:12,100 --> 00:06:13,500
-Welcome Lord Nibbler.
-
-84
-00:06:13,600 --> 00:06:15,250
-Welcome Acknowledged.
-
-85
-00:06:15,500 --> 00:06:18,500
-I bring with me...the Mighty One.
-
-86
-00:06:20,700 --> 00:06:25,100
-At last! Our centuries upon centuries
+00:06:03,413 --> 00:06:07,770
+At last, our centuries upon centuries
 of waiting have achieved fruition.
 
+84
+00:06:07,933 --> 00:06:10,322
+Aren't you a fuzzy little guy?
+
+85
+00:06:10,533 --> 00:06:12,489
+[PURRING]
+
+86
+00:06:12,653 --> 00:06:15,850
+Stop that! Please, Your Mightiness.
+
 87
-00:06:25,900 --> 00:06:28,900
-Aren’t you a fuzzy wuzzy wittle guy.
-
-88
-00:06:30,500 --> 00:06:31,800
-Stop that!
-
-89
-00:06:31,800 --> 00:06:33,500
-Please...Your Mightiness
-
-90
-00:06:33,700 --> 00:06:37,700
-Mightiness? Are you off your nut? I just got
+00:06:16,053 --> 00:06:19,728
+"Mightiness"? Are you off your nut? I got
 kidnapped by a bunch of guinea pigs.
 
+88
+00:06:19,973 --> 00:06:21,850
+[GIBBERING]
+
+89
+00:06:22,573 --> 00:06:24,609
+-Does he not know?
+-He does not know.
+
+90
+00:06:24,813 --> 00:06:26,804
+-He knows not?
+-Knows not does he.
+
 91
-00:06:40,400 --> 00:06:41,500
-Does he not know?
+00:06:27,013 --> 00:06:28,526
+-Not he knows?
+-Enough!
 
 92
-00:06:41,700 --> 00:06:42,800
-He does not know.
+00:06:28,733 --> 00:06:32,282
+Fry, it is my duty to inform you
+that the fate of humanity. . .
 
 93
-00:06:42,800 --> 00:06:43,800
-He knows not?
+00:06:32,453 --> 00:06:35,650
+. . .the fate of our race,
+indeed, the fate of all that exists. . .
 
 94
-00:06:43,800 --> 00:06:44,900
-Knows not does he.
+00:06:35,813 --> 00:06:38,725
+. . .and ever will exist, rests with you.
 
 95
-00:06:45,100 --> 00:06:47,100
-- Not he knows?
-- Enough!
+00:06:38,893 --> 00:06:42,681
+You are the single most
+important person in the universe.
 
 96
-00:06:47,200 --> 00:06:52,200
-Fry, it is my duty to inform you that the
-fate of humanity, the fate of our race,
+00:06:44,413 --> 00:06:46,005
+Oh, snap.
 
 97
-00:06:52,300 --> 00:06:56,200
-indeed, the fate of all that exists
-and ever will exist,
+00:06:51,133 --> 00:06:57,083
+On this auspicious occasion, let the horn
+of eternity cut a thunderous blast.
 
 98
-00:06:56,300 --> 00:06:57,300
-rest with you
+00:06:57,613 --> 00:06:59,331
+[MUFFLED BLOWING]
 
 99
-00:06:57,700 --> 00:07:02,700
-You are the single most important
-person in the universe.
+00:07:02,693 --> 00:07:06,242
+The Feast of a Thousand Beasts
+is begun.
 
 100
-00:07:03,400 --> 00:07:04,900
-Oh! Snap!
+00:07:08,333 --> 00:07:10,289
+[BURPING]
 
 101
-00:07:18,400 --> 00:07:20,800
-On this auspicious occasion,
+00:07:12,013 --> 00:07:13,844
+-You gonna eat that?
+-Maybe later.
 
 102
-00:07:20,900 --> 00:07:25,100
-let the horn of eternity cut a thunderous blast!
+00:07:16,413 --> 00:07:20,406
+The time has come to discuss
+matters of the gravest importance.
 
 103
-00:07:30,500 --> 00:07:33,500
-The feast of a thousand beasts is begun.
+00:07:21,293 --> 00:07:23,249
+Fry, do you remember
+some months ago. . .
 
 104
-00:07:40,400 --> 00:07:42,400
-- You're gonna eat that?
-- Maybe later.
+00:07:23,413 --> 00:07:25,802
+. . .when Earth was attacked
+by Flying Brains?
 
 105
-00:07:44,600 --> 00:07:48,400
-The time has come to discuss matters
-of the gravest importance.
+00:07:25,973 --> 00:07:30,444
+I remember the dancing stomachs. That
+might've been a Mylanta commercial.
 
 106
-00:07:50,100 --> 00:07:54,500
-Fry, do you remember some months ago
-when Earth was attack by flying brains?
+00:07:30,653 --> 00:07:32,644
+Wait, the Brains! I do remember. . .
 
 107
-00:07:55,300 --> 00:07:57,150
-I remember the square dancing stomachs.
+00:07:32,813 --> 00:07:34,929
+. . .but no one else does.
+They said I was crazy.
 
 108
-00:07:57,400 --> 00:07:59,400
-Or that might be in the lately commercials.
+00:07:35,133 --> 00:07:36,964
+You remember because you were. . .
 
 109
-00:07:59,500 --> 00:08:01,800
-Wait! The brains! I do remember!
+00:07:37,133 --> 00:07:39,852
+. . .the only one immune
+to the Brains' mental attack.
 
 110
-00:08:01,900 --> 00:08:03,900
-But no one else does, they said I was crazy
-
-111
-00:08:04,000 --> 00:08:09,000
-On the contrary, you remember because
-you were the only one immune to the brains
-mental attack.
-
-112
-00:08:09,200 --> 00:08:10,700
+00:07:40,053 --> 00:07:41,566
 Because I'm so smart?
 
+111
+00:07:41,733 --> 00:07:43,086
+[CHUCKLING]
+
+112
+00:07:43,253 --> 00:07:44,572
+Oh, my.
+
 113
-00:08:12,600 --> 00:08:13,900
-Oh my!
+00:07:44,733 --> 00:07:49,204
+Anyway, your immunity is due to the
+fact that you lack the delta brain wave.
 
 114
-00:08:14,100 --> 00:08:20,000
-Anyway. Your immunity is due to the fact
-that you lack the delta brain wave.
+00:07:51,013 --> 00:07:54,323
+It's a genetic abnormality, which resulted
+when you went back in time. . .
 
 115
-00:08:21,100 --> 00:08:26,000
-It's a genetic abnormality which resulted
-when you went back in time and performed
-certain actions
-
-116
-00:08:26,100 --> 00:08:28,500
+00:07:54,493 --> 00:07:58,372
+. . .and performed certain actions
 which made you your own grandfather.
 
+116
+00:07:58,573 --> 00:08:00,450
+I did do the nasty in the past-y.
+
 117
-00:08:28,600 --> 00:08:30,700
-I did do the nasty in the pasty!
+00:08:00,653 --> 00:08:05,283
+Verily, and that past nastification
+is what shields you from the Brains.
 
 118
-00:08:30,800 --> 00:08:35,300
-Verily. And that past nastification is what
-shields you from the brains.
-
-119
-00:08:35,700 --> 00:08:38,700
+00:08:05,453 --> 00:08:08,172
 You are the last hope of the universe.
 
-120
-00:08:38,900 --> 00:08:40,350
-So, I really am important?
-
-121
-00:08:40,600 --> 00:08:42,050
+119
+00:08:08,373 --> 00:08:11,490
+So I really am important?
 How I feel when I'm drunk is correct?
 
-122
-00:08:42,300 --> 00:08:46,300
-Yes. Except the Dave Matthews Band
+120
+00:08:11,693 --> 00:08:15,891
+Yes, except the Dave Matthews Band
 doesn't rock.
 
+121
+00:08:20,373 --> 00:08:23,490
+For a thousand years, the evil Brains
+have been constructing. . .
+
+122
+00:08:23,653 --> 00:08:25,769
+. . .the lnfo-Sphere,
+a giant memory bank. . .
+
 123
-00:08:51,600 --> 00:08:56,000
-For a 1000 years the evil brains have been
-constructing the infosphere.
+00:08:25,933 --> 00:08:28,891
+. . .twice the size of three
+ordinary memory banks.
 
 124
-00:08:56,100 --> 00:09:00,500
-A giant memory bank twice the size
-of 3 ordinary memory banks.
+00:08:29,053 --> 00:08:31,283
+-What's evil about that?
+-They plan to collect. . .
 
 125
-00:09:00,600 --> 00:09:01,800
-What so evil about that?
+00:08:31,453 --> 00:08:34,684
+. . .all the information in the universe
+and store it within the sphere.
 
 126
-00:09:01,900 --> 00:09:06,400
-They plan to collect all the information in
-the universe and store it within the sphere.
+00:08:34,853 --> 00:08:36,730
+-They're trying to learn things?
+-Right.
 
 127
-00:09:06,500 --> 00:09:07,800
-So they try to learn things?
+00:08:36,933 --> 00:08:39,652
+-Those bastards!
+-Being brains, they feel compelled. . .
 
 128
-00:09:07,900 --> 00:09:09,700
-- Right.
-- Those bastards!
-
-129
-00:09:09,800 --> 00:09:12,800
-Being brains, they feel compelled
-to know everything
-
-130
-00:09:12,900 --> 00:09:14,700
+00:08:39,813 --> 00:08:42,691
+. . .to know everything,
 and soon they will.
 
+129
+00:08:42,893 --> 00:08:45,805
+-I'm as mad as I've ever been.
+-Once their task is complete. . .
+
+130
+00:08:45,973 --> 00:08:48,441
+. . .they will ensure that
+no new information arises. . .
+
 131
-00:09:14,800 --> 00:09:16,200
-I'm as mad as I've ever been.
+00:08:48,613 --> 00:08:52,208
+. . .in the only way possible.
+By destroying the universe.
 
 132
-00:09:16,500 --> 00:09:22,500
-Once their task is complete, they will ensure
-that no new information arises in the only
-way possible
+00:08:52,413 --> 00:08:54,324
+Now it's personal.
 
 133
-00:09:22,600 --> 00:09:24,900
-by destroying the universe.
+00:08:54,533 --> 00:08:56,763
+Your mission is to infiltrate
+the lnfo-Sphere. . .
 
 134
-00:09:25,100 --> 00:09:26,900
-Now, it's personnal!
+00:08:56,933 --> 00:08:58,969
+. . .and plant this quantum
+interface bomb. . .
 
 135
-00:09:27,100 --> 00:09:31,800
-Your mission is to infiltrate the infosphere
-and plant this quantum interphase bomb,
+00:08:59,133 --> 00:09:03,206
+. . .blasting them into an alternate
+universe from which there is no return.
 
 136
-00:09:31,900 --> 00:09:35,900
-blasting them into an alternate universe,
-from which there is no return.
+00:09:03,413 --> 00:09:07,611
+Then outrun the blast
+on this Scooty-Puff Junior.
 
 137
-00:09:36,500 --> 00:09:39,900
-Then outrun the blast on this Scooty-Puff, Jr.
+00:09:07,773 --> 00:09:09,525
+[MUSIC PLAYS]
 
 138
-00:09:47,900 --> 00:09:49,900
-OK, let's go through this once more...
+00:09:14,333 --> 00:09:16,403
+Okay, let's go through
+this once more from the--
 
 139
-00:10:00,100 --> 00:10:01,100
-Brains!
+00:09:16,573 --> 00:09:18,291
+[YELLS]
 
 140
-00:10:01,300 --> 00:10:02,400
-Fear not, Mighty One.
+00:09:25,333 --> 00:09:28,291
+-Brains!
+-Fear not, Mighty One.
 
 141
-00:10:02,500 --> 00:10:07,500
-Your missing brain wave makes you invisible
-to them. So long as you avoid intense thinking.
+00:09:28,453 --> 00:09:30,842
+Your missing brain wave
+makes you invisible to them.
 
 142
-00:10:07,900 --> 00:10:09,700
-Sorry, what? I wasn't paying attention.
+00:09:31,013 --> 00:09:35,211
+-So long as you avoid intense thinking.
+-Sorry, what? I wasn't paying attention.
 
 143
-00:10:09,850 --> 00:10:12,350
-- That is most wise.
-- Who?
+00:09:35,373 --> 00:09:37,443
+-That is most wise.
+-Who?
 
 144
-00:10:16,100 --> 00:10:21,100
-In a few seconds, the brains will finish
-scanning the last bits of information
-in the universe.
+00:09:41,213 --> 00:09:43,681
+In a few seconds,
+the Brains will finish scanning...
 
 145
-00:10:21,300 --> 00:10:22,600
-Beavers made for life
+00:09:43,853 --> 00:09:46,242
+... the last bits of information
+in the universe.
 
 146
-00:10:22,900 --> 00:10:23,900
-11 greater than 4.
+00:09:46,493 --> 00:09:49,371
+COMPUTER: Beavers mate for life.
+Eleven greater than four.
 
 147
-00:10:24,100 --> 00:10:27,600
-For quality carpets visit Kaplan's
-carpet warehouse
+00:09:49,533 --> 00:09:52,411
+For quality carpets,
+visit Caplan 's Carpet Warehouse.
 
 148
-00:10:30,000 --> 00:10:33,100
-Now, the infospere will open
-is protective crust.
+00:09:55,093 --> 00:09:57,812
+Now the lnfo-Sphere will open
+its protective crust...
 
 149
-00:10:33,200 --> 00:10:35,100
-So it's to scan itself,
+00:09:57,973 --> 00:10:01,852
+...so as to scan itself,
+completing its thousand-year task.
 
 150
-00:10:35,200 --> 00:10:37,500
-completing its thousands years task.
+00:10:12,533 --> 00:10:16,128
+This is your one chance to enter
+the sphere. Scoot. Scoot now!
 
 151
-00:10:48,500 --> 00:10:50,400
-This is your one chance to enter the sphere,
+00:10:38,933 --> 00:10:41,572
+[GRUNTING]
 
 152
-00:10:50,500 --> 00:10:52,700
-Scoot, scoot now.
+00:10:41,733 --> 00:10:43,132
+I'm at the input console.
 
 153
-00:11:18,900 --> 00:11:23,200
-I'am at the input console. I'm a little nervous
-and I've got brain in my but-crack.
+00:10:43,293 --> 00:10:45,807
+I'm nervous, and I've got
+brain in my butt crack.
 
 154
-00:11:23,300 --> 00:11:24,300
+00:10:46,013 --> 00:10:47,492
 Roger.
 
 155
-00:11:25,200 --> 00:11:30,700
-Once you press the detonator, you will have
-60 seconds for an exciting escape.
+00:10:47,653 --> 00:10:51,771
+Once you press the detonator, you will
+have 60 seconds for an exciting escape.
 
 156
-00:11:33,800 --> 00:11:36,500
-Eh wait! Those brain knows everything
+00:10:55,853 --> 00:10:58,731
+Hey, wait. This Brain knows
 about everything, right?
 
 157
-00:11:36,600 --> 00:11:40,350
-It will soon, that's why you're supposed
-to be setting off the bomb.
+00:10:58,933 --> 00:11:02,403
+It will soon. That's why you're
+supposed to be setting off a bomb.
 
 158
-00:11:40,450 --> 00:11:43,100
-Yeah yeah. But I can't pass up
-the chance to learn the answers
+00:11:02,613 --> 00:11:05,002
+I can't pass up
+a chance to learn the answers. . .
 
 159
-00:11:43,200 --> 00:11:45,800
-to the greatest questions of all time.
+00:11:05,173 --> 00:11:07,892
+. . .to the greatest questions of all time.
 
 160
-00:11:46,200 --> 00:11:51,700
-- Is it true that post stamp glue is made of...
-- Correct! Toad mucus.
+00:11:08,053 --> 00:11:10,169
+Is it true that postage-stamp
+glue is made of--?
 
 161
-00:11:52,000 --> 00:11:54,300
-There's no time for this, activate the bomb!
+00:11:10,373 --> 00:11:11,965
+MASTER BRAIN:
+Correct, toad mucus.
 
 162
-00:11:54,400 --> 00:11:55,900
-Wait, wait, wait.
+00:11:12,173 --> 00:11:13,492
+[TOAD CROAKS]
 
 163
-00:11:56,000 --> 00:11:57,800
-What really killed the dinosaurs?
+00:11:13,693 --> 00:11:15,809
+There's no time for this.
+Activate the bomb.
 
 164
-00:11:57,900 --> 00:11:59,900
-Me!
+00:11:16,013 --> 00:11:19,130
+Wait, wait, wait.
+What really killed the dinosaurs?
 
 165
-00:12:12,100 --> 00:12:15,000
-Detecting trace amounts of mental activity,
+00:11:19,333 --> 00:11:22,006
+MASTER BRAIN:
+Me!
 
 166
-00:12:15,100 --> 00:12:19,200
-possibly a dead weasel or a cartoon viewer.
+00:11:22,173 --> 00:11:24,846
+COMPUTER:
+Unauthorized data access.
 
 167
-00:12:20,000 --> 00:12:22,250
-You gross, cut it out!
+00:11:31,053 --> 00:11:32,532
+Uh-oh.
 
 168
-00:12:22,550 --> 00:12:25,400
-Odd...He is immune to our psionic attack!
+00:11:32,693 --> 00:11:35,526
+Detecting trace amounts
+of mental activity.
 
 169
-00:12:25,500 --> 00:12:29,500
-Impossible, we are an ambitious young
-squad with everything to prove!
+00:11:35,693 --> 00:11:38,765
+Possibly a dead weasel
+or a cartoon viewer.
 
 170
-00:12:29,800 --> 00:12:32,400
-It appears we are in presence
-of the fabled one.
+00:11:40,133 --> 00:11:42,601
+Ew! Gross, cut it out.
 
 171
-00:12:32,850 --> 00:12:39,200
-But without his Scooty-Puff, Jr.,
-he cannot escape.
+00:11:42,813 --> 00:11:45,373
+Odd, he is immune to our psionic attack.
 
 172
-00:12:39,300 --> 00:12:42,250
-A quantum interphase bomb?
-Are you insane in the membrane?
+00:11:45,533 --> 00:11:49,367
+Impossible. We're an ambitious
+young squad with everything to prove.
 
 173
-00:12:42,350 --> 00:12:44,450
-You got it point, Dexter.
+00:11:49,573 --> 00:11:52,485
+It appears we are in the presence
+of the fabled one. . .
 
 174
-00:12:50,400 --> 00:12:51,050
-Not good.
+00:11:52,653 --> 00:11:55,884
+. . .but without his Scooty-Puff Junior,
+he cannot escape.
 
 175
-00:12:51,150 --> 00:12:55,150
-Detonation in T-60 earth seconds.
+00:11:56,093 --> 00:11:58,891
+[BRAIN CHUCKLING]
 
 176
-00:12:57,000 --> 00:13:00,500
-You fool! You'll be transported into
-the other universe with us.
+00:11:59,093 --> 00:12:01,812
+A quantum interface bomb?
+Are you insane in the membrane?
 
 177
-00:13:00,600 --> 00:13:02,500
-Trapped there for all eternity.
+00:12:02,013 --> 00:12:04,368
+You got it, Poindexter.
 
 178
-00:13:02,600 --> 00:13:05,300
-And we'll form a tightly nitted clique
-that you wont be part of.
+00:12:09,213 --> 00:12:10,248
+Oh, not good.
 
 179
-00:13:05,400 --> 00:13:08,500
-At least, I did one important thing with my life!
+00:12:10,453 --> 00:12:14,412
+COMPUTER: Detonation in T-minus
+60 Earth seconds.
 
 180
-00:13:08,600 --> 00:13:10,700
-leading good to victory over evil.
+00:12:14,573 --> 00:12:15,767
+[BEEPING]
 
 181
-00:13:10,800 --> 00:13:12,900
-- Hourray!
-- Exactly!
+00:12:16,013 --> 00:12:19,085
+You fool! You will be transported
+to the other universe with us.
 
 182
-00:13:13,000 --> 00:13:15,250
-The Nibblonians? Good?
+00:12:19,253 --> 00:12:21,084
+Trapped there for all eternity.
 
 183
-00:13:16,350 --> 00:13:18,700
-During your last moments in this universe
+00:12:21,293 --> 00:12:23,887
+We'll form a tight clique
+that you won't be part of.
 
 184
-00:13:18,800 --> 00:13:24,650
-perhaps you should query our database
-concerning the night of December, 31st 1999.
+00:12:24,093 --> 00:12:26,732
+Well, at least I did one
+important thing with my life. . .
 
 185
-00:13:24,750 --> 00:13:26,750
-The day I got frozen? What about it?
+00:12:26,893 --> 00:12:29,088
+. . .Ieading good to victory over evil.
 
 186
-00:13:26,850 --> 00:13:31,050
-No! Don't ask about that,
-euh...it...it would be...boring.
+00:12:29,293 --> 00:12:30,965
+-Yeah!
+-Exactly!
 
 187
-00:13:31,150 --> 00:13:32,100
-Forget it then...
+00:12:31,133 --> 00:12:34,125
+The Nibblonians? Good? Ha.
 
 188
-00:13:32,200 --> 00:13:32,900
-Query!
+00:12:34,293 --> 00:12:37,842
+During your last moments in this
+universe, perhaps you should query. . .
 
 189
-00:13:34,900 --> 00:13:40,050
-What append to me Phillip J. Fry on
-the night of December, 31st 1999?
+00:12:38,053 --> 00:12:42,331
+. . .our database concerning the night
+of December 31 , 1 999.
 
 190
-00:13:40,150 --> 00:13:43,700
-Clarification request! Are you
-the Phillip J. Fry from Earth,
+00:12:42,493 --> 00:12:45,485
+-The day I got frozen? What about it?
+-No.
 
 191
-00:13:43,800 --> 00:13:46,800
-or the Phillip J fry from Howering
-Squid World 97A?
+00:12:45,653 --> 00:12:48,565
+Don 't ask about that.
+It would be boring.
 
 192
-00:13:47,150 --> 00:13:49,900
-Earth, you fat idiot. Hurry up.
+00:12:48,853 --> 00:12:50,366
+-Forget it, then.
+-Query!
 
 193
-00:13:55,500 --> 00:13:58,300
-Hello! Pizza delivery for...
+00:12:50,573 --> 00:12:52,131
+Okay.
 
 194
-00:14:01,250 --> 00:14:02,250
-Oh, crud
+00:12:52,333 --> 00:12:57,168
+What happened to me, Philip J. Fry,
+on the night of December 31 , 1 999?
 
 195
-00:14:03,050 --> 00:14:05,050
-I can't believe how fat I look!
+00:12:57,373 --> 00:13:00,524
+Clarification request. Are you
+the Philip J. Fry from Earth. . .
 
 196
-00:14:09,000 --> 00:14:12,900
-Ooh, Nibbler's there. Wait! What?!
+00:13:00,693 --> 00:13:03,924
+. . .or the Philip J. Fry from
+Hovering Squid World 97A?
 
 197
-00:14:16,900 --> 00:14:18,850
-What the...
+00:13:04,133 --> 00:13:06,727
+Earth, you fat idiot. Hurry up.
 
 198
-00:14:20,300 --> 00:14:24,650
-I...I don't understand, you made me
-go in the freezer tube?
+00:13:11,813 --> 00:13:15,010
+Hello? Pizza delivery for...
 
 199
-00:14:24,750 --> 00:14:27,750
-Detonation in T-15 seconds.
+00:13:15,213 --> 00:13:18,330
+... "I. C. Wiener"? Oh, crud.
 
 200
-00:14:27,850 --> 00:14:30,650
-You're the one frozing me!
-You took away my life.
+00:13:18,613 --> 00:13:20,968
+Uh, I can't believe how fat I look.
 
 201
-00:14:30,750 --> 00:14:31,850
-We can explain.
+00:13:25,093 --> 00:13:27,653
+Oh, Nibbler's there. Wait. What?!
 
 202
-00:14:31,950 --> 00:14:34,250
-No, you can't! Shut your adorable trap.
+00:13:30,213 --> 00:13:32,408
+[SCREAMS]
 
 203
-00:14:34,350 --> 00:14:37,950
-We had no choice. You were the only
-one who could help us.
+00:13:32,653 --> 00:13:34,245
+FRY:
+What the--?
 
 204
-00:14:38,050 --> 00:14:42,650
-What is one life weighed against
-the entire universe?
+00:13:35,813 --> 00:13:39,931
+I-- I don't understand.
+You made me go in the freezer tube?
 
 205
-00:14:42,750 --> 00:14:44,700
-But it was my life.
+00:13:40,133 --> 00:13:42,966
+COMPUTER:
+Detonation in T-minus 15 seconds.
 
 206
-00:14:45,550 --> 00:14:50,850
-Detonation in 2, 1... will the owner
-of the white Pontiac Firebird...
+00:13:43,173 --> 00:13:45,767
+You little runts froze me.
+You took away my life.
 
 207
-00:14:50,950 --> 00:14:52,900
-Nevermind, zero.
+00:13:45,973 --> 00:13:49,170
+-We can explain.
+-No, you can't. Shut your adorable trap.
 
 208
-00:15:17,400 --> 00:15:20,150
-Well, here we are trapped for eternity.
+00:13:49,373 --> 00:13:52,649
+We had no choice. You were
+the only one who could help us.
 
 209
-00:15:20,250 --> 00:15:21,900
-We could sing 'American Pie'.
+00:13:52,813 --> 00:13:56,567
+What is one life weighed
+against the entire universe?
 
 210
-00:15:22,000 --> 00:15:24,700
-Go ahead, I deserve it.
+00:13:57,133 --> 00:13:59,601
+But it was my life.
 
 211
-00:15:24,800 --> 00:15:27,900
-I wish the stupid racoons had never
-brought me to the future.
+00:13:59,813 --> 00:14:02,771
+Detonation in two, one--
 
 212
-00:15:28,000 --> 00:15:30,850
-I have shocking data relevant
-to this conversation.
+00:14:02,933 --> 00:14:06,642
+Will the owner of a white
+Pontiac Firebird--? Oh, never mind, zero!
 
 213
-00:15:30,950 --> 00:15:35,500
-We don't care, you dope. We're in an other
-universe, you're not in charge anymore.
+00:14:22,773 --> 00:14:25,651
+Well, here we are,
+trapped for eternity.
 
 214
-00:15:35,600 --> 00:15:41,150
-It is possible for the Phillip Fry to resume
-his life on the December, 31st 1999.
+00:14:25,813 --> 00:14:30,045
+-We could sing "American Pie. "
+-Go ahead, I deserve it.
 
 215
-00:15:41,250 --> 00:15:44,050
-Really? I can go back in time?
+00:14:30,213 --> 00:14:33,171
+I wish those stupid raccoons
+had never brought me to the future.
 
 216
-00:15:44,200 --> 00:15:49,250
-There is an access point between universes
-at the space time where you enter the cryogenic tube,
+00:14:33,373 --> 00:14:35,967
+I have shocking data
+relevant to this conversation.
 
 217
-00:15:49,350 --> 00:15:52,000
-you and only you can return there.
+00:14:36,133 --> 00:14:37,691
+We don't care, you dope.
 
 218
-00:15:52,100 --> 00:15:57,400
-Interesting. You could stop the nibblonian
-from pushing you into the cryogenic tube.
+00:14:37,893 --> 00:14:40,327
+We're in another universe.
+You're not in charge.
 
 219
-00:15:57,500 --> 00:16:00,000
-That IS interesting. Why?
+00:14:40,533 --> 00:14:45,766
+It is possible for the Philip Fry to resume
+his life on December 31 , 1 999.
 
 220
-00:16:00,100 --> 00:16:02,800
-It would be as you never came to the future.
+00:14:45,933 --> 00:14:48,606
+Really? I can go back in time?
 
 221
-00:16:02,900 --> 00:16:04,550
-You'll have your life back,
+00:14:48,773 --> 00:14:50,843
+MASTER BRAIN:
+There is a nexus point. . .
 
 222
-00:16:04,650 --> 00:16:09,300
-and we will succeed in our plan to
-understand and destroy the universe.
+00:14:51,013 --> 00:14:53,652
+. . .at the space-time where you
+entered the cryogenic tube.
 
 223
-00:16:09,400 --> 00:16:10,700
-Everybody wins!
+00:14:53,813 --> 00:14:56,247
+You, and only you, can return there.
 
 224
-00:16:10,800 --> 00:16:13,300
-The human will be returned to the past.
+00:14:56,453 --> 00:14:59,172
+Interesting. You could
+stop the Nibblonian. . .
 
 225
-00:16:13,400 --> 00:16:15,300
-Meanwhile...
+00:14:59,333 --> 00:15:01,324
+. . .from pushing you
+into the cryogenic tube.
 
 226
-00:16:15,400 --> 00:16:19,600
-I love rocket skating but the
-wait is always so long.
+00:15:01,493 --> 00:15:04,007
+That is interesting. Why?
 
 227
-00:16:19,700 --> 00:16:23,350
-Poor Fry once stood on line
-6 hours to get me a ticket.
+00:15:04,213 --> 00:15:06,568
+It will be as if you
+never came to the future.
 
 228
-00:16:23,450 --> 00:16:26,850
-6 hours! Psss. Sounds like a real nobody.
+00:15:06,733 --> 00:15:09,452
+You will have your life back,
+and we will succeed. . .
 
 229
-00:16:26,950 --> 00:16:31,350
-But now it's time for somebody, and
-some chick he is with, to go skating.
+00:15:09,613 --> 00:15:12,844
+. . .in our plan to understand
+and destroy the universe.
 
 230
-00:16:34,700 --> 00:16:36,350
-You reserved the whole ring!
+00:15:13,053 --> 00:15:16,443
+-Everybody wins.
+BRAIN: The human returns to the past!
 
 231
-00:16:36,450 --> 00:16:41,450
-Yep! Buzzed ahead let then know whose
-aide is coming by. The Mayor's, that whose.
+00:15:16,653 --> 00:15:18,166
+NARRATOR:
+Meanwhile....
 
 232
-00:16:52,100 --> 00:16:55,650
-Mr Vogel, I thought we were going skating?
+00:15:18,573 --> 00:15:22,646
+I love rocket skating,
+but the wait is always so long.
 
 233
-00:16:55,750 --> 00:16:57,900
-No, we're not important enough,
+00:15:22,813 --> 00:15:26,249
+Poor Fry once stood in line six hours
+just to get me a ticket.
 
 234
-00:16:58,000 --> 00:17:02,250
-everybody just hold hands until the bus
-driver comes back from his haircut.
+00:15:26,413 --> 00:15:29,610
+Six hours? Sounds like a real nobody. . .
 
 235
-00:17:03,300 --> 00:17:05,300
-Let's let those kids skate with us.
+00:15:29,773 --> 00:15:34,130
+. . .but now it's time for somebody
+and some chick he's with to go skating.
 
 236
-00:17:05,550 --> 00:17:07,050
-What! Seriously?
+00:15:37,133 --> 00:15:40,045
+-You reserved the whole rink?
+-Yep, buzzed ahead. . .
 
 237
-00:17:07,200 --> 00:17:08,700
-I'm trying to impress you here.
+00:15:40,213 --> 00:15:43,888
+. . .Iet them know whose aide was
+coming by. The mayor's, that's whose.
 
 238
-00:17:08,800 --> 00:17:13,500
-I know, and it's working. But think how much
-skating would mean to those kids.
+00:15:44,093 --> 00:15:46,004
+Oh, Chaz!
 
 239
-00:17:13,600 --> 00:17:15,900
-We came here instead of eating today.
+00:15:53,893 --> 00:15:57,283
+Mr. Vogel, I thought
+we was going skating.
 
 240
-00:17:16,100 --> 00:17:19,700
-This might be the only chance
-to skate here their all lives.
+00:15:57,453 --> 00:15:59,250
+No, we're not important enough.
 
 241
-00:17:19,700 --> 00:17:21,200
-Who are we to say they can't?
+00:15:59,413 --> 00:16:03,088
+Everybody just hold hands until the
+bus driver comes back from his haircut.
 
 242
-00:17:21,300 --> 00:17:24,000
-The mayor's aide...and his badge.
+00:16:04,013 --> 00:16:07,801
+-Oh, let's let those kids skate with us.
+-What? Seriously?
 
 243
-00:17:24,100 --> 00:17:29,050
-Beat it kids, come back when
-you got connections.
+00:16:07,973 --> 00:16:11,761
+-I'm trying to impress you with my clout.
+-I know, and it's working.
 
 244
-00:17:29,150 --> 00:17:31,800
-Alright, little ones. Back to the orphanarium.
+00:16:11,933 --> 00:16:14,447
+But think how much skating
+would mean to those kids.
 
 245
-00:17:31,900 --> 00:17:34,050
-You can slide around the gym in your socks.
+00:16:14,653 --> 00:16:16,928
+We came here instead of eating today.
 
 246
-00:17:34,150 --> 00:17:35,850
-What socks?
+00:16:17,133 --> 00:16:20,250
+This might be their only chance
+to skate here their whole lives.
 
 247
-00:17:36,000 --> 00:17:39,450
-So, am I getting lucky tonight or what?
+00:16:20,413 --> 00:16:24,167
+-Who are we to say they can't?
+-The mayor's aide and his badge.
 
 248
-00:17:48,350 --> 00:17:50,250
-I hope your calculations are correct!
+00:16:24,613 --> 00:16:27,491
+Beat it, kids! Come back
+when you got connections.
 
 249
-00:17:50,350 --> 00:17:54,600
-Our calculations are always correct
-for we are gigantic brains.
+00:16:29,173 --> 00:16:30,447
+All right, little ones. . .
 
 250
-00:17:54,700 --> 00:17:57,200
-Initiate: space time transfer.
+00:16:30,613 --> 00:16:34,003
+. . .back to the orphanarium. You can
+slide around the gym in your socks.
 
 251
-00:18:11,950 --> 00:18:15,000
-I hereby place an order for one cheese pizza.
+00:16:34,173 --> 00:16:35,526
+What socks?
 
 252
-00:18:15,100 --> 00:18:17,450
-One pie, nothing good on it? Name?
+00:16:35,893 --> 00:16:39,044
+So am I gonna get lucky
+tonight, or what?
 
 253
-00:18:17,550 --> 00:18:20,050
-I period C period Wiener.
+00:16:39,693 --> 00:16:41,126
+[MUMBLING]
 
 254
-00:18:21,600 --> 00:18:27,100
-Talk a little louder, it sounds like you've some
-kind of tiny head on ya or something
+00:16:47,813 --> 00:16:49,565
+I hope your calculations are correct.
 
 255
-00:18:36,100 --> 00:18:39,200
-Hello, pizza delivery for ...
+00:16:49,733 --> 00:16:53,806
+Our calculations are always correct,
+for we are gigantic brains.
 
 256
-00:18:41,800 --> 00:18:43,800
-Crud!
+00:16:54,013 --> 00:16:55,605
+Initiate space-time transfer.
 
 257
-00:18:45,000 --> 00:18:46,700
-Gotcha!
+00:17:10,373 --> 00:17:13,331
+I hereby place an order
+for one cheese pizza.
 
 258
-00:18:46,800 --> 00:18:48,100
-I don't understand.
+00:17:13,533 --> 00:17:15,728
+MAN:
+One pie, nothing good on it. Name?
 
 259
-00:18:48,200 --> 00:18:51,650
-Yes you do. You came back in time
-to knock me into that freezer.
+00:17:15,893 --> 00:17:18,327
+I-period-C-period Wiener.
 
 260
-00:18:51,750 --> 00:18:53,600
-and now, I came back in time to stop you!
+00:17:19,493 --> 00:17:23,850
+Talk a little louder. It sounds like
+you got some kind of tiny head on you.
 
 261
-00:18:53,700 --> 00:18:57,050
+00:17:27,733 --> 00:17:29,325
+[DOOR OPENS]
+
+262
+00:17:33,573 --> 00:17:36,770
+Hello? Pizza delivery for. . .
+
+263
+00:17:36,973 --> 00:17:40,090
+. . . "I.C. Wiener"? Oh, crud.
+
+264
+00:17:42,173 --> 00:17:43,731
+Gotcha!
+
+265
+00:17:43,893 --> 00:17:46,088
+-I don't understand.
+-Yes, you do.
+
+266
+00:17:46,253 --> 00:17:48,687
+You came back in time
+to knock me into that freezer. . .
+
+267
+00:17:48,853 --> 00:17:50,525
+. . .and now I came back to stop you.
+
+268
+00:17:50,733 --> 00:17:53,645
 I did not come back in time.
 My people lack that ability.
 
-262
-00:18:57,150 --> 00:19:00,100
-But... I know you in the future.
-I cleaned your poop!
+269
+00:17:53,853 --> 00:17:56,811
+But I know you in the future.
+I cleaned your poop.
 
-263
-00:19:00,200 --> 00:19:04,050
+270
+00:17:57,013 --> 00:18:00,369
 Quite possible. We live long
-and are celebrated poopers!
+and are celebrated poopers.
 
-264
-00:19:04,150 --> 00:19:06,550
-You will meet me when I'm
-a thousand years older.
+271
+00:18:00,533 --> 00:18:02,922
+You will meet me
+when I'm 1 000 years older.
 
-265
-00:19:06,650 --> 00:19:08,900
-Not if you don't freeze me!
+272
+00:18:03,133 --> 00:18:05,693
+Not if you don't freeze me.
 
-266
-00:19:11,200 --> 00:19:15,800
-Please! Our sages foresee that in a
-thousand years, for one moment,
+273
+00:18:07,293 --> 00:18:10,569
+Please, our sages foresee
+that in 1 000 years. . .
 
-267
-00:19:15,900 --> 00:19:18,350
-the fate of the universe will depend on you!
+274
+00:18:10,733 --> 00:18:14,169
+. . .for one moment, the fate
+of the universe will depend on you.
 
-268
-00:19:18,550 --> 00:19:22,800
+275
+00:18:14,373 --> 00:18:18,412
 Since you will not live that long,
 I must freeze you now.
 
-269
-00:19:22,900 --> 00:19:24,550
-Why could you not just ask me?
-
-270
-00:19:24,650 --> 00:19:26,450
-We were affraid you would refuse.
-
-271
-00:19:26,550 --> 00:19:28,750
-Of course not! I love the future.
-
-272
-00:19:29,200 --> 00:19:31,800
-So then...why are you choking me right now?
-
-273
-00:19:31,900 --> 00:19:34,800
-Because I don't like being used.
-
-274
-00:19:35,550 --> 00:19:37,300
-Well, now it's your choice.
-
-275
-00:19:37,400 --> 00:19:39,900
-Is there nothing in the future worth saving?
-
 276
-00:19:41,000 --> 00:19:43,950
-Leela. But she doesn't think much of me..
+00:18:18,573 --> 00:18:21,883
+-Well, why couldn't you just ask me?
+-We were afraid you would refuse.
 
 277
-00:19:44,800 --> 00:19:46,800
-She must be The Other.
+00:18:22,093 --> 00:18:23,970
+Of course not, I love the future.
 
 278
-00:19:47,300 --> 00:19:48,700
-Wh...wha?
+00:18:24,693 --> 00:18:27,127
+Then why are you
+choking me right now?
 
 279
-00:19:49,150 --> 00:19:51,500
-You must not give up on her.
+00:18:27,333 --> 00:18:29,972
+Because I don't like being used.
 
 280
-00:19:51,600 --> 00:19:55,000
-I'm stationed on a distant
-world known as Vergon 6.
+00:18:30,533 --> 00:18:34,731
+Well, now it's your choice. Is there
+nothing in the future worth saving?
 
 281
-00:19:55,100 --> 00:19:56,800
-But if you return to the future,
+00:18:34,893 --> 00:18:38,681
+Hmm. Leela, but she doesn't
+think much of me.
 
 282
-00:19:56,900 --> 00:20:02,850
-I will tranfer to Earth to give
-you what help I can.
+00:18:38,853 --> 00:18:41,162
+Oh, she must be The Other.
 
 283
-00:20:02,950 --> 00:20:06,000
-You really think I would have
-had a chance with Leela?
+00:18:41,413 --> 00:18:43,404
+What?
 
 284
-00:20:06,100 --> 00:20:09,600
-You must choose. The present or the future.
+00:18:44,013 --> 00:18:45,810
+You must not give up on her.
 
 285
-00:20:09,700 --> 00:20:13,600
-To save youself or save Leela.
+00:18:46,013 --> 00:18:49,289
+I am stationed on a distant world
+known as Virgon Six. . .
 
 286
-00:20:22,900 --> 00:20:25,000
-Yes! Here I come future!
+00:18:49,453 --> 00:18:52,365
+. . .but if you return to the future,
+I will transfer to Earth. . .
 
 287
-00:20:25,100 --> 00:20:28,700
-No wait, I'm getting trapped
-in the infosphere again.
+00:18:52,533 --> 00:18:54,251
+. . .to give you what help I can.
 
 288
-00:20:28,800 --> 00:20:34,450
-Just remember that Scooty-Puff, Jr. suckssss...
+00:18:56,333 --> 00:18:59,803
+ALL: Ten, nine, eight, seven. . . .
+-You think I had a chance with Leela?
 
 289
-00:20:34,700 --> 00:20:37,350
-In a thousand years I'll get right on it.
+00:18:59,973 --> 00:19:03,204
+You must choose.
+The present or the future?
 
 290
-00:20:37,450 --> 00:20:39,700
-And so, a thousand years later,
+00:19:03,373 --> 00:19:06,445
+To save yourself or save Leela.
 
 291
-00:20:39,800 --> 00:20:45,050
-Fry, once again, infiltrated the infosphere
-and set off his amazing bomb.
+00:19:06,773 --> 00:19:08,411
+ALL:
+One!
 
 292
-00:20:45,700 --> 00:20:47,650
-Only this time...
+00:19:16,093 --> 00:19:19,290
+Yes! Here I come, future.
+Oh, no, wait!
 
 293
-00:21:03,100 --> 00:21:06,350
-Thank you for saving the universe, Fry.
+00:19:19,453 --> 00:19:21,648
+I'm gonna get trapped
+in the lnfo-Sphere again.
 
 294
-00:21:06,650 --> 00:21:08,400
-- Here.
-- Thanks.
+00:19:21,813 --> 00:19:26,329
+Just remember that
+Scooty-Puff Junior sucks!
 
 295
-00:21:08,500 --> 00:21:11,000
-If you ever need a saviour again, just ask.
+00:19:27,613 --> 00:19:29,843
+In 1 000 years, I'll get right on it.
 
 296
-00:21:11,350 --> 00:21:13,400
-Oh, we will,
+00:19:30,053 --> 00:19:33,284
+NARRATOR: And so 1000 years later,
+Fry once again...
 
 297
-00:21:13,700 --> 00:21:14,700
-we will.
+00:19:33,453 --> 00:19:37,571
+...infiltrated the lnfo-Sphere
+and set off his amazing bomb.
 
 298
-00:21:18,350 --> 00:21:20,500
-Man! I can't wait to tell everyone
-what happened.
+00:19:37,733 --> 00:19:40,531
+Only this time....
 
 299
-00:21:20,800 --> 00:21:22,800
-Yes. Incidentally,
+00:19:54,493 --> 00:19:57,087
+Thank you for saving the universe, Fry.
 
 300
-00:21:22,900 --> 00:21:24,800
-I need to remain under cover so I'm...
+00:19:58,013 --> 00:19:59,731
+-Here.
+-Oh, thanks.
 
 301
-00:21:24,900 --> 00:21:26,900
-...blanking your memory.
+00:19:59,933 --> 00:20:02,128
+If you ever need a savior again, just ask.
 
 302
-00:21:30,300 --> 00:21:32,700
-Did everything just taste purple for a second?
+00:20:02,333 --> 00:20:06,326
+Oh, we will. We will.
 
 303
-00:21:32,800 --> 00:21:37,450
-Well, let's go home you dump poop machine.
+00:20:09,253 --> 00:20:11,403
+I can't wait to tell
+everyone what happened.
 
 304
-00:21:40,850 --> 00:21:42,650
-Bender, would you do the honors...
+00:20:11,613 --> 00:20:14,685
+Yes. Incidentally,
+I need to remain undercover. . .
 
 305
-00:21:42,750 --> 00:21:44,750
-With gusto.
+00:20:14,853 --> 00:20:16,889
+. . .so I'm blanking your memory.
 
 306
-00:21:51,800 --> 00:21:53,200
-Guess I got this for you.
+00:20:19,573 --> 00:20:22,883
+Did everything just taste
+purple for a second?
 
 307
-00:21:53,300 --> 00:21:55,300
-Oh! Thank you.
+00:20:23,053 --> 00:20:26,011
+Oh, well, let's go home,
+you dumb poop machine.
 
 308
-00:21:56,600 --> 00:22:01,050
-You know what Fry? I don't care if you're not
-the most important person in the universe.
+00:20:26,173 --> 00:20:28,129
+[GIBBERING]
 
 309
-00:22:01,150 --> 00:22:03,850
-It really makes me happy to see you right now.
+00:20:30,733 --> 00:20:33,611
+-Bender, would you do the honors?
+-With gusto.
 
 310
-00:22:03,950 --> 00:22:08,700
+00:20:39,693 --> 00:20:42,571
+Hey, Leela. I guess I got this for you.
+
+311
+00:20:42,773 --> 00:20:45,731
+Oh, thank you.
+
+312
+00:20:45,933 --> 00:20:47,924
+You know what?
+I don't care if you're not. . .
+
+313
+00:20:48,093 --> 00:20:50,209
+. . .the most important person
+in the universe.
+
+314
+00:20:50,413 --> 00:20:52,847
+It really makes me happy
+to see you right now.
+
+315
+00:20:53,013 --> 00:20:55,766
 Then I am the most important
 person in the universe.
 
-311
-00:22:12,750 --> 00:22:14,750
-YES!
-
-312
-00:22:16,200 --> 00:22:19,700
-Subtitles by Joke0
-corrections by bwian, peetee!
-
-313
-00:22:20,100 --> 00:22:22,600
-Thanks to K5 and his crew!
-
-314
-00:22:23,000 --> 00:22:26,000
-April, 23rd 2003 - v1
-
+316
+00:21:01,333 --> 00:21:02,846
+Yes!

@@ -1,6 +1,6 @@
 package ist.spln.needleman;
 
-import ist.spln.needleman.valueobject.NeedlemanArrayValueObject;
+import ist.spln.needleman.valueobject.NeedlemanArrayValueObjectWithMoreInfo;
 
 public class Dir {
     private final boolean up;
@@ -13,7 +13,7 @@ public class Dir {
 		this.corner = corner;
 	}
 	
-	public String[] getStrings(NeedlemanArrayValueObject[] s1, NeedlemanArrayValueObject[] s2, int i, int j) {
+	public String[] getStrings(NeedlemanArrayValueObjectWithMoreInfo[] s1, NeedlemanArrayValueObjectWithMoreInfo[] s2, int i, int j) {
         String[] strings = new String[2];
 		if(this.up) {
             strings[0] = s1[i].getString();

@@ -7,28 +7,25 @@ import java.util.Collections;
 import java.util.List;
 
 public class NeedlemanWunch {
-    private final static int GAP = 1;
-    private final static int MATCH = 0;
-    private final static int MISMATCH = 99999;
 
-    public List<ValueObjectPair> run(NeedlemanArrayValueObject[] sequence1, NeedlemanArrayValueObject[] sequence2) {
+    public NWResults run(NeedlemanArrayValueObject[] sequence1, NeedlemanArrayValueObject[] sequence2, int gap, int match, int mismatch) {
 
         Val[][] needleman = new Val[sequence1.length + 1][sequence2.length + 1];
         needleman[0][0] = new Val(0, new Dir(false, false, true));
 
         for (int i = 1; i < needleman.length; i++) {
-            needleman[i][0] = new Val(i * GAP, new Dir(true, false, false));
+            needleman[i][0] = new Val(i * gap, new Dir(true, false, false));
         }
 
         for (int j = 1; j < needleman[0].length; j++) {
-            needleman[0][j] = new Val(j * GAP, new Dir(false, true, false));
+            needleman[0][j] = new Val(j * gap, new Dir(false, true, false));
         }
 
         for (int i = 1; i < needleman.length; i++) {
             for (int j = 1; j < needleman[i].length; j++) {
-                int l = needleman[i][j - 1].getValue() + GAP;
-                int u = needleman[i - 1][j].getValue() + GAP;
-                int c = needleman[i - 1][j - 1].getValue() + calcMatch(sequence1[i - 1], sequence2[j - 1]);
+                int l = needleman[i][j - 1].getValue() + gap;
+                int u = needleman[i - 1][j].getValue() + gap;
+                int c = needleman[i - 1][j - 1].getValue() + calcMatch(sequence1[i - 1], sequence2[j - 1], match, mismatch);
 
                 int min = Math.min(l, Math.min(u, c));
 
@@ -48,19 +45,17 @@ public class NeedlemanWunch {
                 needleman[i][j] = new Val(min, new Dir(up, left, corner));
             }
         }
-
-        System.out.println("Optimal score: " + needleman[sequence1.length][sequence2.length].getValue());
         return returnOptimalAlignment(needleman, sequence1, sequence2);
     }
 
-    private int calcMatch(NeedlemanArrayValueObject value1, NeedlemanArrayValueObject value2) {
+    private int calcMatch(NeedlemanArrayValueObject value1, NeedlemanArrayValueObject value2, int match, int mismatch) {
         if (value1.isEquivalentTo(value2)) {
-            return MATCH;
+            return match;
         }
-        return MISMATCH;
+        return mismatch;
     }
 
-    private List<ValueObjectPair> returnOptimalAlignment(Val[][] needleman, NeedlemanArrayValueObject[] sequence1, NeedlemanArrayValueObject[] sequence2) {
+    private NWResults returnOptimalAlignment(Val[][] needleman, NeedlemanArrayValueObject[] sequence1, NeedlemanArrayValueObject[] sequence2) {
         int matches = 0;
         int total = 0;
         int i = sequence1.length;
@@ -80,9 +75,9 @@ public class NeedlemanWunch {
                 matches++;
             }
         }
-        System.out.println("Word Matches/Total Words = " + matches/(float)total);
+        //System.out.println("Word Matches/Total Words = " + matches/(float)total);
         Collections.reverse(valueObjects);
-        return valueObjects;
+        return new NWResults(valueObjects, needleman[sequence1.length][sequence2.length].getValue());
     }
 
     private void printMatrix(Val[][] needleman) {

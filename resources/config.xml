@@ -1,5 +1,6 @@
 <config>
-    <subLocation>./data/nottinghillsub.srt</subLocation>
-    <scriptLocation>./data/nottinghillscript.txt</scriptLocation>
+    <subLocation>./data/sub.srt</subLocation>
+    <subOtherLanguageLocation>./data/subPor.srt</subOtherLanguageLocation>
+    <scriptLocation>./data/script.txt</scriptLocation>
     <newFilesLocation>./data/new/</newFilesLocation>
 </config>
