@@ -201,6 +201,9 @@ public class Alignment {
         assert this.scriptAlignTime != null;
         assert this.subAlignTime.size() == this.scriptAlignTime.size();
 
+        System.out.println("Subtitle translated lines: " + subAlignTime.size());
+        System.out.println("Total lines in script: " + scriptReader.getScriptDialogs());
+
         for (int i = 0; i < subAlignTime.size(); i++) {
             List<String> strings = new ArrayList<>();
             for (Integer integer : subAlignTime.get(i)) {
