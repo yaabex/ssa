@@ -3,6 +3,9 @@ package ist.spln.readers.subtitle;
 import ist.spln.readers.Reader;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.joda.time.DateTime;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
 
 import java.io.File;
 import java.io.IOException;
@@ -62,8 +65,21 @@ public class SimpleSubtitleReader implements Reader {
                     utterance2 = utterance2.replaceFirst("-", "").trim();
                     textList.add(utterance1);
                     textList.add(utterance2);
-                    subtitleLines.add(new SubtitleLine(utterance1, wholeSubtitleFile.size() - 2, new TimeInfo(startTime, endTime)));
-                    subtitleLines.add(new SubtitleLine(utterance2, wholeSubtitleFile.size() - 1, new TimeInfo(startTime, endTime)));
+
+                    DateTimeFormatter formatter = DateTimeFormat.forPattern("HH:mm:ss,SSS");
+                    DateTime start = formatter.parseDateTime(startTime);
+                    DateTime end = formatter.parseDateTime(endTime);
+                    long duration = end.getMillis() - start.getMillis();
+                    assert duration >= 0;
+                    String[] words1 = utterance1.split("\\s+");
+                    String[] words2 = utterance2.split("\\s+");
+                    long round = Math.round((words1.length / (words1.length + (double)words2.length)) * duration);
+                    DateTime mid = start.plus(round);
+
+                    subtitleLines.add(new SubtitleLine(utterance1, wholeSubtitleFile.size() - 2, new TimeInfo(startTime,
+                            formatter.print(mid))));
+                    subtitleLines.add(new SubtitleLine(utterance2, wholeSubtitleFile.size() - 1, new TimeInfo(formatter.print(mid),
+                            endTime)));
                 } else {
                     wholeSubtitleFile.add(StringUtils.join(utterances, "\n"));
                     utterance = StringUtils.join(utterances, " ").trim();
@@ -110,10 +126,10 @@ public class SimpleSubtitleReader implements Reader {
         }
     }
 
-    public void writeWholeSubtitleFile(String newFilesLocation) throws IOException {
+    public void writeWholeSubtitleFile(String newFilesLocation) throws Exception {
         File file = new File(newFilesLocation);
         file.mkdirs();
         file = new File(newFilesLocation + "/sub.srt");
-        FileUtils.writeLines(file, this.wholeSubtitleFile);
+        FileUtils.writeLines(file, getWholeSubtitleFile());
     }
 }

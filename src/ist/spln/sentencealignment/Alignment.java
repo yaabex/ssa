@@ -1,13 +1,12 @@
 package ist.spln.sentencealignment;
 
 import ist.spln.needleman.ValueObjectPair;
-import ist.spln.needleman.valueobject.MEDValueObject;
 import ist.spln.needleman.valueobject.NeedlemanArrayValueObjectWithMoreInfo;
 import ist.spln.needleman.valueobject.TimeValueObject;
+import ist.spln.readers.script.ScriptLine;
 import ist.spln.readers.script.SimpleScriptReader;
 import ist.spln.readers.subtitle.SimpleSubtitleReader;
 import ist.spln.readers.subtitle.SubtitleLine;
-import ist.spln.readers.subtitle.TimeInfo;
 import ist.spln.stringmodifiers.Lemmatizer;
 import org.apache.commons.lang3.StringUtils;
 
@@ -145,7 +144,7 @@ public class Alignment {
     private String getTextFromLineNumber(List<Integer> subLines, SimpleScriptReader scriptReader) {
         String scriptLinesText = "";
         for (Integer line : subLines) {
-            scriptLinesText += scriptReader.getScriptLines().get(line).getLine() + " ";
+            scriptLinesText += scriptReader.getScriptDialogs().get(line).getLine() + " ";
         }
         return scriptLinesText;
     }
@@ -164,17 +163,16 @@ public class Alignment {
                 lineMatches++;
                 for (Integer lineNumber : subLines) {
                     SubtitleLine subtitleLine = subtitleReader.getSubtitleLines().get(lineNumber);
-                    scriptReader.getScriptLines().get(line).addTimeInfo(subtitleLine.getTimeInfo());
+                    scriptReader.getScriptDialogs().get(line).addTimeInfo(subtitleLine.getTimeInfo());
                 }
                 String startTime = subtitleReader.getSubtitleLines().get(subLines.get(0)).getTimeInfo().getStartTime();
                 String endTime = subtitleReader.getSubtitleLines().get(subLines.get(subLines.size() - 1)).getTimeInfo().getEndTime();
-                scriptReader.getWholeScript().set(scriptReader.getScriptLines().get(line).getLineNumber(),
-                        "<" + startTime + ">" + " --> " + "<" + endTime + ">" + "\n" +
-                                scriptReader.getContextFromLineNumberOfWord(line));
+                scriptReader.getWholeScript().get(scriptReader.getScriptDialogs().get(line).getLineNumber()).setLine("BT: " +
+                        scriptReader.getContextFromLineNumberOfWord(line));
 
             }
         }
-        System.out.println("Script Line Matches/Total Lines = " + lineMatches/(float)scriptReader.getScriptLines().size());
+        System.out.println("Script Line Matches/Total Lines = " + lineMatches/(float)scriptReader.getScriptDialogs().size());
     }
 
     public void enhanceSubtitles(SimpleScriptReader scriptReader, SimpleSubtitleReader subtitleReader) {
@@ -189,7 +187,7 @@ public class Alignment {
             List<Integer> scriptLines = scriptAlign.get(i);
             for (Integer line : subLines) {
                 lineMatches++;
-                String characterName = scriptReader.getScriptLines().get(scriptLines.get(0)).getCharacterName();
+                String characterName = scriptReader.getScriptDialogs().get(scriptLines.get(0)).getCharacterName();
                 int realLineNumber = subtitleReader.getSubtitleLines().get(line).getLineNumber();
                 subtitleReader.getWholeSubtitleFile().set(realLineNumber,
                         characterName + ":" + subtitleReader.getContextFromLineNumberOfWord(line));
@@ -209,8 +207,10 @@ public class Alignment {
                 strings.add(subtitleReader.getSubtitleLines().get(integer).getLine());
             }
             int scriptLine = scriptAlignTime.get(i);
-            scriptReader.getWholeScript().set(scriptReader.getScriptLines().get(scriptLine).getLineNumber(),
+            ScriptLine line = scriptReader.getWholeScript().get(scriptReader.getScriptDialogs().get(scriptLine).getLineNumber());
+            line.setLine(
                     StringUtils.join(strings, "\n").trim());
+            line.setToTranslate(false);
         }
     }
 }

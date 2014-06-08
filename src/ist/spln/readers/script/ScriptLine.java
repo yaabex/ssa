@@ -1,39 +1,31 @@
 package ist.spln.readers.script;
 
-import ist.spln.readers.subtitle.TimeInfo;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class ScriptLine {
+public abstract class ScriptLine {
     private String line;
-    private int lineNumber;
-    private String characterName;
-    private List<TimeInfo> timeInfos;
+    private boolean toTranslate;
 
-    public ScriptLine(String line, int lineNumber, String characterName) {
+    public ScriptLine(String line, boolean toTranslate) {
         this.line = line;
-        this.lineNumber = lineNumber;
-        this.characterName = characterName;
-        this.timeInfos = new ArrayList<>();
+        this.toTranslate = toTranslate;
     }
     public String getLine() {
         return line;
     }
 
-    public int getLineNumber() {
-        return lineNumber;
+    public void setToTranslate(boolean toTranslate) {
+        this.toTranslate = toTranslate;
     }
 
-    public String getCharacterName() {
-        return characterName;
+    public boolean isToTranslate() {
+        return toTranslate;
     }
 
-    public List<TimeInfo> getTimeInfos() {
-        return timeInfos;
+    public void setLine(String line) {
+        this.line = line;
     }
 
-    public void addTimeInfo(TimeInfo timeInfo) {
-        this.timeInfos.add(timeInfo);
+    @Override
+    public String toString() {
+        return line;
     }
 }

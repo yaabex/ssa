@@ -1,6 +1,7 @@
 package ist.spln.readers.script;
 
-import ist.spln.config.XmlParser;
+import com.memetix.mst.language.Language;
+import com.memetix.mst.translate.Translate;
 import ist.spln.readers.Reader;
 import org.apache.commons.io.FileUtils;
 
@@ -15,9 +16,9 @@ import java.util.*;
 
 public class SimpleScriptReader implements Reader {
     private String scriptLocation;
-    private List<String> wholeScript;
+    private List<ScriptLine> wholeScript;
     private List textList;
-    private List<ScriptLine> scriptLines;
+    private List<ScriptDialog> scriptDialogs;
 
     public SimpleScriptReader(String scriptLocation) {
         this.scriptLocation = scriptLocation;
@@ -25,9 +26,9 @@ public class SimpleScriptReader implements Reader {
 
     @Override
     public void read() throws IOException {
-        List<String> wholeScript = new ArrayList<>();
+        List<ScriptLine> wholeScript = new ArrayList<>();
         List<String> textList = new ArrayList<>();
-        List<ScriptLine> scriptLines = new ArrayList<>();
+        List<ScriptDialog> scriptDialogs = new ArrayList<>();
         Charset encoding = StandardCharsets.ISO_8859_1;
         Path path = Paths.get(scriptLocation);
         try (Scanner scanner = new Scanner(path, encoding.name())){
@@ -42,12 +43,13 @@ public class SimpleScriptReader implements Reader {
                     dialogue = false;
                     if (!wholeLine.isEmpty()) {
                         String trimmedWholeLine = wholeLine.trim();
-                        wholeScript.add(trimmedWholeLine);
+                        ScriptDialog scriptDialog = new ScriptDialog(trimmedWholeLine, wholeScript.size(), characterName);
+                        wholeScript.add(scriptDialog);
                         textList.add(trimmedWholeLine);
-                        scriptLines.add(new ScriptLine(trimmedWholeLine, wholeScript.size()-1, characterName));
+                        scriptDialogs.add(scriptDialog);
                         wholeLine = "";
                     } else {
-                        wholeScript.add(line); //adds empty lines. probably useless
+                        wholeScript.add(new ScriptEmptyLine(line)); //adds empty lines. probably useless
                     }
                     continue;
                 } else {
@@ -57,34 +59,35 @@ public class SimpleScriptReader implements Reader {
                         if(previousLineIsEmpty && nameOfCharacter(line)) {
                             characterName = line.trim();
                             dialogue = true;
-                            wholeScript.add(line);
+                            wholeScript.add(new ScriptOtherText(line));
                         } else {
-                            wholeScript.add(line.trim());
+                            wholeScript.add(new ScriptOtherText(line));
                         }
                     }
                 }
             }
             String trimmedWholeLine = wholeLine.trim();
             if (!trimmedWholeLine.isEmpty()) {
-                wholeScript.add(trimmedWholeLine);
+                ScriptDialog scriptDialog = new ScriptDialog(trimmedWholeLine, wholeScript.size(), characterName);
+                wholeScript.add(scriptDialog);
                 textList.add(trimmedWholeLine);
-                scriptLines.add(new ScriptLine(trimmedWholeLine, wholeScript.size() - 1, characterName));
+                scriptDialogs.add(scriptDialog);
             }
         }
         this.textList = textList;
         this.wholeScript = wholeScript;
-        this.scriptLines = scriptLines;
+        this.scriptDialogs = scriptDialogs;
     }
 
     private boolean nameOfCharacter(String line) {
         return line.matches("^\\s+[\\p{Lu}]{2,}.*");
     }
 
-    public String getContextFromLineNumberOfWord(int i) {
-        return this.getWholeScript().get(this.getScriptLines().get(i).getLineNumber());
+    public ScriptLine getContextFromLineNumberOfWord(int i) {
+        return this.getWholeScript().get(this.getScriptDialogs().get(i).getLineNumber());
     }
 
-    public List<String> getWholeScript() {
+    public List<ScriptLine> getWholeScript() {
         return wholeScript;
     }
 
@@ -93,20 +96,31 @@ public class SimpleScriptReader implements Reader {
         return textList;
     }
 
-    public List<ScriptLine> getScriptLines() {
-        return scriptLines;
+    public List<ScriptDialog> getScriptDialogs() {
+        return scriptDialogs;
     }
 
     public void printWholeScript() {
-        for (String line : getWholeScript()) {
+        for (ScriptLine line : getWholeScript()) {
             System.out.println(line);
         }
     }
 
-    public void writeWholeScript(String newFilesLocation) throws IOException {
+    public void writeWholeScript(String newFilesLocation) throws Exception {
         File file = new File(newFilesLocation);
         file.mkdirs();
         file = new File(newFilesLocation + "/script.txt");
-        FileUtils.writeLines(file, this.getWholeScript());
+
+        Translate.setClientId("ScriptSubtitleAlignment");
+        Translate.setClientSecret("q7a4z1w8s5x2q7a4z1w8s5x2");
+        List<String> translatedScript = new ArrayList<>();
+        for (ScriptLine line : getWholeScript()) {
+            if (line.isToTranslate()) {
+                translatedScript.add(Translate.execute(line.toString(), Language.ENGLISH, Language.PORTUGUESE));
+            } else {
+                translatedScript.add(line.toString());
+            }
+        }
+        FileUtils.writeLines(file, translatedScript);
     }
 }
