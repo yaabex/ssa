@@ -165,8 +165,6 @@ public class Alignment {
                     SubtitleLine subtitleLine = subtitleReader.getSubtitleLines().get(lineNumber);
                     scriptReader.getScriptDialogs().get(line).addTimeInfo(subtitleLine.getTimeInfo());
                 }
-                String startTime = subtitleReader.getSubtitleLines().get(subLines.get(0)).getTimeInfo().getStartTime();
-                String endTime = subtitleReader.getSubtitleLines().get(subLines.get(subLines.size() - 1)).getTimeInfo().getEndTime();
                 scriptReader.getWholeScript().get(scriptReader.getScriptDialogs().get(line).getLineNumber()).setLine("BT: " +
                         scriptReader.getContextFromLineNumberOfWord(line));
 
@@ -202,7 +200,7 @@ public class Alignment {
         assert this.subAlignTime.size() == this.scriptAlignTime.size();
 
         System.out.println("Subtitle translated lines: " + subAlignTime.size());
-        System.out.println("Total lines in script: " + scriptReader.getScriptDialogs());
+        System.out.println("Total lines in script: " + scriptReader.getScriptDialogs().size());
 
         for (int i = 0; i < subAlignTime.size(); i++) {
             List<String> strings = new ArrayList<>();
