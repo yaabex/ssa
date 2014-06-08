@@ -155,7 +155,6 @@ public class Alignment {
         assert this.subAlign.size() == this.scriptAlign.size();
 
         int lineMatches = 0;
-
         for (int i = 0; i < subAlign.size(); i++) {
             List<Integer> subLines = subAlign.get(i);
             List<Integer> scriptLines = scriptAlign.get(i);
@@ -193,6 +192,7 @@ public class Alignment {
         }
         System.out.println("Sub Line Matches/Total Lines = " + lineMatches/(float)subtitleReader.getSubtitleLines().size());
     }
+
 
     public void translateScript(SimpleScriptReader scriptReader, SimpleSubtitleReader subtitleReader) {
         assert this.subAlignTime != null;
