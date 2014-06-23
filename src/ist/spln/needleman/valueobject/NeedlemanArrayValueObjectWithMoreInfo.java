@@ -24,9 +24,18 @@ public class NeedlemanArrayValueObjectWithMoreInfo extends NeedlemanArrayValueOb
     public boolean isEquivalentTo(NeedlemanArrayValueObject valueObject) {
         SimpleNormalizer normalizer = new SimpleNormalizer();
         NeedlemanArrayValueObjectWithMoreInfo otherObject = ((NeedlemanArrayValueObjectWithMoreInfo)valueObject);
-        return normalizer.normPunctLCaseDMarks(this.string).equals(normalizer.normPunctLCaseDMarks(otherObject.getString()))
-                || ((new NeedlemanWunch()).run(toValueObjectArray(this.getString()),
-                toValueObjectArray(otherObject.getString()), 1, 0, 1)).getRes() < 3;
+        if (normalizer.normPunctLCaseDMarks(this.string).equals(normalizer.normPunctLCaseDMarks(otherObject.getString()))) {
+            return true;
+        } else {
+            if (this.getString().length() < 5) {
+                return (new NeedlemanWunch()).run(toValueObjectArray(this.getString()),
+                        toValueObjectArray(otherObject.getString()), 1, 0, 1).getRes() < 2;
+            } else {
+                return (new NeedlemanWunch()).run(toValueObjectArray(this.getString()),
+                        toValueObjectArray(otherObject.getString()), 1, 0, 1).getRes() < 3;
+            }
+
+        }
     }
 
     private MEDValueObject[] toValueObjectArray(String s) {
