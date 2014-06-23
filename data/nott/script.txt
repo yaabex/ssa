@@ -119,7 +119,7 @@ Marcaste um ponto! Se � de romance que se trata, tenho o que � preciso!
   Ele cabeças de volta no andar de cima... fala como ele muda...
 
         SPIKE
-BT: Eu suspeito que você vai preferir o outro.
+Eu suspeito que você vai preferir o outro.
   E reentrar em uma camiseta branca, com uma grande seta,
   apontando para baixo para as moscas, dizendo: 'Tira isso daqui.'
 
@@ -128,7 +128,7 @@ Legal, né?
         WILLIAM
 Essa pode lev�-la a pensar que n�o � verdadeiro amor o que sentes.
         SPIKE
-Não iria querer isso... (e fazer o backup que ele vai) Ok..--só mais um.
+Certo... S� mais uma.
   Ele se resume a usá-lo.  Muitos corações, dizendo: ' você é o
   mulher mais bonita do mundo.'
 
@@ -160,7 +160,7 @@ e para ser franco, nem por isso vendo muitos.
 
   É uma loja pequena, um pouco caótica, estantes em todos os lugares,
   com pedacinhos de secreto arredonda cantos com ainda mais livros.
-  Martin, William é o único funcionário, está esperando com entusiasmo.
+  Martin, William é único funcionário, está esperando com entusiasmo.
   Ele é muito forte, um otimista uncrushable.  Talvez sem
   causa.  Poucos segundos depois, William fica contrariado por trás o
   mesa.
@@ -200,7 +200,6 @@ para o caso de pensar compr�-lo...
         ANNA
 Realmente?
         WILLIAM
-Mas se lhe interessa a Turquia...
 Este aqui � muito bom.
   Ele pega um livro sobre o balcão.
 
@@ -326,7 +325,6 @@ N. º Ninguém..--ninguém.
 Era o m�ximo, se algu�m famoso entrasse na livraria, n�o?!
 Sabes... E isto � mesmo espantoso...
 Uma vez, vi o Ringo Starr.
-Onde foi isso?
 Penso que era o Ringo. Podia ter sido aquele homem do...
 "Violino no Telhado"... Sabes? O Toppy.
         WILLIAM
@@ -369,17 +367,18 @@ Vou perder a cabe�a! Quero um sumo de laranja.
   suco, em seu copo de espuma, voa.  Ele absorve a Anna.
 
         ANNA
-Oh Jesus.
+BT: Oh Jesus.
         WILLIAM
-Pe�o imensa desculpa! -Lamento muito!
+BT: Deixe-me ajudar.
   Ele pega alguns guardanapos de papel e começa a limpar..--ficando
   muito perto de seus seios no pânico de...
 
         ANNA
-Eu vivo do outro lado da rua. Tenho...
+O que é que está a fazer?!
   Ele salta para trás.
 
         WILLIAM
+Eu vivo do outro lado da rua. Tenho...
 ... �gua e sab�o. Pode limpar isso.
         ANNA
 Obrigada! S� preciso do meu carro.
@@ -408,16 +407,12 @@ Entre... Eu s� vou...
   café da manhã em um armário.  Ela entra na cozinha.
 
         WILLIAM
-Entre! N�o est�...
 ... t�o arrumada como de costume, lamento. Mas...
   E orienta a subir as escadas, depois de tomar o saco dos livros
   dela...
 
         WILLIAM
-A casa de banho � em cima.
-E o telefone, est� ali!
-Deixe-me...
-Ao virar da esquina, sempre em frente.
+O banheiro é no topo da escada, e há um telefone na mesa lá em cima.
   Ela se dirige para cima.
 
   COZINHA INT. - DIA
@@ -496,9 +491,9 @@ Vem aí.
   Ele abre a porta.  É ela.
 
         WILLIAM
-BT: Ah Oi.  Esqueceu alguma coisa?
-        ANNA
 Esqueci-me do meu outro saco.
+        ANNA
+BT: Eu esqueci minha bolsa.
         WILLIAM
 BT: Ah certo.
   Ele atira-se para a cozinha e pega as compras esquecida
@@ -527,7 +522,7 @@ Santo Deus! O meu amigo... Desculpe! Ele � incr�vel!
         SPIKE
 BT: Oi.
         ANNA
-BT: Oi.
+Oi.
         WILLIAM
 Oi.
   Spike passa por unsuspiciously e dirige-se para a cozinha.
@@ -726,11 +721,11 @@ Ele n�o se lembra desse outro...
         SPIKE
 BT: Tente 'Flintstone'.
         WILLIAM
-O qu�?
+(de Spike) O que?
         SPIKE
 Acho que ela disse que o seu nome era Flintstone.
         WILLIAM
-Poder� ser... Flintstone?
+'Flintstone' significa algo para você?
         HOMEM DE RITZ
 BT: Eu vou colocar você mesmo, através do senhor.
   Flintstone é realmente a palavra mágica.
@@ -747,7 +742,6 @@ BT: Oi.
 
         WILLIAM
 Fala o William Thacker.
-Sim...
 N�s...
         ANNA (V.O.)
 Armaste-te em forte... S� telefonaste ao fim de 3 dias.
@@ -755,9 +749,9 @@ Armaste-te em forte... S� telefonaste ao fim de 3 dias.
 Juro-lhe que nunca na vida me armei em forte!
 O meu amigo, com quem vou ajustar contas, n�o me deu o recado.
         ANNA (V.O.)
-Talvez, quem sabe, eu possa aparecer para tomar ch�, ou coisa assim...
+Oh..--ok.
         WILLIAM
-BT: BT: Talvez eu poderia cair redonda para o chá ou algo assim?
+Talvez, quem sabe, eu possa aparecer para tomar ch�, ou coisa assim...
         ANNA (V.O.)
 Est� complicado. Talvez esteja livre cerca das 4.
         WILLIAM
@@ -794,12 +788,13 @@ Terceiro.
         WILLIAM
 Tem a certeza que esta �...?
         TARQUIN
-BT: Sim.
+Sim.
         WILLIAM
-Ol�... Eu sou a Karen.
+BT: Ah.  Direito.
   Ele bate à porta.  Uma garota americana brilhante, adaptada abre a porta.
 
         KAREN
+Ol�... Eu sou a Karen.
 Lamento, mas est� tudo um pouco atrasado.
 Aqui t�m. Sigam-me.
   Ela entrega um kits de imprensa muito liso, dispendiosa produzido,
@@ -814,11 +809,10 @@ Aqui t�m. Sigam-me.
 Ent�o, que lhes pareceu o filme?
         TARQUIN
 ..."Encontros do 3�. Grau" conhece "Jean de Florette"!
-Concordo.
   Ambos recorrem à William para sua opinião.
 
         WILLIAM
-BT: Eu concordo.
+Concordo.
         KAREN
 Desculpem... A que jornais pertencem?
         TARQUIN
@@ -848,7 +842,7 @@ Como se chama o hospital?
 Importa-se se eu n�o lhe disser? � uma coisa t�o triste...
 O nome do hospital seria revelador.
         TARQUIN
-Com certeza! Tem raz�o.
+Ah claro.  É claro.
         KAREN
 Sr. Thacker.
   Salvo pelo gongo.
@@ -927,10 +921,10 @@ N�o sei o que me passou pela cabe�a...
 E queria ter a certeza que voc� n�o levou a mal.
         WILLIAM
 Com certeza, de modo nenhum!
-Miss Scott tamb�m gostaria de falar do seu pr�ximo filme
   Re-insira o Jeremy.
 
         JEREMY
+Miss Scott tamb�m gostaria de falar do seu pr�ximo filme
 cujas filmagens principiam no fim do Ver�o.
         WILLIAM
 Sim, �ptimo... �ptimo.
@@ -938,7 +932,6 @@ Nesse entram cavalos?
 Ou c�es de ca�a? Os nossos leitores interessam-se por ambos.
 Passa-se num submarino.
         WILLIAM
-Pouca sorte...
 Mas...
 ... se entrassem cavalos...
 ... montava-os, ou seria substitu�da por um duplo?
@@ -1033,7 +1026,6 @@ Alguma parte em especial?
 Diga-me voc� de que parte gostou mais
 e eu digo-lhe se gostei de fazer essa parte.
         WILLIAM
-Eu...
 ... gostei da parte no espa�o.
 Gostei muito.
 Identificou-se com a personagem que interpreta?
@@ -1045,14 +1037,13 @@ Identificou-se com a personagem que interpreta?
         WILLIAM
 BT: Você se identificou com o personagem que você estava jogando?
         INTÉRPRETE
-N�o.
-Porqu�?
+Te identicaste con el personaje interpretabas?
         ATOR ESTRANGEIRO
-N. º
+BT: não.
         INTÉRPRETE
-N. º
+N�o.
         WILLIAM
-BT: Ah.  Por que não?
+Porqu�?
         INTÉRPRETE
 Por que não?
         ATOR ESTRANGEIRO
@@ -1083,7 +1074,7 @@ Di Caprio.
 E ele � o seu realizador italiano favorito?
   INT. CORREDOR DE RITZ - DIA
 
-  William emerge traumatizado para o corredor.  Está cheio de
+  William emerge traumatizada para o corredor.  Está cheio de
   câmera tripulações.  E Karen.
 
         KAREN
@@ -1097,7 +1088,7 @@ S� um minuto...
   Batem na porta.
 
         ANNA (V.O.)
-BT: Entre.
+Pode entrar.
   William entra.  Um certo nervosismo.  Eles estão sozinhos novamente.
 
         ANNA
@@ -1287,7 +1278,6 @@ Diga-me, Anna, o que � que faz?
 Sou actriz.
         BERNIE
 Fant�stico!
-E voc�?
 Eu trabalho na Bolsa... Campos bem diferentes!
 Apesar de ter feito teatro amador.
 P. G. Wodehouse. Farsa.
@@ -1310,9 +1300,8 @@ Quinze milh�es de d�lares.
         BERNIE
 Estou a ver...
 Isso �...
-Est� tudo pronto.
         MAX
-BT: Bem..--acho que estamos prontos.
+Est� tudo pronto.
   Todos se movem em direção a cozinha.
 
         ANNA
@@ -1341,7 +1330,6 @@ Meu Deus! Meu Deus!
   Querida re-entra.
 
         QUERIDA
-Que foi que lhe disseste?
 N�o acredito! N�o acredito! Entrei na casa de banho com ela!
 Ainda estava a falar quando ela come�ou a desapertar as "jeans"!
 Ela teve de me pedir para sair.
@@ -1350,8 +1338,6 @@ Ela teve de me pedir para sair.
   Um pouco mais tarde.  Sentaram-se no jantar.  Bella ao lado de Anna.
 
         BELLA
-Ent�o sabias quem ela era?
-Claro que sim, mas ele n�o!
 Que tal achou a galinha-da-�ndia?
         ANNA
 Sou vegetariana.
@@ -1362,7 +1348,7 @@ BT: Oh Deus.
   Continuando através da noite..--eles são muito relaxados, como eles
   Coma o jantar.  Alguns segundos olhando a noite vai bem..--Anna
   é levando isso em..--amigos de verdade..--relaxados..--calma, provocando.
-  E há um bolo.  Querida usa chapéu de inadequado de Bernie.  Em um
+  E há um bolo.  Querida usa chapéu de inadequado de Bernie.  Anna
   relógios William rindo de algo e depois colocando a cabeça
   em suas mãos com vergonha trocista.
 
@@ -1420,11 +1406,11 @@ n�o podemos ter filhos.
   Silêncio mortal.
 
         WILLIAM
-Bella.
+Belle...
   Bella encolhe os ombros.  Bernie é totalmente grief-golpeado.
 
         BERNIE
-Belle...
+N. º  Não é verdade...
         BELLA
 "C'est la vie"!
 Apesar de tudo, somos felizes em... muitos aspectos.
@@ -1440,11 +1426,11 @@ que a sua alcunha na escola era... Floppy (despistado)!
   Todos riem.  Anna sorriu do outro lado para William.
 
         WILLIAM
-Então fico com o brownie?
+Disseste! N�o posso acreditar!
+Muito obrigado. Obrigado!
         MAX
-Eu acho que você, sim.
-        ANNA
 Acho que sim...
+        ANNA
 Esperem... E eu?
         MAX
 Como?
@@ -1484,7 +1470,7 @@ Um esfor�o pat�tico para ganhar o bolinho!
   Anna e William estão saindo.
 
         ANNA
-Obrigada por uma noite fant�stica!
+Isso foi uma grande noite.
         MAX
 Encantado!
   Ele segura a mão a tremer.  Ela o beija na bochecha.
@@ -1515,7 +1501,6 @@ O dinheiro n�o � propriamente... Gostei muito de a conhecer!
 
         ANNA
 Feliz anivers�rio... Fazes o meu estilo de guru!
-Max, Belle, at� breve!
   Anna e William a cabeça para fora... Bernie tenta salvar um pouco de dignidade.
 
         BERNIE
@@ -1741,8 +1726,7 @@ Meg Ryan.
   William e Anna sorriso..--eles estão gostando.
 
         GERALD
-O encanto de Miss Scott � que tem aquele brilho nos olhos.
-Provavelmente da droga! Passa a vida em Centros de Recupera��o.
+Induzida por drogas, ouvir..--acho que na verdade está na reabilitação enquanto falamos.
         LAWRENCE
 Que interessa! Ela � claramente "sexy"...
   Cintilação da Anna se desvanece.
@@ -1882,9 +1866,8 @@ E... depois pensei atender ainda esta chamada.
         JEFF
 Gostaria de pedir tamb�m uma coisa.
 Pode trazer-me �gua bem, bem gelada?
-Verei o que posso fazer.
         WILLIAM
-BT: Eu verei o que posso fazer.
+Verei o que posso fazer.
         JEFF
 Lisa... sem g�s.
         WILLIAM
@@ -1903,14 +1886,15 @@ BT: direito.
 
         ANNA
 N�o, n�o! N�o fa�a isso!
-        JEFF
 A limpeza n�o � da sua compet�ncia.
-        WILLIAM
+        JEFF
 Desculpe... Desculpe. Como se chama?
+        WILLIAM
+BT: Ah..--não.  Está tudo bem.
         JEFF
 BT: O que é seu nome?
         WILLIAM
-Oi�a, Bernie...
+Bernie.
   Jeff passa uma nota de cinco libras.
 
         JEFF
@@ -1924,7 +1908,6 @@ Uma boa surpresa.
 �s t�o mentirosa! Detesta surpresas.
 Que vais pedir?
         ANNA
-A ele. Que vais pedir?
 Ainda n�o decidi.
         JEFF
 N�o exageres.
@@ -1986,7 +1969,6 @@ Desabafa!
 Este sou eu...
 ... o Spikey!
 Estou em contacto com importantes vibra��es espirituais.
-Conta-me tudo.
   Spike instala-se no braço de uma cadeira.  William decide abrir
   subir um pouco...
 
@@ -2076,7 +2058,7 @@ Vinho?
         TESSA
 Vamos embebedar-nos, Willie!
 Branco ou tinto?
-  Ela vira-se para tomar o vinho e o William tem uma fração de segundo para enviar
+  Ela vira-se para tomar o vinho e William tem uma fração de segundo para enviar
   uma mensagem de pânico para Bella.  Ela concorda..--é ruim.
 
   INT. MAX E BELLA COZINHA/CONSERVATÓRIO - NOITE
@@ -2113,7 +2095,7 @@ Isso � horr�vel!
 
   Hora do café e chocolates.  Ao lado de William, senta-se no final,
   garota perfeita.  Ela é a Rosie, bastante jovem, elegantemente vestida,
-  coração aberto.  É só Max e William e Bella e ela.
+  coração aberto.  É só Max William e Bella e ela.
 
         ROSIE
 Que caf� delicioso!
@@ -2135,6 +2117,7 @@ Bastante "intrag�vel", sim, tem raz�o!
 Bem... Espero que voltemos a encontrar-nos.
         WILLIAM
 Sim... sim. Seria...
+Seria �ptimo!
   Ela o beija suavemente na bochecha.  Ele abre a porta..--ela
   Sai.  Ele fecha a porta silenciosamente e cabeças de volta para o
   Sala de estar...
@@ -2146,7 +2129,6 @@ Sim... sim. Seria...
         MAX
 Bem?
         WILLIAM
-Seria �ptimo!
 Absolutamente perfeita!
         BELLA
 BT: E?
@@ -2172,7 +2154,6 @@ A verdade � que nunca estive muito apaixonada por ti.
   Rugem com riso.
 
         BELLA
-Meu Deus...
 Eu amava-te, eras incrivelmente divertido,
 mas aqueles beijos nas orelhas!
         WILLIAM
@@ -2217,7 +2198,7 @@ S� tenho � minha espera em casa um gal�s que se masturba!
 
   EXT. / INT. WILLIAM's HOUSE - DIA
 
-  William chega na porta e abre-o.  Lá está um escuro-
+  William chega na porta e abre-a.  Lá está um escuro-
   Anna envidraçada.
 
         ANNA
@@ -2328,10 +2309,11 @@ cuja resposta n�o tem interesse.
         ANNA
 Tenho pensado em ti.
         WILLIAM
-S� que...
+BT: Oh não não..--não.
   Ele não acha que ela tem que falar sobre isso.
 
         ANNA
+S� que...
 ... sempre que tento levar...
 uma vida normal com uma pessoa...
 ... normal, tem sido um desastre!
@@ -2358,8 +2340,8 @@ Muito bem!
 
         WILLIAM
 "Mensagem do Comando. Quer que enviem os HKs?"
-"Enviem 4 TRSs e precisamos de 'feedback' do radar
         ANNA
+"Enviem 4 TRSs e precisamos de 'feedback' do radar
 antes que os KFTs voltem �s 19:00."
 "Informem o Pent�gono que precisamos de cobertura de...
 Se comentas algo sobre os erros que fiz, cubro-te de azeitonas!
@@ -2388,6 +2370,7 @@ BT: Sim.
         WILLIAM
 Brilhante. (a cena acabou) Perfeito da palavra que eu diria.
         ANNA
+E Cartwright sai.
 Que te parece?
         WILLIAM
 Claro, n�o �... Jane Austen... Ou Henry James, mas �... sensacional.
@@ -2426,13 +2409,13 @@ Sim. A felicidade n�o existe sem um bode que toque violino!
   Espigão entra com três pizzas.
 
         SPIKE
-Tens uns p�s grandes.
+Voila.  Carnaval Calypso, para a rainha de Notting Hill - calabresa, abacaxi e um pouco mais de pepperoni.
         ANNA
 Fantástico.
         WILLIAM
 Não menciono que Anna é um vegetariano, fez eu?
         SPIKE
-BT: (pausa) eu tenho um salsinha guisado da semana passada. Se eu apenas descascar a pele fora, vai ser perfeito.
+(pausa) Eu tenho um salsinha guisado da semana passada. Se eu apenas descascar a pele fora, vai ser perfeito.
   SALA DE ESTAR DO WILLIAM INT. - NOITE
 
   Mais tarde durante a noite.  William e Anna por conta própria.  Eles são
@@ -2440,7 +2423,7 @@ BT: (pausa) eu tenho um salsinha guisado da semana passada. Se eu apenas descasc
   para cima.
 
         ANNA
-BT: Você tem pés grandes.
+Tens uns p�s grandes.
         WILLIAM
 Sim, sempre tive.
         ANNA
@@ -2545,9 +2528,9 @@ Importas-te que eu tente?
         WILLIAM
 BT: Spike!
         SPIKE
-Falamos amanh� de manh�.
+Não..--tens razão.
         WILLIAM
-BT: Eu vou falar com você de manhã.
+Falamos amanh� de manh�.
         SPIKE
 Pode ser tarde demais, mas est� bem.
   Para William pensando de novo.  Atmosfera sonhadora.  E então...
@@ -2623,9 +2606,8 @@ N�o, n�o... Ultrapassa-me!
         ANNA
 A Rita Hayworth costumava dizer:
 "Eles v�o para a cama com Gilda... e acordam comigo".
-Quem era Gilda?
         WILLIAM
-BT: Quem era a Gilda?
+Quem era Gilda?
         ANNA
 A sua personagem mais famosa.
 Os homens iam para a cama com o sonho
@@ -2634,11 +2616,11 @@ Sentes isso?
         WILLIAM
 Est�s mais bonita do que nunca esta manh�.
         ANNA
-Volto j�.
+(emocionado) Ah.
   Ela olha para ele com cuidado.  Então pula da cama.
 
         ANNA
-BT: Eu vou estar de volta.
+Volto j�.
   QUARTO DE INT. WILLIAM - MANHÃ
 
   William na cama.  A porta se abre.  É Anna com uma bandeja de
@@ -2674,7 +2656,7 @@ Santo Deus!
         ANNA
 BT: o que?
         WILLIAM
-Que se passa?
+Não pergunte.
   Cabeças de volta no corredor, com nenhuma suspeita.
 
         ANNA
@@ -2683,7 +2665,6 @@ Est�s a preparar alguma...
   explosão.  Em uma fração de segundo, ela está dentro.
 
         ANNA
-Anna, por favor, n�o!
 Meu Deus!
         WILLIAM
 Assim despido...
@@ -2765,10 +2746,10 @@ Vim ter contigo para me proteger do esc�ndalo, e agora recome�a tudo!
 Pelo amor de Deus! Eu tenho um namorado!
         WILLIAM
 Tens?
-Tanto quanto eles sabem, sim, tenho.
   É um momento difícil..--definindo onde estão.
 
         ANNA
+Tanto quanto eles sabem, sim, tenho.
 E agora, v�o aparecer fotos tuas nos jornais do mundo inteiro!
         WILLIAM
 Eu sei. Mas vamos manter a calma.
@@ -2963,14 +2944,13 @@ Que acho que vai fazer-me feliz para o resto da vida.
 Espera a�!
 Eu sou o teu irm�o! N�o sei nada acerca disto. Ele...
         MAX
-Sei l�! Ele est� bem na vida?
+É alguém que conhecemos?
         QUERIDA
-� um artista, com perspectivas brilhantes.
-� um segredo que escondeste de mim?
+Sim.  Vou mantê-lo informado.
   Como ela se sente, querida se inclina para Spike e sussurros.
 
         QUERIDA
-N�o, n�o! Juro.
+� um segredo que escondeste de mim?
 A prop�sito, �s tu.
         SPIKE
 Eu?!
@@ -2999,6 +2979,7 @@ E que daqui para a frente tenciono ser incrivelmente feliz!
   Em uma mesa Bella e mel sente-se..--cerveja e vinho na mesa.
 
         BELLA
+Sabias porque estava eu ali
 Estou com os copos!
   Em outro lugar, Max um William estão relaxados juntos.
 
@@ -3112,10 +3093,9 @@ Este � o Harry. Vai dar-lhe uns auscultadores para ouvir o di�logo.
   companheiro.  Ele entrega-lhe os fones de ouvido.
 
         HARRY
-N�o tem de qu�.
 O volume � de lado... Sente-se.
         WILLIAM
-BT: Isso é ótimo.
+Fantástico.
   William, os fones de ouvido, inquéritos a cena..--o cluster é
   um completo 100 metros a ação, para permitir uma varredura graciosa
   largo-tiro.  Ele assiste a Anna.  Ela está com sua co-estrela no
@@ -3163,11 +3143,11 @@ Um caso do passado.
   Se cortarmos por William..--ele ouviu.
 
         WILLIAM
-BT: claro.
+É claro.
   Ele tira os fones de ouvido e coloca-los suavemente para baixo.
 
         WILLIAM
-BT: Obrigado.
+Obrigado.
         HARRY
 A qualquer momento.
   William vai-se embora.  O momento de esperança se foi.  Ele não podia
@@ -3178,15 +3158,15 @@ A qualquer momento.
   William está esvaziando vídeos Anna Scott em uma caixa.
 
         SPIKE
-BT: O que está acontecendo?
+O que está acontecendo?
         WILLIAM
+Eu vou jogar fora esses vídeos antigos.
+        SPIKE
 Obrigado... Eu tenho de...
-        SPIKE
-N. º  Você não pode estas bin.  Eles são clássicos.  Não permitirei isso.
         WILLIAM
-Certo..--vamos falar de aluguel...
+BT: Bem..--vamos falar de casa e aluguer apartamento...
         SPIKE
-Deixe-me ajudar.  Não queremos essa merda atravancando nossas vidas.
+BT: Eu ajudo.  Não queremos essa merda atravancando nossas vidas.
   INT. QUARTO DOS FUNDOS DA LIVRARIA - DIA
 
   No dia seguinte.  William está a trabalhar, fazendo as contas um
@@ -3217,9 +3197,8 @@ BT: Olá.
 Desapareceste...
         WILLIAM
 Tive de me vir embora. N�o quis incomodar.
-Como tens passado?
         ANNA
-BT: Bem... como tem passado?
+Como tens passado?
         WILLIAM
 �ptimo! �ptimo. Continua tudo na mesma.
 Quando alterarem a lei, o Spike e eu, casamos imediatamente!
@@ -3292,7 +3271,6 @@ e o p� que estava roxo, agora est� a ficar negro e...
         WILLIAM
 Uma altura bem escolhida como sempre!
 Martin, fica aqui um segundo.
-Est� bem.
   Martin é deixado com a Anna.
 
         MARTIN
@@ -3415,11 +3393,11 @@ Grande idiota!
         BELLA
 Aquele quadro n�o � o original, pois n�o?
         WILLIAM
-Sabes? Acho que sim.
+Sim, acho que alguém pode ter.
         BERNIE
 Mas ela disse que queria sair contigo?
         WILLIAM
-BT: Sim..--mais ou menos...
+Sim..--mais ou menos...
         BERNIE
 Isso � simp�tico.
         WILLIAM
@@ -3452,7 +3430,7 @@ Max, o teu carro anda bem?
         MAX
 Se algu�m nos aparecer pela frente, temos dispositivos nucleares!
         BERNIE
-O Ritz. S� me ocorre o Ritz.
+E temos a intenção de usá-los!
         MAX
 Onde est� a Bella?
         QUERIDA
@@ -3545,11 +3523,11 @@ Mandava tudo isto � merda por um cacho de bananas!
   direcção oposta.  Nosso carro dispara por ele.
 
         SPIKE
-Vá!
+Pare! Pare.
   Eles o deixam para trás.  Querida inclina-se para fora a janela e grita...
 
         QUERIDA
-Esperem! V� l�, anda!
+�s o meu her�i!
   Spike ondas descontroladamente..--ele perde a concentração e é quase
   atropelado por um carro.
 
@@ -3558,7 +3536,7 @@ Esperem! V� l�, anda!
   Eles puxam a um batente.  William pula para fora.
 
         MAX
-BT: ir!
+Vá!
   INT. DO SAVOY - DIA
 
   William corre até a mesa principal.
@@ -3606,7 +3584,7 @@ Quando ser� lan�ado o filme?
   empacotamentos com firmeza as perguntas.
 
         JEREMY
-Pensamos lan��-lo na Am�rica no final do Outono e...
+BT: Sim... Você, Dominic.
         PERGUNTA 1
 Anna, quanto tempo mais vai ficar no Reino Unido?
         ANNA
@@ -3618,7 +3596,6 @@ Por isso mesmo temos de ser breves.
   Ele aponta para uma jornalista que ele sabe.
 
         PERGUNTA 2
-A senhora ali!
 A sua decis�o de parar por um ano, tem a ver com os boatos sobre Jeff
 e a actriz com quem contracena actualmente?
         ANNA
@@ -3710,7 +3687,7 @@ BT: O que aconteceu?
   Permanente nas proximidades, Tony, radiante, ao lado de seu fabuloso,
   piramidais de bolo de casamento.
 
-  A mãe de William não está muito feliz com como ele olha.  Ela
+  Mãe de William não é completamente feliz com como ele olha.  Ela
   Tenta escovar o cabelo.
 
   Max, vestido de smoking branco mais devastadora Bond-como é

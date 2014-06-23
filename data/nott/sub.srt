@@ -8,7 +8,7 @@
 
 3
 00:00:21,979 --> 00:00:23,539
-WILLIAM (V.O.):[ Man ] So stay with us
+[ Man ] So stay with us
 because later this afternoon,
 
 4
@@ -196,7 +196,7 @@ think you had true love on your mind.
 
 69
 00:04:23,028 --> 00:04:25,908
-Right.
+SPIKE:Right.
 Just one more.
 
 70
@@ -268,7 +268,7 @@ go and get you a cappuccino?
 84
 00:05:32,470 --> 00:05:35,310
 MARTIN:- You know, ease the pain a bit.
-WILLIAM:- Yeah, yeah.
+- Yeah, yeah.
 
 85
 00:05:35,390 --> 00:05:38,350
@@ -308,7 +308,7 @@ to buying. You'd be wasting your money.
 
 93
 00:06:29,152 --> 00:06:31,552
-WILLIAM:But if it's Turkey
+But if it's Turkey
 you're interested in,
 
 94
@@ -586,7 +586,7 @@ MARTIN:but I once saw Ringo Starr.
 
 153
 00:10:06,200 --> 00:10:08,400
-MARTIN:- Where was that?
+- Where was that?
 - Kensington High Street.
 
 154
@@ -649,26 +649,26 @@ I'll have an orange juice.
 167
 00:10:53,761 --> 00:10:56,442
 - Okay, thanks. Bye-bye.
-WILLIAM:- See you later.
+- See you later.
 
 168
 00:11:03,082 --> 00:11:05,042
-- Oh!
+ANNA:- Oh!
 - Oh! Shit!
 
 169
 00:11:05,122 --> 00:11:07,962
 - Oh, my God!
-WILLIAM:- Bugger! I'm so sorry. I'm so sorry.
+- Bugger! I'm so sorry. I'm so sorry.
 
 170
 00:11:08,042 --> 00:11:10,802
-ANNA:WILLIAM:- Here. Let me--
-ANNA:- Get your hands off!
+WILLIAM:- Here. Let me--
+- Get your hands off!
 
 171
 00:11:10,882 --> 00:11:13,562
-WILLIAM:ANNA:I'm really sorry.
+WILLIAM:I'm really sorry.
 I- I live just over the street.
 
 172
@@ -718,7 +718,7 @@ I'll just-- I'll just--
 
 181
 00:11:49,563 --> 00:11:54,444
-WILLIAM:Um, right. Right.
+Um, right. Right.
 Come in.
 
 182
@@ -728,22 +728,22 @@ as it normally is, I fear.
 
 183
 00:11:57,844 --> 00:12:00,884
-WILLIAM:But, um--
+But, um--
 The bathroom's on the top floor.
 
 184
 00:12:00,924 --> 00:12:04,644
-WILLIAM:And the telephone's just--
+And the telephone's just--
 just up here.
 
 185
 00:12:06,164 --> 00:12:08,404
-WILLIAM:Here.
+Here.
 Let-- Let me, um--
 
 186
 00:12:13,964 --> 00:12:17,244
-WILLIAM:Um, round the corner.
+Um, round the corner.
 Straight on-- straight on up.
 
 187
@@ -917,12 +917,12 @@ What was I thinking?
 
 226
 00:14:54,130 --> 00:14:56,530
-WILLIAM:- Hi.
+- Hi.
 - Hi.
 
 227
 00:14:56,610 --> 00:15:00,530
-ANNA:- I forgot my other bag.
+WILLIAM:- I forgot my other bag.
 WILLIAM:- Oh, right. Right.
 
 228
@@ -937,11 +937,11 @@ the "surreal but nice" comment.
 230
 00:15:44,772 --> 00:15:47,172
 WILLIAM:- Disaster.
-ANNA:- That's okay.
+- That's okay.
 
 231
 00:15:47,212 --> 00:15:51,772
-WILLIAM:ANNA:I thought the apricot and honey thing
+ANNA:I thought the apricot and honey thing
 was the real low point.
 
 233
@@ -956,8 +956,8 @@ There's no excuse for him.
 
 236
 00:16:01,572 --> 00:16:03,452
-SPIKE:- Hey.
-ANNA:- Hi.
+- Hey.
+SPIKE:- Hi.
 
 237
 00:16:03,492 --> 00:16:05,772
@@ -1011,7 +1011,7 @@ There we are then.
 
 247
 00:16:55,134 --> 00:16:56,854
-SPIKE:Mm.
+Mm.
 
 248
 00:16:56,934 --> 00:16:59,694
@@ -1283,7 +1283,7 @@ WILLIAM:And he can't remember--
 309
 00:20:56,223 --> 00:20:59,183
 SPIKE:- Try Flintstone.
-WILLIAM:- I'm sorry, what?
+- I'm sorry, what?
 
 310
 00:20:59,263 --> 00:21:02,543
@@ -1292,12 +1292,12 @@ her name was Flintstone.
 
 311
 00:21:04,543 --> 00:21:09,263
-WILLIAM:I don't-- I don't suppose, um,
+I don't-- I don't suppose, um,
 Flintstone rings any bells, does it?
 
 312
 00:21:09,343 --> 00:21:12,503
-RITZ MAN:WILLIAM:- Oh, I'll put you right through, sir.
+RITZ MAN:- Oh, I'll put you right through, sir.
 WILLIAM:- Oh, my God.
 
 313
@@ -1316,7 +1316,7 @@ ANNA (V.O.):Hi. Hi.
 316
 00:21:21,983 --> 00:21:25,584
 WILLIAM:- Sorry. It's William... Thacker.
-WILLIAM:- Yes?
+- Yes?
 
 317
 00:21:25,664 --> 00:21:28,064
@@ -1339,7 +1339,7 @@ later, never gave me the message.
 
 321
 00:21:39,944 --> 00:21:42,504
-ANNA (V.O.):I don't know.
+WILLIAM:I don't know.
 Perhaps, um,
 
 322
@@ -1355,7 +1355,7 @@ I might be free around 4:00.
 
 324
 00:21:51,665 --> 00:21:54,265
-WILLIAM:- Bye.
+- Bye.
 - Yea-- Bye.
 
 326
@@ -1377,11 +1377,11 @@ WILLIAM:Uh, are you sure this is--
 
 333
 00:23:17,027 --> 00:23:19,628
-TARQUIN:WILLIAM:Oh, yeah. Yeah. Sure.
+WILLIAM:Oh, yeah. Yeah. Sure.
 
 334
 00:23:30,468 --> 00:23:32,308
-WILLIAM:- Hi. Hi. I'm Karen.
+KAREN:- Hi. Hi. I'm Karen.
 - Hi.
 
 335
@@ -1391,7 +1391,7 @@ Things are running a little bit late.
 
 336
 00:23:34,868 --> 00:23:38,788
-KAREN:KAREN:Here's the, uh, thing.
+KAREN:Here's the, uh, thing.
 Do you wanna come this way?
 
 337
@@ -1415,7 +1415,7 @@ meets Jean de Florette.
 
 342
 00:23:55,949 --> 00:23:57,829
-WILLIAM:TARQUIN:I agree.
+WILLIAM:I agree.
 
 343
 00:23:57,869 --> 00:24:00,709
@@ -1429,7 +1429,7 @@ KAREN:- Great.
 
 345
 00:24:03,229 --> 00:24:06,069
-WILLIAM:KAREN:And you're from?
+KAREN:And you're from?
 
 346
 00:24:08,869 --> 00:24:12,789
@@ -1488,13 +1488,13 @@ WILLIAM:It's a rather distressing disease.
 
 358
 00:24:51,791 --> 00:24:54,431
-TARQUIN:WILLIAM:- Name of the hospital
+WILLIAM:- Name of the hospital
 kind of gives it away.
 - Absolutely. Sure.
 
 359
 00:24:54,471 --> 00:24:56,351
-TARQUIN:Cheers.
+Cheers.
 Ooh, yes.
 
 360
@@ -1585,7 +1585,7 @@ WILLIAM:Right.
 
 379
 00:26:09,714 --> 00:26:11,594
-WILLIAM:Uh--
+Uh--
 
 380
 00:26:12,954 --> 00:26:16,154
@@ -1653,7 +1653,7 @@ WILLIAM:- Yeah, yeah, yeah. Absolutely fine.
 
 395
 00:27:04,595 --> 00:27:08,596
-JEREMY:WILLIAM:Do remember that Miss Scott is also
+JEREMY:Do remember that Miss Scott is also
 keen to talk about her next project...
 
 396
@@ -1681,7 +1681,7 @@ WILLIAM:It takes place on a submarine.
 
 401
 00:27:32,436 --> 00:27:35,757
-WILLIAM:Oh. Well, bad luck.
+Oh. Well, bad luck.
 
 402
 00:27:37,117 --> 00:27:39,637
@@ -1697,7 +1697,7 @@ WILLIAM:would you be riding them...
 
 405
 00:27:44,557 --> 00:27:48,997
-WILLIAM:or would you be getting, a--
+WILLIAM:WILLIAM:or would you be getting, a--
 a stunt-horse-double-man-thing?
 
 406
@@ -1825,7 +1825,7 @@ That's right.
 434
 00:29:45,441 --> 00:29:47,401
 WILLIAM:- Bitch.
-KAREN:- Oh, Mr. Thacker.
+- Oh, Mr. Thacker.
 
 435
 00:29:47,481 --> 00:29:51,721
@@ -1887,7 +1887,7 @@ if I enjoyed making that bit.
 
 448
 00:30:30,243 --> 00:30:33,803
-WILLIAM:Uh, l...
+Uh, l...
 
 449
 00:30:33,883 --> 00:30:36,763
@@ -1904,12 +1904,12 @@ you're playing?
 
 453
 00:30:45,763 --> 00:30:49,723
-INTERPRETER:- No.
+FOREIGN ACTOR:- No.
 INTERPRETER:- No.
 
 454
 00:30:51,523 --> 00:30:55,164
-WILLIAM:INTERPRETER:Oh. Why not?
+WILLIAM:Oh. Why not?
 
 457
 00:31:01,324 --> 00:31:04,844
@@ -1922,7 +1922,7 @@ WILLIAM:Classic.
 
 459
 00:31:07,124 --> 00:31:09,804
-WILLIAM:So, uh,
+So, uh,
 
 460
 00:31:09,884 --> 00:31:12,364
@@ -1963,7 +1963,7 @@ WILLIAM:- Oh, no.
 469
 00:31:40,365 --> 00:31:43,045
 KAREN:- Have you got a minute?
-ANNA (V.O.):- No.
+- No.
 
 470
 00:31:48,765 --> 00:31:50,245
@@ -1975,7 +1975,7 @@ Hi.
 
 472
 00:31:54,246 --> 00:31:57,806
-ANNA:Um-- Yeah, so the, um--
+Um-- Yeah, so the, um--
 
 473
 00:31:57,886 --> 00:32:01,966
@@ -2139,7 +2139,7 @@ Red or white?
 
 507
 00:33:53,450 --> 00:33:56,130
-MAX:- Oh. Hey.
+- Oh. Hey.
 MAX:- Hi.
 
 508
@@ -2309,7 +2309,7 @@ WILLIAM:- Definitely no comment.
 544
 00:35:47,174 --> 00:35:49,734
 MAX:- You see, it means "yes".
-BERNIE:- [ Honey ] Oh, my God!
+- [ Honey ] Oh, my God!
 
 545
 00:35:49,774 --> 00:35:54,134
@@ -2323,7 +2323,7 @@ BERNIE:- Oh, splendid.
 
 547
 00:35:57,894 --> 00:35:59,814
-BERNIE:What do you do?
+What do you do?
 
 548
 00:35:59,894 --> 00:36:03,534
@@ -2401,16 +2401,16 @@ BERNIE:So that's, well, fairly good.
 
 564
 00:36:54,536 --> 00:36:56,496
-MAX:BERNIE:Right, I think we're ready.
+MAX:Right, I think we're ready.
 
 565
 00:36:56,576 --> 00:36:58,416
-ANNA:- Ooh.
+- Ooh.
 - Okay.
 
 566
 00:36:58,496 --> 00:37:00,336
-BELLA:ANNA:Bella, can you tell me
+ANNA:Bella, can you tell me
 where I can find--
 
 567
@@ -2440,7 +2440,7 @@ BELLA:- Yes. Shut up!
 572
 00:37:13,337 --> 00:37:15,257
 BERNIE:- What, the film star?
-BERNIE:- Shh!
+- Shh!
 
 573
 00:37:15,337 --> 00:37:17,857
@@ -2450,7 +2450,7 @@ BERNIE:- Oh, God!
 574
 00:37:17,937 --> 00:37:20,657
 BERNIE:- Oh, God. Oh, goddy God.
-HONEY:- What did you say to her?
+- What did you say to her?
 
 575
 00:37:20,697 --> 00:37:24,017
@@ -2469,11 +2469,11 @@ HONEY:- She had to ask me to leave.
 
 578
 00:37:29,297 --> 00:37:31,217
-BELLA:- So you knew who she was?
+- So you knew who she was?
 
 579
 00:37:31,257 --> 00:37:33,457
-BELLA:Of course I did, but he didn't.
+Of course I did, but he didn't.
 
 580
 00:37:33,497 --> 00:37:37,418
@@ -2654,7 +2654,7 @@ BELLA:we can't have a baby.
 
 624
 00:40:06,783 --> 00:40:08,783
-BERNIE:Oh, Belle.
+WILLIAM:Oh, Belle.
 
 625
 00:40:08,863 --> 00:40:12,183
@@ -2697,17 +2697,17 @@ nickname at school was--
 
 633
 00:40:41,784 --> 00:40:44,824
-You did.
+WILLIAM:You did.
 I can't believe it, you did.
 
 634
 00:40:44,864 --> 00:40:48,144
-Thanks very much. Thank you.
+WILLIAM:Thanks very much. Thank you.
 Well, at least I get the last brownie.
 
 635
 00:40:48,224 --> 00:40:50,064
-ANNA:[ Max ]
+MAX:[ Max ]
 I think so, yes.
 
 636
@@ -2808,7 +2808,7 @@ to hog the brownie.
 
 657
 00:42:13,667 --> 00:42:16,947
-ANNA:- Thank you for such a terrific time.
+- Thank you for such a terrific time.
 MAX:- I'm delighted.
 
 658
@@ -2863,12 +2863,12 @@ HONEY:it was just so nice to meet you.
 668
 00:42:46,828 --> 00:42:49,629
 ANNA:- Happy birthday. You're my style guru.
-ANNA:- Thank you.
+- Thank you.
 
 669
 00:42:49,669 --> 00:42:51,749
 - Sorry. Can I just--
-ANNA:- Oh.
+- Oh.
 
 670
 00:42:51,829 --> 00:42:53,669
@@ -2882,13 +2882,13 @@ ANNA:- Oh.
 
 672
 00:42:55,669 --> 00:42:58,469
-ANNA:[ William ] Max, Belle,
+[ William ] Max, Belle,
 we'll see you in a couple of days.
 
 673
 00:42:58,509 --> 00:43:00,949
 - Thank you, everybody. Call us.
-ANNA:- Bye, guys.
+- Bye, guys.
 
 674
 00:43:01,029 --> 00:43:03,589
@@ -3088,7 +3088,7 @@ All right.
 
 720
 00:45:54,955 --> 00:45:58,755
-WILLIAM:[ Grunts ]
+[ Grunts ]
 Oh, bugger.
 
 721
@@ -3243,16 +3243,16 @@ LAWRENCE:Meg Ryan.
 
 773
 00:49:36,923 --> 00:49:40,203
-GERALD:No, she's too wholesome.
+No, she's too wholesome.
 The point about Miss Scott is...
 
 774
 00:49:40,283 --> 00:49:43,083
-GERALD:she's got that twinkle in her eyes.
+she's got that twinkle in her eyes.
 
 775
 00:49:43,163 --> 00:49:45,723
-GERALD:Probably drug-induced.
+Probably drug-induced.
 Spends most of her life in bloody rehab.
 
 776
@@ -3462,7 +3462,7 @@ ANNA:- Yes.
 824
 00:52:44,209 --> 00:52:47,610
 JEFF (V.O.):- Baby, who is it?
-WILLIAM:- Uh, it's, uh--
+- Uh, it's, uh--
 
 825
 00:52:48,690 --> 00:52:51,370
@@ -3500,7 +3500,7 @@ really, really cold water?
 
 832
 00:53:11,010 --> 00:53:13,290
-WILLIAM:JEFF:I'll see what I can do.
+WILLIAM:I'll see what I can do.
 
 833
 00:53:13,370 --> 00:53:17,611
@@ -3541,21 +3541,21 @@ don't do that.
 
 840
 00:53:39,051 --> 00:53:41,331
-JEFF:I don't think
+ANNA:I don't think
 it's his job to clear.
 
 841
 00:53:41,411 --> 00:53:45,452
-WILLIAM:Oh, I'm sorry. I'm sorry.
+JEFF:Oh, I'm sorry. I'm sorry.
 What's your name, man?
 
 842
 00:53:46,692 --> 00:53:48,532
-Bernie.
+WILLIAM:Bernie.
 
 843
 00:53:48,612 --> 00:53:50,732
-WILLIAM:Oh, listen, Bernie.
+Oh, listen, Bernie.
 
 844
 00:53:50,812 --> 00:53:53,972
@@ -3584,7 +3584,7 @@ Hey, what are you gonna order?
 849
 00:54:10,092 --> 00:54:12,892
 - Huh?
-ANNA:- From him. What are you gonna order?
+- From him. What are you gonna order?
 
 850
 00:54:12,972 --> 00:54:15,133
@@ -3656,7 +3656,7 @@ important spiritual vibrations.
 
 883
 00:57:05,979 --> 00:57:09,659
-SPIKE:Come on.
+Come on.
 Hit me with it.
 
 884
@@ -3870,7 +3870,7 @@ KEZIAH:- No, thank you. I'm a fruitarian.
 
 930
 00:59:41,464 --> 00:59:43,744
-Ah.
+WILLIAM:Ah.
 
 931
 00:59:45,184 --> 00:59:47,864
@@ -3956,7 +3956,7 @@ WILLIAM:be great.
 
 950
 01:00:57,627 --> 01:00:59,467
-Bye.
+WILLIAM:Bye.
 
 951
 01:01:17,787 --> 01:01:20,187
@@ -4028,7 +4028,7 @@ BELLA:- I never fancied you much, actually.
 
 966
 01:02:08,589 --> 01:02:12,029
-BELLA:- Oh, God.
+- Oh, God.
 
 967
 01:02:12,069 --> 01:02:15,589
@@ -4241,7 +4241,7 @@ ANNA:I'm really sorry about last time.
 
 1019
 01:06:48,519 --> 01:06:50,799
-ANNA:- Oh--
+- Oh--
 ANNA:- He just flew in.
 
 1020
@@ -4305,7 +4305,7 @@ ANNA:I have thought about you.
 1033
 01:07:41,681 --> 01:07:44,681
 WILLIAM:- Oh.
-ANNA:WILLIAM:- It's just that...
+ANNA:- It's just that...
 
 1034
 01:07:44,721 --> 01:07:48,121
@@ -4376,7 +4376,7 @@ like them to send in the H.K.s?"
 
 1048
 01:08:30,483 --> 01:08:33,403
-ANNA:WILLIAM:No. Turn over four T.R.S.s
+ANNA:No. Turn over four T.R.S.s
 and tell them we need radar feedback...
 
 1049
@@ -4446,7 +4446,7 @@ but I can't promise anything.
 
 1062
 01:09:07,124 --> 01:09:11,644
-- And Cartwright goes.
+ANNA:- And Cartwright goes.
 
 1063
 01:09:11,724 --> 01:09:15,684
@@ -4514,7 +4514,7 @@ without a violin-playing goat.
 
 1077
 01:10:21,086 --> 01:10:22,926
-SPIKE:You have big feet.
+ANNA:You have big feet.
 
 1078
 01:10:25,487 --> 01:10:29,487
@@ -4744,7 +4744,7 @@ WILLIAM:- Spike!
 1131
 01:14:21,175 --> 01:14:23,975
 - Okay.
-SPIKE:- I'll talk to you in the morning.
+WILLIAM:- I'll talk to you in the morning.
 
 1132
 01:14:24,015 --> 01:14:28,575
@@ -4864,7 +4864,7 @@ they wake up with me."
 
 1160
 01:17:34,462 --> 01:17:39,382
-WILLIAM:ANNA:- Who was Gilda?
+WILLIAM:- Who was Gilda?
 ANNA:- Her most famous part.
 
 1161
@@ -4930,7 +4930,7 @@ ANNA:What?
 
 1177
 01:19:02,185 --> 01:19:04,385
-WILLIAM:What is it?
+What is it?
 
 1178
 01:19:04,465 --> 01:19:07,305
@@ -4939,7 +4939,7 @@ ANNA:- You're up to something.
 
 1179
 01:19:07,385 --> 01:19:10,145
-ANNA:- Anna, no, please!
+- Anna, no, please!
 
 1180
 01:19:12,585 --> 01:19:17,185
@@ -4985,11 +4985,11 @@ SPIKE:- Why not?
 1189
 01:19:48,226 --> 01:19:50,786
 WILLIAM:- Just take my word for it.
-SPIKE:- Oh.
+- Oh.
 
 1191
 01:20:12,427 --> 01:20:14,507
-SPIKE:SPIKE:How did I look?
+SPIKE:How did I look?
 Not bad.
 
 1192
@@ -5075,7 +5075,7 @@ ANNA:For God's sake, I've got a boyfriend!
 1209
 01:21:07,429 --> 01:21:10,989
 WILLIAM:- You have?
-ANNA:WILLIAM:- As far as they're concerned I do.
+ANNA:- As far as they're concerned I do.
 
 1210
 01:21:11,069 --> 01:21:15,749
@@ -5110,7 +5110,7 @@ We saw the pictures."
 1216
 01:21:30,990 --> 01:21:33,670
 WILLIAM:- That is spectacularly unfair.
-ANNA:- That's yours.
+- That's yours.
 
 1217
 01:21:33,710 --> 01:21:35,590
@@ -5236,7 +5236,7 @@ WILLIAM:It's just one day.
 
 1243
 01:22:46,993 --> 01:22:50,473
-ANNA:WILLIAM:Tomorrow, today's papers
+WILLIAM:Tomorrow, today's papers
 will all have been thrown out.
 
 1244
@@ -5469,21 +5469,21 @@ WILLIAM:Wait a sec. I mean, I--
 
 1319
 01:28:28,924 --> 01:28:32,805
-MAX:WILLIAM:I'm your brother. I don't know
+WILLIAM:I'm your brother. I don't know
 anything about this. Is he--
 
 1320
 01:28:32,885 --> 01:28:36,285
-HONEY:MAX:- Is he financially viable?
+- Is he financially viable?
 
 1321
 01:28:36,365 --> 01:28:38,925
-HONEY:He's an artist...
+He's an artist...
 with brilliant prospects.
 
 1322
 01:28:41,405 --> 01:28:44,405
-HONEY:HONEY:- This is a secret
+HONEY:- This is a secret
 you've been keeping from me.
 - [ Bella ] No, I swear!
 
@@ -5555,7 +5555,7 @@ BELLA:# Without a love of my own #
 
 1338
 01:29:44,567 --> 01:29:47,847
-# You knew just what I was there for #
+BELLA:# You knew just what I was there for #
 
 1339
 01:29:47,927 --> 01:29:50,687
@@ -5563,11 +5563,11 @@ BELLA:Oh, God. I'm horribly drunk.
 
 1340
 01:29:50,767 --> 01:29:53,727
-MAX:# You heard me saying a prayer for #
+# You heard me saying a prayer for #
 
 1341
 01:29:53,807 --> 01:29:55,768
-MAX:- Come here.
+- Come here.
 - # Ba-boom, ba-boom #
 
 1342
@@ -5663,7 +5663,7 @@ ANNA:- [ Woman ] Uh, Anna.
 
 1363
 01:32:19,733 --> 01:32:22,093
-ANNA:Yes. Um--
+Yes. Um--
 
 1364
 01:32:22,173 --> 01:32:24,493
@@ -5716,8 +5716,8 @@ so you can hear the dialogue.
 
 1375
 01:33:12,934 --> 01:33:14,815
-HARRY:- Thank you very much.
-HARRY:- No problem.
+- Thank you very much.
+- No problem.
 
 1376
 01:33:14,855 --> 01:33:17,415
@@ -5726,7 +5726,7 @@ HARRY:- Hi. Here we go.
 
 1377
 01:33:17,495 --> 01:33:20,855
-WILLIAM:HARRY:- Volume's on the side. Have a seat.
+HARRY:- Volume's on the side. Have a seat.
 - Thank you.
 
 1378
@@ -5812,7 +5812,7 @@ ANNA:Just some guy from the past. I--
 
 1395
 01:34:21,417 --> 01:34:25,177
-WILLIAM:ANNA:it's a bit of an awkward situation.
+ANNA:it's a bit of an awkward situation.
 I don't know what he's doing here.
 
 1396
@@ -5821,7 +5821,7 @@ I don't know what he's doing here.
 
 1397
 01:34:48,978 --> 01:34:51,978
-WILLIAM:Thanks. I've got to, um--
+SPIKE:Thanks. I've got to, um--
 
 1398
 01:34:52,018 --> 01:34:53,898
@@ -5878,7 +5878,7 @@ ANNA:You disappeared.
 
 1410
 01:35:51,300 --> 01:35:53,820
-WILLIAM:Yeah. Yeah. Um--
+Yeah. Yeah. Um--
 
 1411
 01:35:53,900 --> 01:35:57,620
@@ -5887,7 +5887,7 @@ I didn't want to disturb.
 
 1412
 01:35:57,660 --> 01:36:01,500
-ANNA:WILLIAM:- How have you been?
+ANNA:- How have you been?
 WILLIAM:- Fine, fine. Everything much the same.
 
 1413
@@ -6105,7 +6105,7 @@ WILLIAM:Martin, hold the fort a second.
 
 1461
 01:38:53,146 --> 01:38:55,426
-WILLIAM:Uh, yes. All right.
+Uh, yes. All right.
 
 1462
 01:39:00,347 --> 01:39:02,787
@@ -6395,7 +6395,7 @@ isn't the original, is it?
 
 1528
 01:43:29,116 --> 01:43:31,596
-WILLIAM:Um, you know,
+Um, you know,
 I think it might be, yeah.
 
 1529
@@ -6405,7 +6405,7 @@ she wanted to go out with you.
 
 1530
 01:43:39,116 --> 01:43:41,916
-WILLIAM:- Yeah.
+- Yeah.
 BERNIE:- Well, that's nice.
 
 1531
@@ -6485,7 +6485,7 @@ we have small nuclear devices.
 1548
 01:44:58,479 --> 01:45:00,279
 - Where to?
-BERNIE:- All I can think is The Ritz.
+- All I can think is The Ritz.
 
 1549
 01:45:00,359 --> 01:45:02,839
@@ -6584,7 +6584,7 @@ WILLIAM:- Uh, Bambi?
 
 1580
 01:46:23,042 --> 01:46:26,042
-WILLIAM:- No, sir.
+- No, sir.
 WILLIAM:- Or, um--
 
 1581
@@ -6636,20 +6636,20 @@ SPIKE:Bugger this for a bunch of bananas.
 
 1596
 01:47:33,725 --> 01:47:37,325
-Stop! Stop! Stop!
+SPIKE:Stop! Stop! Stop!
 Stay there! Go! Go!
 
 1597
 01:47:37,365 --> 01:47:40,525
-HONEY:- Whoa, whoa, whoa! Hang on!
+- Whoa, whoa, whoa! Hang on!
 
 1598
 01:47:40,565 --> 01:47:43,485
-HONEY:Come on! No! Wait! Wait there!
+Come on! No! Wait! Wait there!
 
 1599
 01:47:43,565 --> 01:47:45,605
-MAX:Come on! Come on! Wait!
+Come on! Come on! Wait!
 
 1600
 01:47:45,685 --> 01:47:48,685
@@ -6658,7 +6658,7 @@ Through, through!
 
 1601
 01:47:50,285 --> 01:47:52,725
-You're my hero!
+HONEY:You're my hero!
 
 1602
 01:47:52,805 --> 01:47:54,645
@@ -6740,12 +6740,12 @@ any more for the next year.
 
 1626
 01:49:13,848 --> 01:49:15,848
-JEREMY:HONEY:[ Man #2 ]
+HONEY:[ Man #2 ]
 When will the film be released?
 
 1627
 01:49:15,928 --> 01:49:18,128
-JEREMY:[ Publicist ] At the moment,
+[ Publicist ] At the moment,
 the plan is to release in America...
 
 1628
@@ -6778,7 +6778,7 @@ up now, so final questions, please.
 
 1634
 01:49:35,249 --> 01:49:36,889
-QUESTIONER  2:Yes. Lady there.
+Yes. Lady there.
 
 1635
 01:49:36,929 --> 01:49:39,689
@@ -6869,7 +6869,7 @@ WILLIAM:I was just wondering if, uh,
 
 1655
 01:50:52,172 --> 01:50:55,772
-OTHER JOURNALIST:WILLIAM:it turned out that this person, uh--
+WILLIAM:it turned out that this person, uh--
 
 1656
 01:50:55,852 --> 01:50:57,732
