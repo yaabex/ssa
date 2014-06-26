@@ -2,5 +2,5 @@
     <subLocation>./data/nottinghillsub.srt</subLocation>
     <subOtherLanguageLocation>./data/nottinghillporsub.srt</subOtherLanguageLocation>
     <scriptLocation>./data/nottinghillscript.txt</scriptLocation>
-    <newFilesLocation>./data/nott2/</newFilesLocation>
+    <newFilesLocation>./data/new/</newFilesLocation>
 </config>
