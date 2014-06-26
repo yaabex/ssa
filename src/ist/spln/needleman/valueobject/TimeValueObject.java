@@ -17,7 +17,7 @@ public class TimeValueObject extends NeedlemanArrayValueObject {
         Interval overlap = this.time.overlap(otherTime);
         double average = (this.time.toDurationMillis() + otherTime.toDurationMillis()) / 2d;
         if (overlap != null) {
-            if (overlap.toDurationMillis() / average > 0.30) {
+            if (overlap.toDurationMillis() / average > 0.50) {
                 return true;
             }
         }
