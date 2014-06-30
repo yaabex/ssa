@@ -53,7 +53,7 @@ public class Main {
         alignment.align(nwResultsTime.getValueObjectPairs());
         alignment.translateScript(scriptReader, subtitleOtherLanguageReader);
 
-        scriptReader.writeWholeScript(xmlParser.getNewFilesLocation());
+        scriptReader.writeWholeScriptAndTranslate(xmlParser.getNewFilesLocation());
     }
 
     private static TimeValueObject[] toValueObjectArray1(List<ScriptDialog> scriptDialogs) {

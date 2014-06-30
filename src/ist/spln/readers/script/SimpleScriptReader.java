@@ -111,6 +111,14 @@ public class SimpleScriptReader implements Reader {
         file.mkdirs();
         file = new File(newFilesLocation + "/script.txt");
 
+        FileUtils.writeLines(file, getWholeScript());
+    }
+
+    public void writeWholeScriptAndTranslate(String newFilesLocation) throws Exception {
+        File file = new File(newFilesLocation);
+        file.mkdirs();
+        file = new File(newFilesLocation + "/script.txt");
+
         Translate.setClientId("ScriptSubtitleAlignment");
         Translate.setClientSecret("q7a4z1w8s5x2q7a4z1w8s5x2");
         List<String> translatedScript = new ArrayList<>();
