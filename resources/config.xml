@@ -1,6 +1,6 @@
 <config>
     <subLocation>./data/thetwotowers.srt</subLocation>
-    <subOtherLanguageLocation>./data/sthetwotowerspor.srt</subOtherLanguageLocation>
+    <subOtherLanguageLocation>./data/thetwotowerspor.srt</subOtherLanguageLocation>
     <scriptLocation>./data/thetwotowers.txt</scriptLocation>
     <newFilesLocation>./data/thetwotowers/</newFilesLocation>
 </config>
