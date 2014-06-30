@@ -29,9 +29,9 @@ public class SimpleScriptReader implements Reader {
         List<ScriptLine> wholeScript = new ArrayList<>();
         List<String> textList = new ArrayList<>();
         List<ScriptDialog> scriptDialogs = new ArrayList<>();
-        Charset encoding = StandardCharsets.ISO_8859_1;
+        //Charset encoding = StandardCharsets.ISO_8859_1;
         Path path = Paths.get(scriptLocation);
-        try (Scanner scanner = new Scanner(path, encoding.name())){
+        try (Scanner scanner = new Scanner(path/*, encoding.name()*/)){
             boolean previousLineIsEmpty = false;
             boolean dialogue = false;
             String wholeLine = "";
