@@ -1,6 +1,6 @@
 <config>
-    <subLocation>./data/sub.srt</subLocation>
-    <subOtherLanguageLocation>./data/subPor.srt</subOtherLanguageLocation>
-    <scriptLocation>./data/script.txt</scriptLocation>
-    <newFilesLocation>./data/futurama4/</newFilesLocation>
+    <subLocation>./data/thetwotowers.srt</subLocation>
+    <subOtherLanguageLocation>./data/sthetwotowerspor.srt</subOtherLanguageLocation>
+    <scriptLocation>./data/thetwotowers.txt</scriptLocation>
+    <newFilesLocation>./data/thetwotowers/</newFilesLocation>
 </config>
