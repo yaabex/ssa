@@ -10,6 +10,7 @@ import org.joda.time.format.DateTimeFormatter;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -34,7 +35,7 @@ public class SimpleSubtitleReader implements Reader {
         List<String> textList = new ArrayList<>();
         List<SubtitleLine> subtitleLines = new ArrayList<>();
         List<String> utterances = new ArrayList<>();
-        Charset encoding = Charset.defaultCharset();
+        Charset encoding = StandardCharsets.ISO_8859_1;
         Path path = Paths.get(this.subtitleLocation);
         try (Scanner scanner = new Scanner(path, encoding.name())) {
             while (scanner.hasNextLine()) {
@@ -130,6 +131,6 @@ public class SimpleSubtitleReader implements Reader {
         File file = new File(newFilesLocation);
         file.mkdirs();
         file = new File(newFilesLocation + "/sub.srt");
-        FileUtils.writeLines(file, getWholeSubtitleFile());
+        FileUtils.writeLines(file, StandardCharsets.UTF_8.toString() , getWholeSubtitleFile());
     }
 }

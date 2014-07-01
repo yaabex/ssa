@@ -111,7 +111,7 @@ public class SimpleScriptReader implements Reader {
         file.mkdirs();
         file = new File(newFilesLocation + "/script.txt");
 
-        FileUtils.writeLines(file, getWholeScript());
+        FileUtils.writeLines(file, StandardCharsets.UTF_8.toString(), getWholeScript());
     }
 
     public void writeWholeScriptAndTranslate(String newFilesLocation) throws Exception {
@@ -124,11 +124,14 @@ public class SimpleScriptReader implements Reader {
         List<String> translatedScript = new ArrayList<>();
         for (ScriptLine line : getWholeScript()) {
             if (line.isToTranslate()) {
+                if (line instanceof ScriptDialog) {
+                    line.setLine("BT: " + line.getLine());
+                }
                 translatedScript.add(Translate.execute(line.toString(), Language.ENGLISH, Language.PORTUGUESE));
             } else {
                 translatedScript.add(line.toString());
             }
         }
-        FileUtils.writeLines(file, translatedScript);
+        FileUtils.writeLines(file, StandardCharsets.UTF_8.toString(), translatedScript);
     }
 }

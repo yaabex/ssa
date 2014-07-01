@@ -164,9 +164,6 @@ public class Alignment {
                     SubtitleLine subtitleLine = subtitleReader.getSubtitleLines().get(lineNumber);
                     scriptReader.getScriptDialogs().get(line).addTimeInfo(subtitleLine.getTimeInfo());
                 }
-                scriptReader.getWholeScript().get(scriptReader.getScriptDialogs().get(line).getLineNumber()).setLine("BT: " +
-                        scriptReader.getContextFromLineNumberOfWord(line));
-
             }
         }
         System.out.println("Script Line Matches/Total Lines = " + lineMatches/(float)scriptReader.getScriptDialogs().size());
