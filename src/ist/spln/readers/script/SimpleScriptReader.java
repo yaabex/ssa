@@ -59,7 +59,7 @@ public class SimpleScriptReader implements Reader {
                         if(previousLineIsEmpty && nameOfCharacter(line)) {
                             characterName = line.trim();
                             dialogue = true;
-                            wholeScript.add(new ScriptOtherText(line));
+                            wholeScript.add(new ScriptCharacterName(line));
                         } else {
                             wholeScript.add(new ScriptOtherText(line));
                         }
