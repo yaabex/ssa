@@ -2,5 +2,5 @@
     <subLocation>./data/sub.srt</subLocation>
     <subOtherLanguageLocation>./data/subPor.srt</subOtherLanguageLocation>
     <scriptLocation>./data/script.txt</scriptLocation>
-    <newFilesLocation>./data/futurama/</newFilesLocation>
+    <newFilesLocation>./data/futurama2/</newFilesLocation>
 </config>

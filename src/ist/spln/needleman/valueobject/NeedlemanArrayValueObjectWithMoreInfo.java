@@ -26,7 +26,7 @@ public class NeedlemanArrayValueObjectWithMoreInfo extends NeedlemanArrayValueOb
         NeedlemanArrayValueObjectWithMoreInfo otherObject = ((NeedlemanArrayValueObjectWithMoreInfo)valueObject);
         if (normalizer.normPunctLCaseDMarks(this.string).equals(normalizer.normPunctLCaseDMarks(otherObject.getString()))) {
             return true;
-        } else {
+        }/* else {
             if (this.getString().length() < 5) {
                 return (new NeedlemanWunch()).run(toValueObjectArray(this.getString()),
                         toValueObjectArray(otherObject.getString()), 1, 0, 1).getRes() < 2;
@@ -34,7 +34,8 @@ public class NeedlemanArrayValueObjectWithMoreInfo extends NeedlemanArrayValueOb
                 return (new NeedlemanWunch()).run(toValueObjectArray(this.getString()),
                         toValueObjectArray(otherObject.getString()), 1, 0, 1).getRes() < 3;
             }
-        }
+        }*/
+        return false;
     }
 
     private MEDValueObject[] toValueObjectArray(String s) {
