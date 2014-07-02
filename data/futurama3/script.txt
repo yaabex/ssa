@@ -634,7 +634,7 @@ Eu!
  
                
                                      COMPUTER VOICE
-Acesso a informação não autorizado.
+BT: Acesso a dados não autorizados.
                
                [Um alarme dispara e cérebros cercam Fry. Gritos de Fry e começa 
                ao vento sua Scooty-Puff Jr. Que se desfaz nas mãos dele.]
@@ -916,7 +916,6 @@ Pirem-se, miúdos! Voltem quando tiverem contactos.
 
                
                                      VOGEL
-Muito bem, pequeninos.
 Vamos voltar para o orfanário. Podem deslizar de meias no ginásio.
                
                                      SALLY

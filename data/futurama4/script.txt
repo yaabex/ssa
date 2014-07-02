@@ -93,7 +93,7 @@ BT: Nope.
 BT: L-
                
                                      BENDER
-Não.
+BT: Nope.
                
                                      FRY
 O Bender é espectacular.
@@ -1041,7 +1041,7 @@ Leela. Mas ela não me acha grande coisa.
 Ela deve ser A Outra.
                
                                      FUTURE FRY
-O quê?
+BT: o que?
                
                [Passado começa a cadeira do Fry a cair para trás. Fry futuro detém o 
                perna.]
