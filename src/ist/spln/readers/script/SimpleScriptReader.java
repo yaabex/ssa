@@ -120,7 +120,7 @@ public class SimpleScriptReader implements Reader {
         file = new File(newFilesLocation + "/script.txt");
 
         Translate.setClientId("ssa9000");
-        Translate.setClientSecret("h1wG4DDuuZXy3rTJNK5IbBiPMCCXn1Ky0boeI2pJjxQ");
+        Translate.setClientSecret("q7a4z1w8s5x2q7a4z1w8s5x2");
         List<String> translatedScript = new ArrayList<>();
         for (ScriptLine line : getWholeScript()) {
             if (line.isToTranslate()) {

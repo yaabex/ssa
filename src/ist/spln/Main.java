@@ -1,5 +1,7 @@
 package ist.spln;
 
+import com.memetix.mst.language.Language;
+import com.memetix.mst.translate.Translate;
 import ist.spln.config.XmlParser;
 import ist.spln.needleman.NWResults;
 import ist.spln.needleman.NeedlemanWunch;
@@ -24,6 +26,10 @@ public class Main {
     public static final String ANALYZER_PROPERTIES = "tokenize, ssplit, pos, lemma";
 
     public static void main(String[] args) throws Exception {
+
+        Translate.setClientId("ssa9000");
+        Translate.setClientSecret("q7a4z1w8s5x2q7a4z1w8s5x2");
+        Translate.execute("hi!", Language.ENGLISH, Language.PORTUGUESE);
         XmlParser xmlParser = new XmlParser();
         xmlParser.parse(Reader.configLocation);
         SimpleScriptReader scriptReader = new SimpleScriptReader(xmlParser.getScriptLocation()); //TODO make a Script and a Subtitle object
