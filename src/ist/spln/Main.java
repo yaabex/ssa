@@ -29,7 +29,7 @@ public class Main {
 
         Translate.setClientId("ssa9000");
         Translate.setClientSecret("q7a4z1w8s5x2q7a4z1w8s5x2");
-        System.out.println(Translate.execute("começou", Language.PORTUGUESE, Language.ENGLISH));
+        System.out.println(Translate.execute("bom", Language.PORTUGUESE, Language.ENGLISH));
         XmlParser xmlParser = new XmlParser();
         xmlParser.parse(Reader.configLocation);
         SimpleScriptReader scriptReader = new SimpleScriptReader(xmlParser.getScriptLocation()); //TODO make a Script and a Subtitle object
