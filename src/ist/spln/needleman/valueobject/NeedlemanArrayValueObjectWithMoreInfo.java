@@ -28,12 +28,13 @@ public class NeedlemanArrayValueObjectWithMoreInfo extends NeedlemanArrayValueOb
             return true;
         } else {
             if (this.getString().length() < 5) {
-                return (new NeedlemanWunch()).run(toValueObjectArray(this.getString()),
-                        toValueObjectArray(otherObject.getString()), 1, 0, 1).getRes() < 2;
-            } else {/*
+                /*return (new NeedlemanWunch()).run(toValueObjectArray(this.getString()),
+                        toValueObjectArray(otherObject.getString()), 1, 0, 1).getRes() < 2;*/
+                return false;
+            } else {
                 return (new NeedlemanWunch()).run(toValueObjectArray(this.getString()),
                         toValueObjectArray(otherObject.getString()), 1, 0, 1).getRes() < 3;
-            */return false;}
+            }
         }
     }
 
