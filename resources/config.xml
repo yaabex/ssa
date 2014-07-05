@@ -1,6 +1,6 @@
 <config>
-    <subLocation>./data/sub.srt</subLocation>
-    <subOtherLanguageLocation>./data/subPor.srt</subOtherLanguageLocation>
-    <scriptLocation>./data/script.txt</scriptLocation>
-    <newFilesLocation>./data/futurama6/</newFilesLocation>
+    <subLocation>./data/nottinghillsub.srt</subLocation>
+    <subOtherLanguageLocation>./data/nottinghillporsub.srt</subOtherLanguageLocation>
+    <scriptLocation>./data/nottinghillscript.txt</scriptLocation>
+    <newFilesLocation>./data/new/</newFilesLocation>
 </config>
