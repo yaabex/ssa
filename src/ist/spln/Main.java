@@ -50,16 +50,16 @@ public class Main {
         scriptReader.writeWholeScript(xmlParser.getNewFilesLocation());
         subtitleReader.writeWholeSubtitleFile(xmlParser.getNewFilesLocation());
 
-        SimpleSubtitleReader subtitleOtherLanguageReader = new SimpleSubtitleReader(xmlParser.getSubtitleOtherLanguageLocation());
-        subtitleOtherLanguageReader.read();
-
-        NWResults nwResultsTime = needlemanWunch.run(toValueObjectArray1(scriptReader.getScriptDialogs()),
-                toValueObjectArray2(subtitleOtherLanguageReader.getSubtitleLines()), 1, 0, 999999);
-
-        alignment.align(nwResultsTime.getValueObjectPairs());
-        alignment.translateScript(scriptReader, subtitleOtherLanguageReader);
-
-        scriptReader.writeWholeScriptAndTranslate(xmlParser.getNewFilesLocation());
+//        SimpleSubtitleReader subtitleOtherLanguageReader = new SimpleSubtitleReader(xmlParser.getSubtitleOtherLanguageLocation());
+//        subtitleOtherLanguageReader.read();
+//
+//        NWResults nwResultsTime = needlemanWunch.run(toValueObjectArray1(scriptReader.getScriptDialogs()),
+//                toValueObjectArray2(subtitleOtherLanguageReader.getSubtitleLines()), 1, 0, 999999);
+//
+//        alignment.align(nwResultsTime.getValueObjectPairs());
+//        alignment.translateScript(scriptReader, subtitleOtherLanguageReader);
+//
+//        scriptReader.writeWholeScriptAndTranslate(xmlParser.getNewFilesLocation());
     }
 
     private static TimeValueObject[] toValueObjectArray1(List<ScriptDialog> scriptDialogs) {
