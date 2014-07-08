@@ -187,7 +187,7 @@ public class Alignment {
                         characterName + ":" + subtitleReader.getContextFromLineNumberOfWord(line));
             }
         }
-        System.out.println("Sub Line Matches/Total Lines = " + lineMatches/(float)subtitleReader.getSubtitleLines().size());
+        //System.out.println("Sub Line Matches/Total Lines = " + lineMatches/(float)subtitleReader.getSubtitleLines().size());
     }
 
 
