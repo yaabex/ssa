@@ -166,7 +166,7 @@ public class Alignment {
                 }
             }
         }
-        System.out.println("Script Line Matches/Total Lines = " + lineMatches/(float)scriptReader.getScriptDialogs().size());
+        System.out.println("Lines aligned = " + lineMatches);
     }
 
     public void enhanceSubtitles(SimpleScriptReader scriptReader, SimpleSubtitleReader subtitleReader) {
