@@ -39,7 +39,7 @@
 	<jar destfile="${jar.filename}" basedir="${build.dir}">
 		<!--fileset dir="." includes="resources/** results/** config/** lib/*"/-->
 		<manifest>
-			<attribute name="Main-Class" value="ist.spln.Main"/>
+			<attribute name="Main-Class" value="ist.ssa.SSA"/>
 			<attribute name="Class-Path" value=". ${lib.list} ${properties.list}"/>
 		</manifest>
   	</jar>
@@ -51,7 +51,7 @@
   <target name="run" depends="create-jar" description="Runs the target program with Traits" >
 	<!-- fail unless="run.args" message="arguments must be passed using ant option -Drun.args="/> -->
 	<!-- fail unless="target.classpath" message="classpath for target program must be passed using ant option -Dtarget.classpath="/> -->
-	<java classname="ist.spln.Main" fork="true">
+	<java classname="ist.ssa.SSA" fork="true">
 	  <classpath>
 		<path refid="project.classpath"/>
 		<pathelement location="${jar.filename}"/>

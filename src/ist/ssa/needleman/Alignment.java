@@ -1,40 +1,39 @@
 package ist.ssa.needleman;
 
-import ist.ssa.readers.ScriptLine;
-import ist.ssa.readers.SimpleScript;
-import ist.ssa.readers.SimpleSRT;
-import ist.ssa.readers.SubtitleLine;
-import ist.ssa.textanalysis.Lemmatizer;
+import ist.ssa.content.Line;
+import ist.ssa.content.Script;
+import ist.ssa.content.SimpleSubtitle;
+import ist.ssa.content.Story;
+import ist.ssa.content.SubtitleLine;
+import ist.ssa.textanalysis.TextAnalyzer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
+import edu.stanford.nlp.util.StringUtils;
 
 public class Alignment {
-	private List<List<Integer>> subAlign;
-	private List<List<Integer>> scriptAlign;
-	private List<List<Integer>> subAlignTime;
-	private List<Integer> scriptAlignTime;
+	private List<List<Integer>> _subAlign;
+	private List<List<Integer>> _scriptAlign;
+	private List<List<Integer>> _subAlignTime;
+	private List<Integer> _scriptAlignTime;
 	private final static int THRESHOLD = 50;
 
-	public void align(List<VOPair> valueObjectPairs, Lemmatizer lemmatizer,
-			SimpleScript scriptReader, SimpleSRT subtitleReader) {
+	public void align(List<VOPair> voPairs, TextAnalyzer analyzer, Script script,
+			SimpleSubtitle subtitle) {
 		List<List<Integer>> subStuff = new ArrayList<>();
 		List<List<Integer>> scriptStuff = new ArrayList<>();
-		for (int i = 0; i < valueObjectPairs.size(); i++) {
-			VOPair pair = valueObjectPairs.get(i);
+		for (int i = 0; i < voPairs.size(); i++) {
+			VOPair pair = voPairs.get(i);
 
-			NeedlemanVOArrayWithMoreInfo n1 = (NeedlemanVOArrayWithMoreInfo) pair
-					.first();
-			NeedlemanVOArrayWithMoreInfo n2 = (NeedlemanVOArrayWithMoreInfo) pair
-					.second();
+			NWVOArrayWithMoreInfo n1 = (NWVOArrayWithMoreInfo) pair.first();
+			NWVOArrayWithMoreInfo n2 = (NWVOArrayWithMoreInfo) pair.second();
 
 			List<Integer> subLines = new ArrayList<>();
 			List<Integer> scriptLines = new ArrayList<>();
 
-			int subLine = n2.getLineWhereItCameFrom(); // horrible!
-			int scriptLine = n1.getLineWhereItCameFrom();
+			int subLine = n2.getSourceLine(); // horrible!
+			int scriptLine = n1.getSourceLine();
 
 			subLines.add(subLine);
 			scriptLines.add(scriptLine);
@@ -43,16 +42,14 @@ public class Alignment {
 
 			while (true) {
 				i++;
-				if (i < valueObjectPairs.size()) {
-					VOPair newPair = valueObjectPairs.get(i);
+				if (i < voPairs.size()) {
+					VOPair newPair = voPairs.get(i);
 
-					NeedlemanVOArrayWithMoreInfo newN1 = (NeedlemanVOArrayWithMoreInfo) newPair
-							.first();
-					NeedlemanVOArrayWithMoreInfo newN2 = (NeedlemanVOArrayWithMoreInfo) newPair
-							.second();
+					NWVOArrayWithMoreInfo newN1 = (NWVOArrayWithMoreInfo) newPair.first();
+					NWVOArrayWithMoreInfo newN2 = (NWVOArrayWithMoreInfo) newPair.second();
 
-					int newSubLine = newN2.getLineWhereItCameFrom();
-					int newScriptLine = newN1.getLineWhereItCameFrom();
+					int newSubLine = newN2.getSourceLine();
+					int newScriptLine = newN1.getSourceLine();
 
 					if (newScriptLine == scriptLine || newSubLine == subLine) {
 						matchedWords++;
@@ -63,8 +60,8 @@ public class Alignment {
 							scriptLines.add(newScriptLine);
 						}
 					} else {
-						if (linesDoNotMatch(subLines, scriptLines, matchedWords, lemmatizer,
-								scriptReader, subtitleReader)) {
+						if (linesDoNotMatch(subLines, scriptLines, matchedWords, analyzer, script,
+								subtitle)) {
 							i--;
 							break;
 						} else {
@@ -81,35 +78,35 @@ public class Alignment {
 				}
 			}
 		}
-		this.scriptAlign = scriptStuff;
-		this.subAlign = subStuff;
+		_scriptAlign = scriptStuff;
+		_subAlign = subStuff;
 	}
 
-	public void align(List<VOPair> valueObjectPairs) {
+	public void align(List<VOPair> voPairs) {
 		List<List<Integer>> subStuff = new ArrayList<>();
 		List<Integer> scriptStuff = new ArrayList<>();
 
-		for (int i = 0; i < valueObjectPairs.size(); i++) {
-			VOPair pair = valueObjectPairs.get(i);
+		for (int i = 0; i < voPairs.size(); i++) {
+			VOPair pair = voPairs.get(i);
 
 			TimeVO n1 = (TimeVO) pair.first();
 			TimeVO n2 = (TimeVO) pair.second();
 
 			List<Integer> subLines = new ArrayList<>();
-			int scriptLine = n1.getLineWhereItCameFrom();
-			int subLine = n2.getLineWhereItCameFrom();
+			int scriptLine = n1.getSourceLine();
+			int subLine = n2.getSourceLine();
 			subLines.add(subLine);
 
 			while (true) {
 				i++;
-				if (i < valueObjectPairs.size()) {
-					VOPair newPair = valueObjectPairs.get(i);
+				if (i < voPairs.size()) {
+					VOPair newPair = voPairs.get(i);
 
 					TimeVO newN1 = (TimeVO) newPair.first();
 					TimeVO newN2 = (TimeVO) newPair.second();
 
-					int newSubLine = newN2.getLineWhereItCameFrom();
-					int newScriptLine = newN1.getLineWhereItCameFrom();
+					int newSubLine = newN2.getSourceLine();
+					int newScriptLine = newN1.getSourceLine();
 
 					if (newScriptLine == scriptLine) {
 						subLines.add(newSubLine);
@@ -126,100 +123,84 @@ public class Alignment {
 				}
 			}
 		}
-		this.scriptAlignTime = scriptStuff;
-		this.subAlignTime = subStuff;
+		_scriptAlignTime = scriptStuff;
+		_subAlignTime = subStuff;
 	}
 
 	private boolean linesDoNotMatch(List<Integer> subLines, List<Integer> scriptLines,
-			int matchedWords, Lemmatizer lemmatizer, SimpleScript scriptReader,
-			SimpleSRT subtitleReader) {
-		List<String> subLinesLemmatized = lemmatizer.lemmatize(getTextFromLineNumber(subLines,
-				subtitleReader));
-		List<String> scriptLinesLemmatized = lemmatizer.lemmatize(getTextFromLineNumber(
-				scriptLines, scriptReader));
+			int matchedWords, TextAnalyzer analyzer, Script script, SimpleSubtitle subtitle) {
+		List<String> subLinesLemmatized = analyzer.lemmatize(subtitle.getDialogTextAt(subLines));
+		List<String> scriptLinesLemmatized = analyzer
+				.lemmatize(script.getDialogTextAt(scriptLines));
 		int minWords = Math.min(subLinesLemmatized.size(), scriptLinesLemmatized.size());
 		return matchedWords / (float) minWords < THRESHOLD / 100f;
 	}
 
-	private String getTextFromLineNumber(List<Integer> subLines, SimpleSRT subtitleReader) {
-		String subLinesText = "";
-		for (Integer line : subLines) {
-			subLinesText += subtitleReader.getSubtitleLines().get(line).getText() + " ";
-		}
-		return subLinesText;
-	}
-
-	private String getTextFromLineNumber(List<Integer> subLines, SimpleScript scriptReader) {
-		String scriptLinesText = "";
-		for (Integer line : subLines) {
-			scriptLinesText += scriptReader.getScriptDialogs().get(line).getText() + " ";
-		}
-		return scriptLinesText;
-	}
-
-	public void enhanceScript(SimpleScript scriptReader, SimpleSRT subtitleReader) {
-		assert this.subAlign != null;
-		assert this.scriptAlign != null;
-		assert this.subAlign.size() == this.scriptAlign.size();
+	public void enhanceScript(Script script, SimpleSubtitle subtitle) {
+		assert _subAlign != null;
+		assert _scriptAlign != null;
+		assert _subAlign.size() == _scriptAlign.size();
 
 		int lineMatches = 0;
-		for (int i = 0; i < subAlign.size(); i++) {
-			List<Integer> subLines = subAlign.get(i);
-			List<Integer> scriptLines = scriptAlign.get(i);
+		for (int i = 0; i < _subAlign.size(); i++) {
+			List<Integer> subLines = _subAlign.get(i);
+			List<Integer> scriptLines = _scriptAlign.get(i);
 			for (Integer line : scriptLines) {
 				lineMatches++;
 				for (Integer lineNumber : subLines) {
-					SubtitleLine subtitleLine = subtitleReader.getSubtitleLines().get(lineNumber);
-					scriptReader.getScriptDialogs().get(line)
-							.addTimeInfo(subtitleLine.getTimeInfo());
+					SubtitleLine subtitleLine = subtitle.getDialogs().get(lineNumber);
+					script.getDialogs().get(line).addTimeInfo(subtitleLine.getTimeInfo());
 				}
 			}
 		}
 		System.out.println("Lines aligned = " + lineMatches);
 	}
 
-	public void enhanceSubtitles(SimpleScript scriptReader,
-			SimpleSRT subtitleReader) {
-		assert this.subAlign != null;
-		assert this.scriptAlign != null;
-		assert this.subAlign.size() == this.scriptAlign.size();
+	public void enhanceSubtitles(Script script, SimpleSubtitle subtitle) {
+		assert _subAlign != null;
+		assert _scriptAlign != null;
+		assert _subAlign.size() == _scriptAlign.size();
 
 		int lineMatches = 0;
 
-		for (int i = 0; i < subAlign.size(); i++) {
-			List<Integer> subLines = subAlign.get(i);
-			List<Integer> scriptLines = scriptAlign.get(i);
+		for (int i = 0; i < _subAlign.size(); i++) {
+			List<Integer> subLines = _subAlign.get(i);
+			List<Integer> scriptLines = _scriptAlign.get(i);
 			for (Integer line : subLines) {
 				lineMatches++;
-				String characterName = scriptReader.getScriptDialogs().get(scriptLines.get(0))
+				String characterName = script.getDialogs().get(scriptLines.get(0))
 						.getCharacterName();
-				int realLineNumber = subtitleReader.getSubtitleLines().get(line).getLineNumber();
-				subtitleReader.getWholeSubtitleFile().set(realLineNumber,
-						characterName + ":" + subtitleReader.getContextFromLineNumberOfWord(line));
+				int realLineNumber = subtitle.getDialogs().get(line).getLineNumber();
+				subtitle.getStoryLines()
+						.set(realLineNumber,
+								subtitle.getContextFromLineNumberOfWord(line).prepend(
+										characterName + ": "));
 			}
 		}
-		// System.out.println("Sub Line Matches/Total Lines = " +
-		// lineMatches/(float)subtitleReader.getSubtitleLines().size());
+
+		System.out.println("Sub Line Matches/Total Lines = " + lineMatches
+				/ (float) subtitle.getDialogs().size());
 	}
 
-	public void translateScript(SimpleScript scriptReader, SimpleSRT subtitleReader) {
-		assert this.subAlignTime != null;
-		assert this.scriptAlignTime != null;
-		assert this.subAlignTime.size() == this.scriptAlignTime.size();
+	public void translateScript(Script script, SimpleSubtitle subtitle) {
+		assert _subAlignTime != null;
+		assert _scriptAlignTime != null;
+		assert _subAlignTime.size() == _scriptAlignTime.size();
 
-		System.out.println("Subtitle translated lines: " + subAlignTime.size());
-		System.out.println("Total lines in script: " + scriptReader.getScriptDialogs().size());
+		System.out.println("Subtitle translated lines: " + _subAlignTime.size());
+		System.out.println("Total lines in script: " + script.getDialogs().size());
 
-		for (int i = 0; i < subAlignTime.size(); i++) {
+		for (int i = 0; i < _subAlignTime.size(); i++) {
 			List<String> strings = new ArrayList<>();
-			for (Integer integer : subAlignTime.get(i)) {
-				strings.add(subtitleReader.getSubtitleLines().get(integer).getText());
+			for (Integer integer : _subAlignTime.get(i)) {
+				strings.add(subtitle.getDialogs().get(integer).getText());
 			}
-			int scriptLine = scriptAlignTime.get(i);
-			ScriptLine line = scriptReader.getWholeScript().get(
-					scriptReader.getScriptDialogs().get(scriptLine).getLineNumber());
+			int scriptLine = _scriptAlignTime.get(i);
+
+			Line line = script.getWholeStory().get(
+					script.getDialogs().get(scriptLine).getLineNumber());
 			line.setText(StringUtils.join(strings, "\n").trim());
-			line.setToTranslate(false);
+			line.setTranslatable(false);
 		}
 	}
 }

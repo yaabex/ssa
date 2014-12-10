@@ -1,18 +1,18 @@
 package ist.ssa.needleman;
 
-public class MEDVO extends NeedlemanVOArray {
-	private char c;
+public class MEDVO extends NWVOArray {
+	private char _char;
 
 	public MEDVO(char c) {
-		this.c = c;
+		_char = c;
 	}
 
 	public char getChar() {
-		return this.c;
+		return _char;
 	}
 
 	@Override
-	public boolean isEquivalentTo(NeedlemanVOArray valueObject) {
-		return this.c == ((MEDVO) valueObject).getChar();
+	public boolean isEquivalentTo(NWVOArray vo) {
+		return _char == ((MEDVO) vo).getChar();
 	}
 }

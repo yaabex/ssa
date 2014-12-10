@@ -2,17 +2,17 @@ package ist.ssa.needleman;
 
 import org.joda.time.Interval;
 
-public class TimeVO extends NeedlemanVOArray {
-	private int lineWhereItCameFrom;
+public class TimeVO extends NWVOArray {
+	private int _sourceLine;
 	private Interval time;
 
-	public TimeVO(int lineWhereItCameFrom, Interval time) {
-		this.lineWhereItCameFrom = lineWhereItCameFrom;
+	public TimeVO(int sourceLine, Interval time) {
+		this._sourceLine = sourceLine;
 		this.time = time;
 	}
 
 	@Override
-	public boolean isEquivalentTo(NeedlemanVOArray vo) {
+	public boolean isEquivalentTo(NWVOArray vo) {
 		Interval otherTime = ((TimeVO) vo).getTime();
 		Interval overlap = this.time.overlap(otherTime);
 		double average = (this.time.toDurationMillis() + otherTime.toDurationMillis()) / 2d;
@@ -28,7 +28,7 @@ public class TimeVO extends NeedlemanVOArray {
 		return time;
 	}
 
-	public int getLineWhereItCameFrom() {
-		return lineWhereItCameFrom;
+	public int getSourceLine() {
+		return _sourceLine;
 	}
 }

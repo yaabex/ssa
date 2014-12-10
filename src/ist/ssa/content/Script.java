@@ -1,4 +1,4 @@
-package ist.ssa.readers;
+package ist.ssa.content;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,18 +13,24 @@ import org.apache.commons.io.FileUtils;
 import com.memetix.mst.language.Language;
 import com.memetix.mst.translate.Translate;
 
-public class SimpleScript extends Story {
-	private List<ScriptLine> wholeScript;
-	private List<ScriptDialogLine> scriptDialogs;
+public class Script extends Story {
+	private List<Line> wholeScript;
+	private List<DialogLine> scriptDialogs;
 
-	public SimpleScript(String scriptLocation) {
-		super(scriptLocation);
+	public Script(String filename) throws IOException {
+		this(filename, true);
+	}
+
+	public Script(String filename, boolean load) throws IOException {
+		super(filename);
+		if (load)
+			read();
 	}
 
 	@Override
 	public void read() throws IOException {
-		List<ScriptLine> wholeScript = new ArrayList<>();
-		List<ScriptDialogLine> scriptDialogs = new ArrayList<>();
+		List<Line> wholeScript = new ArrayList<>();
+		List<DialogLine> scriptDialogs = new ArrayList<>();
 		Charset encoding = StandardCharsets.ISO_8859_1;
 
 		try (Scanner scanner = new Scanner(getPath(), encoding.name())) {
@@ -39,15 +45,15 @@ public class SimpleScript extends Story {
 					dialogue = false;
 					if (!wholeLine.isEmpty()) {
 						String trimmedWholeLine = wholeLine.trim();
-						ScriptDialogLine scriptDialog = new ScriptDialogLine(trimmedWholeLine,
+						DialogLine scriptDialog = new DialogLine(trimmedWholeLine,
 								wholeScript.size(), characterName);
 						wholeScript.add(scriptDialog);
-						append(trimmedWholeLine);
+						append(new Line(trimmedWholeLine, -1));
 						scriptDialogs.add(scriptDialog);
 						wholeLine = "";
 					} else {
 						// adds empty lines. probably useless
-						wholeScript.add(new ScriptEmptyLine(line, -1));
+						wholeScript.add(new EmptyLine(line, -1));
 					}
 					continue;
 				} else {
@@ -57,67 +63,50 @@ public class SimpleScript extends Story {
 						if (previousLineIsEmpty && nameOfCharacter(line)) {
 							characterName = line.trim();
 							dialogue = true;
-							wholeScript.add(new ScriptCharacterNameLine(line, -1));
+							wholeScript.add(new CharacterNameLine(line, -1));
 						} else {
-							wholeScript.add(new ScriptOtherTextLine(line, -1));
+							wholeScript.add(new GeneralTextLine(line, -1));
 						}
 					}
 				}
 			}
+
 			String trimmedWholeLine = wholeLine.trim();
 			if (!trimmedWholeLine.isEmpty()) {
-				ScriptDialogLine scriptDialog = new ScriptDialogLine(trimmedWholeLine,
+				DialogLine scriptDialog = new DialogLine(trimmedWholeLine,
 						wholeScript.size(), characterName);
 				wholeScript.add(scriptDialog);
-				append(trimmedWholeLine);
+				append(new Line(trimmedWholeLine, -1));
 				scriptDialogs.add(scriptDialog);
 			}
 		}
-		this.wholeScript = wholeScript;
-		this.scriptDialogs = scriptDialogs;
+		wholeScript = wholeScript;
+		scriptDialogs = scriptDialogs;
 	}
 
 	private boolean nameOfCharacter(String line) {
 		return line.matches("^\\s+[\\p{Lu}]{2,}.*");
 	}
 
-	public ScriptLine getContextFromLineNumberOfWord(int i) {
-		return this.getWholeScript().get(this.getScriptDialogs().get(i).getLineNumber());
+	public Line getContextFromLineNumberOfWord(int i) {
+		return getWholeStory().get(getDialogs().get(i).getLineNumber());
 	}
 
-	public List<ScriptLine> getWholeScript() {
-		return wholeScript;
-	}
-
-	public List<ScriptDialogLine> getScriptDialogs() {
+	public List<DialogLine> getDialogs() {
 		return scriptDialogs;
 	}
 
-	public void printWholeScript() {
-		for (ScriptLine line : getWholeScript()) {
-			System.out.println(line);
-		}
-	}
-
-	public void writeWholeScript(String newFilesLocation) throws Exception {
-		File file = new File(newFilesLocation);
+	public void writeWholeScriptAndTranslate(String location) throws Exception {
+		File file = new File(location);
 		file.mkdirs();
-		file = new File(newFilesLocation + "/script.txt");
-
-		FileUtils.writeLines(file, StandardCharsets.UTF_8.toString(), getWholeScript());
-	}
-
-	public void writeWholeScriptAndTranslate(String newFilesLocation) throws Exception {
-		File file = new File(newFilesLocation);
-		file.mkdirs();
-		file = new File(newFilesLocation + "/script.txt");
+		file = new File(location + "/script.txt");
 
 		Translate.setClientId("ssa9000");
 		Translate.setClientSecret("q7a4z1w8s5x2q7a4z1w8s5x2");
 		List<String> translatedScript = new ArrayList<>();
-		for (ScriptLine line : getWholeScript()) {
-			if (line.isToTranslate()) {
-				if (line instanceof ScriptDialogLine) {
+		for (Line line : getWholeStory()) {
+			if (line.isTranslatable()) {
+				if (line instanceof DialogLine) {
 					line.setText("BT: " + line);
 				}
 				translatedScript.add(Translate.execute(line.toString(), Language.ENGLISH,
@@ -128,4 +117,13 @@ public class SimpleScript extends Story {
 		}
 		FileUtils.writeLines(file, StandardCharsets.UTF_8.toString(), translatedScript);
 	}
+
+	public String getStoryName() {
+		return "script.txt";
+	}
+
+	public List<Line> getWholeStory() {
+		return wholeScript;
+	}
+
 }

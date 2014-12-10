@@ -1,41 +1,44 @@
 package ist.ssa.needleman;
 
 public class Direction {
-	private final boolean up;
-	private final boolean left;
-	private final boolean corner;
+	private final boolean _up;
+	private final boolean _left;
+	private final boolean _corner;
 
 	Direction(boolean up, boolean left, boolean corner) {
-		this.up = up;
-		this.left = left;
-		this.corner = corner;
-	}
-
-	public String[] getStrings(NeedlemanVOArrayWithMoreInfo[] s1,
-			NeedlemanVOArrayWithMoreInfo[] s2, int i, int j) {
-		String[] strings = new String[2];
-		if (this.up) {
-			strings[0] = s1[i].getString();
-			strings[1] = "_";
-		} else if (this.left) {
-			strings[0] = "_";
-			strings[1] = s2[j].getString();
-		} else if (this.corner) {
-			strings[0] = s1[i].getString();
-			strings[1] = s2[j].getString();
-		}
-		return strings;
+		_up = up;
+		_left = left;
+		_corner = corner;
 	}
 
 	public boolean isUp() {
-		return up;
+		return _up;
 	}
 
 	public boolean isLeft() {
-		return left;
+		return _left;
 	}
 
 	public boolean isCorner() {
-		return corner;
+		return _corner;
 	}
+
+	/**
+	 * @param s1
+	 * @param s2
+	 * @param i
+	 * @param j
+	 * @return string pair
+	 */
+	public String[] getStrings(NWVOArrayWithMoreInfo[] s1, NWVOArrayWithMoreInfo[] s2, int i, int j) {
+		if (_up)
+			return new String[] { s1[i].getText(), "_" };
+		if (_left)
+			return new String[] { "_", s2[j].getText() };
+		if (_corner)
+			return new String[] { s1[i].getText(), s2[j].getText() };
+
+		return new String[] { "_", "_" };  //DAVID FIXME
+	}
+
 }

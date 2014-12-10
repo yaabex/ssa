@@ -6,7 +6,7 @@ import java.util.List;
 
 public class NeedlemanWunch {
 
-	public NWResults run(NeedlemanVOArray[] sequence1, NeedlemanVOArray[] sequence2, int gap,
+	public NWResults run(NWVOArray[] sequence1, NWVOArray[] sequence2, int gap,
 			int match, int mismatch) {
 
 		Value[][] needleman = new Value[sequence1.length + 1][sequence2.length + 1];
@@ -48,14 +48,14 @@ public class NeedlemanWunch {
 		return returnOptimalAlignment(needleman, sequence1, sequence2);
 	}
 
-	private int calcMatch(NeedlemanVOArray value1, NeedlemanVOArray value2, int match, int mismatch) {
+	private int calcMatch(NWVOArray value1, NWVOArray value2, int match, int mismatch) {
 		if (value1.isEquivalentTo(value2))
 			return match;
 		return mismatch;
 	}
 
-	private NWResults returnOptimalAlignment(Value[][] needleman, NeedlemanVOArray[] sequence1,
-			NeedlemanVOArray[] sequence2) {
+	private NWResults returnOptimalAlignment(Value[][] needleman, NWVOArray[] sequence1,
+			NWVOArray[] sequence2) {
 		int matches = 0;
 		int total = 0;
 		int i = sequence1.length;

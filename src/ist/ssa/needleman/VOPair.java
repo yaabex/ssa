@@ -1,19 +1,19 @@
 package ist.ssa.needleman;
 
 public class VOPair {
-	private NeedlemanVOArray first;
-	private NeedlemanVOArray second;
+	private NWVOArray first;
+	private NWVOArray second;
 
-	public VOPair(NeedlemanVOArray first, NeedlemanVOArray second) {
+	public VOPair(NWVOArray first, NWVOArray second) {
 		this.first = first;
 		this.second = second;
 	}
 
-	public NeedlemanVOArray first() {
+	public NWVOArray first() {
 		return first;
 	}
 
-	public NeedlemanVOArray second() {
+	public NWVOArray second() {
 		return second;
 	}
 }
