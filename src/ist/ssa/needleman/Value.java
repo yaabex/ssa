@@ -2,19 +2,19 @@ package ist.ssa.needleman;
 
 public class Value {
 
-	private int value;
-	private Direction direction;
+	private int _value;
+	private Direction _direction;
 
 	public Value(int value, Direction direction) {
-		this.value = value;
-		this.direction = direction;
+		_value = value;
+		_direction = direction;
 	}
 
 	public int getValue() {
-		return value;
+		return _value;
 	}
 
 	public Direction getDirection() {
-		return direction;
+		return _direction;
 	}
 }
