@@ -3,13 +3,18 @@
   <property name="src.dir" location="src"/>
   <property name="build.dir" location="build"/>
   <property name="lib.dir" location="lib" />
-  <property name="archive.filename" value="script-subtitlealignment" />
+  <property name="archive.filename" value="ssa" />
   <property name="jar.filename" value="${archive.filename}.jar" />
   <property name="log4j.filename" value="log4j.properties" />
   
   <path id="project.classpath">
     <fileset dir="${lib.dir}">
       <include name="**/*.jar" />
+      <include name="/usr/share/java/stanford-corenlp-3.2.0.jar" />
+      <include name="/usr/share/java/microsoft-translator-java-api-0.6.2-jar-with-dependencies.jar" />
+      <include name="/usr/share/java/joda-time.jar" />
+      <include name="/usr/share/java/apache-commons-lang.jar" />
+      <include name="/usr/share/java/apache-commons-io.jar" />
     </fileset>
   </path>
 

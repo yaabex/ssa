@@ -1,62 +1,29 @@
 package ist.ssa.content;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
-
-import org.apache.commons.io.FileUtils;
 
 public abstract class Story {
 
-	/** File name. */
-	private String _location;
-
-	/** Low-level location. */
-	private Path _path;
-
 	/** File contents. */
-	private List<Line> _storyLines;
+	private List<Line> _storyLines = new ArrayList<>();
 
 	/**
-	 * @param location
-	 *            file name
+     *
 	 */
-	public Story(String location) {
-		_location = location;
-		setPath(Paths.get(location));
+	public Story() {
 	}
 
 	/**
-	 * @return the location
+	 * 
 	 */
-	public String getLocation() {
-		return _location;
+	public void reset() {
+		_storyLines = new ArrayList<>();
 	}
 
-	/**
-	 * @param location
-	 *            the location to set
-	 */
-	public void setLocation(String location) {
-		_location = location;
-	}
-
-	/**
-	 * @return the path
-	 */
-	public Path getPath() {
-		return _path;
-	}
-
-	/**
-	 * @param path
-	 *            the path to set
-	 */
-	public void setPath(Path path) {
-		_path = path;
+	public Line getLine(int i) {
+		return _storyLines.get(i);
 	}
 
 	public List<Line> getStoryLines() {
@@ -65,6 +32,10 @@ public abstract class Story {
 
 	public void setStoryLines(List<Line> storyLines) {
 		_storyLines = storyLines;
+	}
+
+	public int size() {
+		return _storyLines.size();
 	}
 
 	public void append(Line line) {
@@ -102,21 +73,9 @@ public abstract class Story {
 	public abstract List<?> getDialogs();
 
 	/**
-	 * @return filename for story
-	 */
-	public abstract String getStoryName();
-
-	/**
-	 * @param basename
+	 * @param visitor
 	 * @throws IOException
 	 */
-	public final void writeWholeStory(String basename) throws IOException {
-		File file = new File(basename);
-		file.mkdirs();
-		file = new File(basename + "/" + getStoryName());
-		FileUtils.writeLines(file, StandardCharsets.UTF_8.toString(), getWholeStory());
-	}
-
-	public abstract void read() throws IOException;
+	public abstract void accept(StoryVisitor visitor) throws IOException;
 
 }

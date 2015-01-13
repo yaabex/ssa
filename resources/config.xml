@@ -1,6 +1,0 @@
-<config>
-    <subLocation>./data/shallowgrave.srt</subLocation>
-    <subOtherLanguageLocation>./data/shallowgravepor.srt</subOtherLanguageLocation>
-    <scriptLocation>./data/shallowgrave.txt</scriptLocation>
-    <newFilesLocation>./data/new/</newFilesLocation>
-</config>

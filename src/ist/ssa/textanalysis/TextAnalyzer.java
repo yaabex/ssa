@@ -1,8 +1,8 @@
 package ist.ssa.textanalysis;
 
-import ist.ssa.content.Line;
-import ist.ssa.needleman.NWVOArray;
-import ist.ssa.needleman.NWVOArrayWithMoreInfo;
+import ist.ssa.content.Story;
+import ist.ssa.needleman.Span;
+import ist.ssa.needleman.TextSpan;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -58,15 +58,15 @@ public class TextAnalyzer {
 	}
 
 	/**
-	 * should not have needleman stuff, but its faster this way... i think...
+	 * should not have Needleman stuff, but its faster this way... i think...
 	 * 
-	 * @param text
-	 * @return nwvo array
+	 * @param story
+	 * @return spans array
 	 */
-	public NWVOArray[] modify(List<Line> text) {
-		List<NWVOArray> valueObjects = new ArrayList<>();
-		for (int i = 0; i < text.size(); i++) {
-			List<CoreMap> sentences = analyze(text.get(i).getText());
+	public Span[] modify(Story story) {
+		List<Span> spans = new ArrayList<>();
+		for (int i = 0; i < story.size(); i++) {
+			List<CoreMap> sentences = analyze(story.getLine(i).getText());
 			for (CoreMap sentence : sentences) {
 				// traversing the words in the current sentence
 				// a CoreLabel is a CoreMap with additional token-specific
@@ -77,12 +77,11 @@ public class TextAnalyzer {
 						// \p{L} = any letter
 						continue;
 					}
-					valueObjects.add(new NWVOArrayWithMoreInfo(lemma.toLowerCase(), i));
+					spans.add(new TextSpan(i, lemma.toLowerCase()));
 				}
 			}
 		}
-		NWVOArray[] valueObjectsArray = new NWVOArray[valueObjects.size()];
-		return valueObjects.toArray(valueObjectsArray);
+		return spans.toArray(new Span[spans.size()]);
 	}
 
 }
