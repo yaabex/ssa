@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/microsoft-translator-java-api-0.6.2-jar-with-dependencies.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/usr/share/java/stanford-corenlp-3.2.0.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/apache-commons-io.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/apache-commons-lang.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/joda-time.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>
